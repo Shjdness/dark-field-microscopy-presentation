@@ -1,0 +1,98 @@
+[
+  {
+    "name": "academic-conference-presentation-example-figures.webp",
+    "path": "presentation-templates/conference/academic-conference-presentation-example-figures.webp",
+    "sha": "63a85067fae224a52697f946b2ab050adbcb91b4",
+    "size": 155878,
+    "url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/academic-conference-presentation-example-figures.webp?ref=main",
+    "html_url": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/academic-conference-presentation-example-figures.webp",
+    "git_url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/63a85067fae224a52697f946b2ab050adbcb91b4",
+    "download_url": "https://raw.githubusercontent.com/scifig-ai/scientific-poster-and-presentation-templates/main/presentation-templates/conference/academic-conference-presentation-example-figures.webp",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/academic-conference-presentation-example-figures.webp?ref=main",
+      "git": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/63a85067fae224a52697f946b2ab050adbcb91b4",
+      "html": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/academic-conference-presentation-example-figures.webp"
+    }
+  },
+  {
+    "name": "conference-ppt-sample-slide.webp",
+    "path": "presentation-templates/conference/conference-ppt-sample-slide.webp",
+    "sha": "2b1031b0365e304bd8b972a7c6e5018ad49052d1",
+    "size": 132228,
+    "url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/conference-ppt-sample-slide.webp?ref=main",
+    "html_url": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/conference-ppt-sample-slide.webp",
+    "git_url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/2b1031b0365e304bd8b972a7c6e5018ad49052d1",
+    "download_url": "https://raw.githubusercontent.com/scifig-ai/scientific-poster-and-presentation-templates/main/presentation-templates/conference/conference-ppt-sample-slide.webp",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/conference-ppt-sample-slide.webp?ref=main",
+      "git": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/2b1031b0365e304bd8b972a7c6e5018ad49052d1",
+      "html": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/conference-ppt-sample-slide.webp"
+    }
+  },
+  {
+    "name": "conference-presentation-hypothesis-slide.webp",
+    "path": "presentation-templates/conference/conference-presentation-hypothesis-slide.webp",
+    "sha": "98e3c727dec30687235882d4cf7f8391578a3857",
+    "size": 81522,
+    "url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/conference-presentation-hypothesis-slide.webp?ref=main",
+    "html_url": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/conference-presentation-hypothesis-slide.webp",
+    "git_url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/98e3c727dec30687235882d4cf7f8391578a3857",
+    "download_url": "https://raw.githubusercontent.com/scifig-ai/scientific-poster-and-presentation-templates/main/presentation-templates/conference/conference-presentation-hypothesis-slide.webp",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/conference-presentation-hypothesis-slide.webp?ref=main",
+      "git": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/98e3c727dec30687235882d4cf7f8391578a3857",
+      "html": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/conference-presentation-hypothesis-slide.webp"
+    }
+  },
+  {
+    "name": "conference-presentation-template-minimal.webp",
+    "path": "presentation-templates/conference/conference-presentation-template-minimal.webp",
+    "sha": "f36d2b4dbd5602ea1edccc7d7d5a478dc0124442",
+    "size": 45726,
+    "url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/conference-presentation-template-minimal.webp?ref=main",
+    "html_url": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/conference-presentation-template-minimal.webp",
+    "git_url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/f36d2b4dbd5602ea1edccc7d7d5a478dc0124442",
+    "download_url": "https://raw.githubusercontent.com/scifig-ai/scientific-poster-and-presentation-templates/main/presentation-templates/conference/conference-presentation-template-minimal.webp",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/conference-presentation-template-minimal.webp?ref=main",
+      "git": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/f36d2b4dbd5602ea1edccc7d7d5a478dc0124442",
+      "html": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/conference-presentation-template-minimal.webp"
+    }
+  },
+  {
+    "name": "scifig-conference-presentation-template-bold-navy.pptx",
+    "path": "presentation-templates/conference/scifig-conference-presentation-template-bold-navy.pptx",
+    "sha": "f969f5a6cb1edbe91b76172e660f80b849445125",
+    "size": 3314038,
+    "url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/scifig-conference-presentation-template-bold-navy.pptx?ref=main",
+    "html_url": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/scifig-conference-presentation-template-bold-navy.pptx",
+    "git_url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/f969f5a6cb1edbe91b76172e660f80b849445125",
+    "download_url": "https://raw.githubusercontent.com/scifig-ai/scientific-poster-and-presentation-templates/main/presentation-templates/conference/scifig-conference-presentation-template-bold-navy.pptx",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/scifig-conference-presentation-template-bold-navy.pptx?ref=main",
+      "git": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/f969f5a6cb1edbe91b76172e660f80b849445125",
+      "html": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/scifig-conference-presentation-template-bold-navy.pptx"
+    }
+  },
+  {
+    "name": "scifig-conference-presentation-template-minimal-navy.pptx",
+    "path": "presentation-templates/conference/scifig-conference-presentation-template-minimal-navy.pptx",
+    "sha": "028f5fb807c824bfe65b80ebb334416542937929",
+    "size": 3313170,
+    "url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/scifig-conference-presentation-template-minimal-navy.pptx?ref=main",
+    "html_url": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/scifig-conference-presentation-template-minimal-navy.pptx",
+    "git_url": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/028f5fb807c824bfe65b80ebb334416542937929",
+    "download_url": "https://raw.githubusercontent.com/scifig-ai/scientific-poster-and-presentation-templates/main/presentation-templates/conference/scifig-conference-presentation-template-minimal-navy.pptx",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/contents/presentation-templates/conference/scifig-conference-presentation-template-minimal-navy.pptx?ref=main",
+      "git": "https://api.github.com/repos/scifig-ai/scientific-poster-and-presentation-templates/git/blobs/028f5fb807c824bfe65b80ebb334416542937929",
+      "html": "https://github.com/scifig-ai/scientific-poster-and-presentation-templates/blob/main/presentation-templates/conference/scifig-conference-presentation-template-minimal-navy.pptx"
+    }
+  }
+]

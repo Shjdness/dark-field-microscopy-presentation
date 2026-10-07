@@ -1,0 +1,22 @@
+# Local collaboration and temporary files
+.agent-collab/
+tmp/
+
+# Reproducible presentation build artifacts
+B工作区/PPT构建/.codex-finalizer/
+B工作区/PPT构建/drafts/
+B工作区/PPT构建/final-render/
+B工作区/PPT构建/geometry-v4/
+B工作区/PPT构建/latest-inspect/
+B工作区/PPT构建/paper-renders/
+B工作区/PPT构建/structure-v3/
+B工作区/PPT构建/template-inspect/
+B工作区/PPT构建/template-render/
+B工作区/PPT构建/darkfield_candidate.pptx
+B工作区/PPT构建/darkfield_candidate.pptx.inspect.ndjson
+B工作区/PPT构建/final-inspect.ndjson
+
+# Office lock files
+~$*.pptx
+~$*.docx
+

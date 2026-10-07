@@ -1,0 +1,3620 @@
+
+
+===== PDF PAGE 1 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+1
+Michael W. Davidson1 and Mortimer Abramowitz2
+1 National High Magnetic Field Laboratory, The Florida State University, 1800 E. Paul Dirac Dr., Tallahassee, Florida 32306,
+davidson@magnet.fsu.edu, http://microscopy.fsu.edu
+2 Olympus America, Inc., 2 Corporate Center Dr., Melville, New York 11747, abramm@olympus.com, http://www.olympus.com
+Keywords:  microscopy, phase contrast, differential interference contrast, DIC, polarized light, Hoffman
+modulation contrast, photomicrography, fluorescence microscopy, numerical aperture, CCD electronic cameras,
+CMOS active pixel sensors, darkfield microscopy, Rheinberg illumination.
+binocular microscopes with image-erecting prisms, and
+the first stereomicroscope (14).
+Early in the twentieth century, microscope
+manufacturers began parfocalizing objectives, allowing the
+image to remain in focus when the microscopist exchanged
+objectives on the rotating nosepiece.  In 1824, Zeiss
+introduced a LeChatelier-style metallograph with infinity-
+corrected optics, but this method of correction would not
+see widespread application for another 60 years.
+Shortly before World War II, Zeiss created several
+prototype phase contrast  microscopes based on optical
+principles advanced by Frits Zernike.  Several years later
+the same microscopes were modified to produce the first
+time-lapse cinematography of cell division photographed
+with phase contrast optics (14).  This contrast-enhancing
+technique did not become universally recognized until the
+1950s and is still a method of choice for many cell
+biologists today.
+Physicist Georges Nomarski introduced
+improvements in Wollaston prism design for another
+powerful contrast-generating microscopy theory in 1955
+(15).  This technique is commonly referred to as
+Nomarski interference  or differential interference
+contrast (DIC) microscopy and, along with phase contrast,
+has allowed scientists to explore many new arenas in
+biology using living cells or unstained tissues.  Robert
+Hoffman (16) introduced another method of increasing
+contrast in living material by taking advantage of phase
+gradients near cell membranes.  This technique is now
+termed Hoffman Modulation Contrast, and is available as
+optional equipment on most modern microscopes.
+The majority of microscopes manufactured around the
+world had fixed mechanical tube lengths (ranging from
+160 to 210 millimeters) until the late 1980s, when
+manufacturers largely migrated to infinity-corrected
+optics.  Ray paths through both finite tube length and
+infinity-corrected microscopes are illustrated in Figure
+1.  The upper portion of the figure contains the essential
+optical elements and ray traces defining the optical train
+Introduction
+The past decade has witnessed an enormous growth in
+the application of optical microscopy for micron and sub-
+micron level investigations in a wide variety of disciplines
+(reviewed in references 1-5).  Rapid development of new
+fluorescent labels has accelerated the expansion of
+fluorescence microscopy in laboratory applications and
+research (6-8).  Advances in digital imaging and analysis
+have also enabled microscopists to acquire quantitative
+measurements quickly and efficiently on specimens
+ranging from photosensitive caged compounds and
+synthetic ceramic superconductors to real-time
+fluorescence microscopy of living cells in their natural
+environment (2, 9).   Optical microscopy, with help of
+digital video, can also be used to image very thin optical
+sections, and confocal optical systems are now in
+operation at most major research institutions (10-12).
+Early microscopists were hampered by optical
+aberration, blurred images, and poor lens design, which
+floundered until the nineteenth century.  Aberrations were
+partially corrected by the mid-nineteenth century with the
+introduction of Lister and Amici achromatic objectives
+that reduced chromatic aberration and raised numerical
+apertures to around 0.65 for dry objectives and up to 1.25
+for homogeneous immersion objectives (13).  In 1886,
+Ernst Abbe’s work with Carl Zeiss led to the production
+of apochromatic objectives based for the first time on
+sound optical principles and lens design (14).  These
+advanced objectives provided images with reduced
+spherical aberration and free of color distortions
+(chromatic aberration) at high numerical apertures.
+Several years later, in 1893, Professor August Köhler
+reported a method of illumination, which he developed
+to optimize photomicrography, allowing microscopists to
+take full advantage of the resolving power of Abbe’s
+objectives.  The last decade of the nineteenth century saw
+innovations in optical microscopy, including
+metallographic microscopes, anastigmatic photolenses,
+OPTICAL MICROSCOPY
+
+===== PDF PAGE 2 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+2
+of a conventional finite tube length microscope (17).  An
+object ( O) of height h is being imaged on the retina of
+the eye at O”.  The objective lens ( Lob) projects a real
+and inverted image of O magnified to the size O’ into the
+intermediate image plane of the microscope.  This occurs
+at the eyepiece diaphragm, at the fixed distance fb + z’
+behind the objective.  In this diagram, fb represents the
+back focal length of the objective and z’ is the optical tube
+length of the microscope.  The aerial intermediate image
+at O’ is further magnified by the microscope eyepiece
+(L
+ey) and produces an erect image of the object at O” on
+the retina, which appears inverted to the microscopist.
+The magnification factor of the object is calculated by
+considering the distance ( a) between the object ( O) and
+the objective  ( L
+ob) , and the front focal length of the
+objective lens ( f).  The object is placed a short distance
+(z) outside of the objective’s front focal length ( f), such
+that z + f = a.  The intermediate image of the object, O’, is
+located at distance b, which equals the back focal length
+of the objective ( fb) plus ( z’), the optical tube length of
+the microscope.  Magnification of the object at the
+intermediate image plane equals h’.  The image height at
+this position is derived by multiplying the microscope
+tube length (b) by the object height ( h), and dividing this
+by the distance of the object from the objective: h’ = (h x
+b)/a.  From this argument, we can conclude that the lateral
+or transverse magnification of the objective is equal to a
+factor of b/a (also equal to  f/z and z’/fb), the back focal
+length of the objective divided by the distance of the object
+from the objective.  The image at the intermediate plane
+(h’) is further magnified by a factor of 25 centimeters
+(called the near distance to the eye) divided by the focal
+length of the eyepiece.  Thus, the total magnification of
+the microscope is equal to the magnification by the
+objective times that of the eyepiece.  The visual image
+(virtual) appears to the observer as if it were 10 inches
+away from the eye.
+Most objectives are corrected to work within a narrow
+range of image distances, and many are designed to work
+only in specifically corrected optical systems with
+matching eyepieces.  The magnification inscribed on the
+objective barrel is defined for the tube length of the
+microscope for which the objective was designed.
+The lower portion of Figure 1 illustrates the optical
+train using ray traces of an infinity-corrected microscope
+system.  The components of this system are labeled in a
+similar manner to the finite-tube length system for easy
+comparison.  Here, the magnification of the objective is
+the ratio h’/h, which is determined by the tube lens ( L
+tb).
+Note the infinity space  that is defined by parallel light
+beams in every azimuth between the objective and the tube
+lens.  This is the space used by microscope manufacturers
+to add accessories such as vertical illuminators, DIC
+prisms, polarizers, retardation plates, etc., with much
+simpler designs and with little distortion of the image
+(18).  The magnification of the objective in the infinity-
+corrected system equals the focal length of the tube lens
+divided by the focal length of the objective.
+Fundamentals of Image Formation
+In the optical microscope, when light from the
+microscope lamp passes through the condenser and then
+through the specimen (assuming the specimen is a light
+absorbing specimen), some of the light passes both around
+and through the specimen undisturbed in its path.  Such
+light is called direct light or undeviated light.  The
+background light (often called the surround) passing
+around the specimen is also undeviated light.
+Some of the light passing through the specimen is
+deviated when it encounters parts of the specimen.  Such
+deviated light (as you will subsequently learn, called
+diffracted light) is rendered one-half wavelength or 180
+Figure 1.   Optical trains of finite-tube and infinity-corrected
+microscope systems.  (Upper) Ray traces of the optical train
+representing a theoretical finite-tube length microscope.  The object
+(O) is a distance ( a) from the objective (L ob) and projects an
+intermediate image (O’) at the finite tube length (b), which is further
+magnified by the eyepiece (Ley) and then projected onto the retina
+at O’’.  (Lower) Ray traces of the optical train representing a
+theoretical infinity-corrected microscope system.
+
+===== PDF PAGE 3 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+3
+degrees out of step (more commonly, out of phase) with
+the direct light that has passed through undeviated.  The
+one-half wavelength out of phase, caused by the specimen
+itself, enables this light to cause destructive interference
+with the direct light when both arrive at the intermediate
+image plane located at the fixed diaphragm of the
+eyepiece.  The eye lens of the eyepiece further magnifies
+this image which finally is projected onto the retina, the
+film plane of a camera, or the surface of a light-sensitive
+computer chip.
+What has happened is that the direct or undeviated light
+is projected by the objective and spread evenly across the
+entire image plane at the diaphragm of the eyepiece.  The
+light diffracted by the specimen is brought to focus at
+various localized places on the same image plane, where
+the diffracted light causes destructive interference and
+reduces intensity resulting in more or less dark areas.
+These patterns of light and dark are what we recognize as
+an image of the specimen.  Because our eyes are sensitive
+to variations in brightness, the image becomes a more or
+less faithful reconstitution of the original specimen.
+To help understand the basic principles, it is suggested
+that readers try the following exercise and use as a
+specimen an object of known structure, such as a stage
+micrometer or similar grating of closely spaced dark
+lines.  To proceed, place the finely ruled grating on the
+microscope stage and bring it into focus using first a 10x
+and then the 40x objective (18).  Remove the eyepiece
+and,  in its place, insert a phase telescope so the rear focal
+plane of the objective can be observed.  If the condenser
+aperture diaphragm is closed most of the way, a bright
+white central spot of light will appear at the back of the
+objective, which is the image of the aperture diaphragm.
+To the right and left of the central spot, a series of spectra
+(also images of the aperture diaphragm) will be present,
+each colored blue on the part closest to the central spot
+and colored red on the part of the spectrum farthest from
+the central bright spot (as illustrated in Figure 2).  The
+intensity of these colored spectra decreases according
+to how far the spectrum is from the central spot (17,18).
+Those spectra nearer the periphery of the objective
+are dimmer than those closer to the central spot.  The
+diffraction spectra illustrated in Figure 2 using three
+different magnifications.  In Figure 2(b), the diffraction
+pattern visible at the rear focal plane of the 10X objective
+contains two diffraction spectra.  If the grating is removed
+from the stage, as illustrated in Figure 2(a), these spectra
+disappear and only the central image of the aperture
+diaphragm remains.  If the grating is reinserted, the spectra
+reappear once again.  Note that the spaces between the
+colored spectra appear dark.  Only a single pair of spectra
+can be observed if the grating is examined with the 10x
+objective.  In this case, one diffraction spot appears to
+the left and one appears to the right of the central aperture
+opening.  If the line grating is examined with a 40x
+objective (as shown in Figure 2(c)), several diffraction
+spectra appear to the left and right of the central aperture.
+When the magnification is increased to 60x (and assuming
+it has a higher numerical aperture than the 40x objective),
+additional spectra (Figure 2(d)) appear to the right and
+left than are visible with the 40x objective in place.
+Because the colored spectra disappear when the
+grating is removed, it can be assumed that it is the
+specimen itself that is affecting the light passing through,
+thus producing the colored spectra.  Further, if the aperture
+diaphragm is closed down, we will observe that objectives
+of higher numerical aperture grasp more of these colored
+spectra than do objectives of lower numerical aperture.
+The crucial importance of these two statements for
+understanding image formation will become clear in the
+ensuing paragraphs.
+The central spot of light (image of the condenser
+aperture diaphragm) represents the direct or undeviated
+light passing through the specimen or around the specimen
+undisturbed (illustrated in Figure 3(b)).  It is called the
+0th or zeroth order.  The fainter images of the aperture
+diaphragm on each side of the zeroth order are called the
+1st, 2nd, 3rd, 4th, etc. orders respectively, as represented
+by the simulated diffraction pattern in Figure 3(a) that
+would be observed at the rear focal plane of a 40x
+objective.  All the captured orders represent, in this case,
+the diffraction pattern of the line grating as seen at the
+rear focal plane of the objective (18).
+The fainter diffracted images of the aperture
+diaphragm are caused by light deviated or diffracted, spread
+out in fan shape, at each of the openings of the line grating
+(Figure 3(b)).  The blue wavelengths are diffracted at a
+lesser angle than the green wavelengths, which are
+diffracted at a lesser angle than the red wavelengths.
+Figure 2.  Diffraction spectra seen at the rear focal plane of the
+objective through a focusing telescope when imaging a closely
+spaced line grating.  (a) Image of the condenser aperture diaphragm
+with an empty stage.  (b) Two diffraction spectra from a 10x
+objective when a finely ruled line grating is placed on the
+microscope stage.  (c) Diffraction spectra of the line grating from
+a 40x objective.  (d) Diffraction spectra of the line grating from a
+60x objective.
+
+===== PDF PAGE 4 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+4
+At the rear focal plane of the objective, the blue
+wavelengths from each slit interfere constructively to
+produce the blue area of the diffracted image of each
+spectrum or order; similarly for the red and green areas
+(Figure 3(a)).  Where the diffracted wavelengths are 1/2
+wave out of step for each of these colors, the waves
+destructively interfere.  Hence the dark areas between the
+spectra or orders.  At the position of the zeroth order, all
+wavelengths from each slit add constructively.  This
+produces the bright white light you see as the zeroth order
+at the center of the rear focal plane of the objective
+(Figures 2, 3 and 4).
+The closer the spacing of a line grating, the fewer the
+spectra that will be captured by a given objective, as
+illustrated in Figure 4(a-c).  The diffraction pattern
+illustrated in Figure 4(a) was captured by a 40x objective
+imaging the lower portion the line grating in Figure 4(b),
+where the slits are closer together (17, 18).  In Figure
+4(c), the objective is focused on the upper portion of the
+line grating (Figure 4(b)) where the slits are farther apart,
+and more spectra are captured by the objective.  The direct
+light and the light from the diffracted orders continue on,
+being focused by the objective, to the intermediate image
+plane at the fixed diaphragm of the eyepiece.  Here the
+direct and diffracted light rays interfere and are thus
+reconstituted into the real, inverted image that is seen by
+the eye lens of the eyepiece and further magnified.  This
+is illustrated in Figure 4 (d-g) with two types of
+diffraction gratings.  The square grid illustrated in Figure
+4(d) represents the orthoscopic image of the grid (i.e.
+the usual specimen image) as seen through the full aperture
+of the objective.  The diffraction pattern derived from this
+grid is shown as a conoscopic image that would be seen
+at the rear focal plane of the objective (Figure 4(e).
+Likewise, the orthoscopic image of a hexagonally arranged
+grid (Figure 4(f)) produces a corresponding hexagonally
+arranged conoscopic image of first order diffraction
+patterns (Figure 4(g)).
+Microscope specimens can be considered as complex
+gratings with details and openings of various sizes.  This
+concept of image formation was largely developed by
+Ernst Abbe, the famous German microscopist and optics
+theoretician of the 19th century.  According to Abbe (his
+theories are widely accepted at the present time), the
+details of a specimen will be resolved if the objective
+captures the 0th order of the light and at least the 1st order
+(or any two orders, for that matter).  The greater the
+number of diffracted orders that gain admittance to the
+objective, the more accurately the image will represent
+the original object (2, 14, 17, 18).
+Further, if a medium of higher refractive index than
+air (such as immersion oil) is used in the space between
+the front lens of the objective and the top of the cover
+slip (as shown in Figure 5(a)), the angle of the diffracted
+orders is reduced and the fans of diffracted light will be
+compressed.  As a result, an oil immersion objective can
+capture more diffracted orders and yield better resolution
+than a dry objective (Figure 5(b)).  Moreover, because
+blue light is diffracted at a lesser angle than green light or
+red light, a lens of a given aperture may capture more
+orders of light when the wavelengths are in the blue region
+of the visible light spectrum.  These two principles explain
+Figure 3.  Diffraction spectra generated at the rear focal plane
+of the objective by undeviated and diffracted light.  (a) Spectra
+visible through a focusing telescope at the rear focal plane of a
+40x objective.  (b) Schematic diagram of light both diffracted and
+undeviated by a line grating on the microscope stage.
+Figure 4.   Diffraction patterns generated by narrow and wide
+slits and by complex grids.  (a) Conoscopic image of the grid seen
+at the rear focal plane of the objective when focused on the wide
+slit pattern in (b).  (b) Orthoscopic image of the grid with greater
+slit width at the top and lesser width at the bottom.  (c) Conoscopic
+image of the narrow width portion of the grid (lower portion of
+(b)).  (d) and (f) Orthoscopic images of grid lines arranged in a
+square pattern (d) and a hexagonal pattern (f).  (e) and (g)
+Conoscopic images of patterns in (d) and (f), respectively.
+
+===== PDF PAGE 5 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+5
+the classic Rayleigh equation often cited for resolution
+(2, 18-20):
+d = 1.22 (l / 2NA) (1)
+Where d is the space between two adjacent particles (still
+allowing the particles to be perceived as separate), l is
+the wavelength of illumination, and NA is the numerical
+aperture of the objective.
+The greater the number of higher diffracted orders
+admitted into the objective, the smaller the details of the
+specimen that can be clearly separated (resolved).  Hence
+the value of using high numerical aperture for such
+specimens.  Likewise, the shorter the wavelength of visible
+light used, the better the resolution.  These ideas explain
+why high numerical aperture, apochromatic lenses can
+separate extremely small details in blue light.
+Placing an opaque mask at the back of the objective
+blocks the outermost diffracted orders.  This either
+reduces the resolution of the grating lines, or any other
+object details, or it destroys the resolution altogether so
+that the specimen is not visible.  Hence the usual caution
+not to close down the condenser aperture diaphragm
+below the suggested 2/3 to 9/10 of the objective’s
+aperture.
+Failure of the objective to grasp any of the diffracted
+orders results in an unresolved image.  In a specimen with
+very minute details, the diffraction fans are spread at a
+very large angle, requiring a high numerical aperture
+objective to capture them.  Likewise, because the
+diffraction fans are compressed in immersion oil or in
+water, objectives designed for such use can give better
+resolution than dry objectives.
+If alternate diffracted orders are blocked out (still
+assuming the grating as our specimen), the number of lines
+in the grating will appear doubled (a spurious resolution).
+The important caveat is that actions introduced at the rear
+of the objective can have significant effect upon the
+eventual image produced (18).  For small details in a
+specimen (rather than a grating), the objective projects
+the direct and diffracted light onto the image plane of the
+eyepiece diaphragm in the form of small, circular
+diffraction disks known as Airy disks (illustrated in Figure
+6).  High numerical aperture objectives capture more of
+the diffracted orders and produce smaller size disks than
+do low numerical aperture objectives.  In Figure 6, Airy
+disk size is shown steadily decreasing from Figure 6(a)
+Figure 5.  Effect of imaging medium refractive index on diffracted
+orders captured by the objective.  (a) Conoscopic image of objective
+back focal plane diffraction spectra when air is the medium between
+the cover slip and the objective front lens.  (b) Diffraction spectra
+when immersion oil of refractive index similar to glass is used in
+the space between the cover slip and the objective front lens.
+Figure 6.  Airy disks and resolution.  (a-c) Airy disk size and
+related intensity profile (point spread function) as related to
+objective numerical aperture, which decreases from (a) to (c) as
+numerical aperture increases.  (e) Two Airy disks so close together
+that their central spots overlap.  (d) Airy disks at the limit of
+resolution.
+
+===== PDF PAGE 6 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+6
+through Figure 6(c).  The larger disk sizes in Figures 6(a)
+and (b) are produced by objectives with lower numerical
+aperture, while the very sharp Airy disk in Figure 6(c) is
+produced by an objective of very high numerical aperture
+(2, 18).
+The resulting image at the eyepiece diaphragm level
+is actually a mosaic of Airy disks which are perceived as
+light and dark regions of the specimen. Where two disks
+are so close together that their central black spots overlap
+considerably, the two details represented by these
+overlapping disks are not resolved or separated and thus
+appear as one (illustrated in Figure 6(d)).  The Airy disks
+shown in Figure 6(e) are just far enough apart to be
+resolved.
+The basic principle to be remembered is that the
+combination of direct and diffracted light (or the
+manipulation of direct or diffracted light) is critically
+important in image formation.  The key places for such
+manipulation are the rear focal plane of the objective and
+the front focal plane of the substage condenser.  This
+principle is fundamental to most of the contrast
+improvement methods in optical microscopy (18, and see
+the section on Contrast Enhancing Techniques ); it is
+of particular importance at high magnification of small
+details close in size to the wavelength of light.  Abbe was
+a pioneer in developing these concepts to explain image
+formation of light-absorbing or amplitude specimens (2,
+18-20).
+Köhler Illumination
+Proper illumination of the specimen is crucial in
+achieving high-quality images in microscopy and critical
+photomicrography.  An advanced procedure for
+microscope illumination was first introduced in 1893 by
+August Köhler, of the Carl Zeiss corporation, as a method
+of providing optimum specimen illumination.   All
+manufacturers of modern laboratory microscopes
+recommend this technique because it produces specimen
+illumination that is uniformly bright and free from glare,
+thus allowing the user to realize the microscope’s full
+potential.
+Most modern microscopes are designed so that the
+collector lens and other optical components built into the
+base will project an enlarged and focused image of the
+lamp filament onto the plane of the aperture diaphragm
+of a properly positioned substage condenser.  Closing or
+opening the condenser diaphragm controls the angle of
+the light rays emerging from the condenser and reaching
+the specimen from all azimuths.  Because the light source
+is not focused at the level of the specimen, illumination
+at specimen level is essentially grainless and extended,
+and does not suffer deterioration from dust and
+imperfections on the glass surfaces of the condenser.  The
+opening size of the condenser aperture diaphragm, along
+with the aperture of the objective, determines the realized
+numerical aperture of the microscope system.  As the
+condenser diaphragm is opened, the working numerical
+aperture of the microscope increases, resulting in greater
+light transmittance and resolving power.  Parallel light rays
+that pass through and illuminate the specimen are brought
+to focus at the rear focal plane of the objective, where
+the image of the variable condenser aperture diaphragm
+and the light source are observed in focus simultaneously.
+Light pathways illustrated in Figure 7 are schematically
+drawn to represent separate paths taken by the specimen-
+illuminating light rays and the image forming light rays
+(17).  This is not a true representation of any real
+segregation of these pathways, but a diagrammatic
+representation presented for purposes of visualization and
+discussion.  The left-hand diagram in Figure 7
+demonstrates that the ray paths of illuminating light
+produce a focused image of the lamp filament at the plane
+Figure 7.  Light paths in Kohler illumination.  The illuminating ray
+paths are illustrated on the left side and the image-forming ray
+paths on the right.  Light emitted from the lamp passes through a
+collector lens and then through the field diaphragm.  The aperture
+diaphragm in the condenser determines the size and shape of the
+illumination cone on the specimen plane.  After passing through
+the specimen, light is focused at the back focal plane of the objective
+and then proceeds to and is magnified by the ocular before passing
+into the eye.
+
+===== PDF PAGE 7 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+7
+of the substage condenser aperture diaphragm, the rear
+focal plane of the objective, and the eyepoint (also called
+the Ramsden disk ) above the eyepiece.  These areas in
+common focus are often referred to as conjugate planes,
+a principle that is critical in understanding the concept of
+Köhler illumination (2, 17-21).  By definition, an object
+that is in focus at one plane is also in focus at other
+conjugate planes of that light path.  In each light pathway
+(both image forming and illumination), there are four
+separate planes that together make up a conjugate plane
+set.
+Conjugate planes in the path of the illuminating light
+rays in Köhler illumination (left-hand diagram in Figure
+7) include the lamp filament, condenser aperture
+diaphragm (at the front focal plane of the condenser), the
+rear focal plane of the objective, and the eyepoint of the
+eyepiece.  The eyepoint is located approximately one-half
+inch (one centimeter) above the top lens of the eyepiece,
+at the point where the observer places the front of the eye
+during observation.
+Likewise, the conjugate planes in the image-forming
+light path in Köhler illumination (right-hand diagram in
+Figure 7) include the field diaphragm, the focused
+specimen, the intermediate image plane (i.e., the plane of
+the fixed diaphragm of the eyepiece), and the retina of
+the eye or the film plane of the camera.  The presence of
+conjugate focal planes is often useful in troubleshooting
+a microscope for contaminating dust, fibers, and
+imperfections in the optical elements.  When such artifacts
+are in sharp focus, it follows that they must reside on or
+near a surface that is part of the imaging-forming set of
+conjugate planes.  Members of this set include the glass
+element at the microscope light port, the specimen, and
+the graticule (if any) in the eyepiece.  Alternatively, if
+these contaminants are out of focus, then they occur near
+the illuminating set of elements that share conjugate
+planes.  Suspects in this category are the condenser top
+lens (where dust and dirt often accumulate), the exposed
+eyepiece lens element (contaminants from eyelashes), and
+the objective front lens (usually fingerprint smudges).
+In Köhler illumination, light emitted from the
+tungsten-halide lamp filament first passes through a
+collector lens located close to the lamp housing, and then
+through a field lens that is near the field diaphragm.  A
+sintered or frosted glass filter is often placed between
+the lamp and the collector lens to diffuse the light and
+ensure an even intensity of illumination.  In this case, the
+image of the lamp filament is focused onto the front focal
+plane of the condenser while the diffuser glass is
+temporarily removed from the light path.  The focal length
+of the collector lens must be carefully matched to the
+lamp filament dimensions to ensure that a filament image
+of the appropriate size is projected into the condenser
+aperture.  For proper Köhler illumination, the image of
+the filament should completely fill the condenser
+aperture.
+The field lens is responsible for bringing the image
+of the filament into focus at the plane of the substage
+condenser aperture diaphragm.  A first surface mirror
+(positioned at a 45-degree angle to the light path) reflects
+focused light leaving the field lens through the field
+diaphragm and into the substage condenser.  The field
+diaphragm iris opening serves as a virtual light source for
+the microscope, and its image is focused by the condenser
+(raised or lowered) onto the specimen plane.  Optical
+designs for the arrangement of these elements may vary
+by microscope manufacturer, but the field diaphragm
+should be positioned at a sufficient distance from the field
+lens to eliminate dust and lens imperfections from being
+imaged in the plane of the specimen.
+The field diaphragm in the base of the microscope
+controls only the width of the bundle of light rays reaching
+the condenser—it does not affect the optical resolution,
+numerical aperture, or the intensity of illumination.
+Proper adjustment of the field diaphragm (i.e., focused
+by adjusting the height of the condenser and centered in
+the optical path, then opened so as to lie just outside of
+the field of view) is important for preventing glare, which
+can reduce contrast in the observed image.  The
+elimination of unwanted light is particularly important
+when attempting to image specimens with inherently low
+contrast.  When the field diaphragm is opened too far,
+scattered light originating from the specimen and light
+reflected at oblique angles from optical surfaces can act
+to degrade image quality.
+The substage condenser is typically mounted directly
+beneath the microscope stage in a bracket that can be
+raised or lowered independently of the stage.  Control of
+the aperture diaphragm opening size occurs with either a
+swinging arm, a lever, or by rotating a collar on the
+condenser housing.  The most critical aspect of achieving
+proper Köhler illumination is correct adjustment of the
+substage condenser.  Condenser misalignment and an
+improperly adjusted condenser aperture diaphragm are the
+main sources of image degradation and poor quality
+photomicrography (19).
+When properly adjusted, light from the condenser will
+fill the rear focal plane of the objective and project a cone
+of light into the field of view.  The condenser aperture
+diaphragm is responsible for controlling the angle of the
+illuminating light cone and, consequently, the working
+numerical aperture of the condenser.  It is important to
+note, with respect to the size and shape of condenser light
+cones, that reducing the size of the field diaphragm only
+serves to slightly decrease the size of the lower portions
+of the light cone.  The angle and numerical aperture of
+
+===== PDF PAGE 8 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+8
+the light cone remains essentially unchanged with
+reduction in field diaphragm size (21).  Illumination
+intensity should not be controlled through opening and
+closing the condenser aperture diaphragm, or by shifting
+the condenser up and down or axially with respect to the
+optical center of the microscope.  It should only be
+controlled through the use of neutral density filters placed
+into the light path or by reducing voltage to the lamp
+(although the latter is not usually recommended, especially
+for photomicrography).  To ensure the maximum
+performance of the tungsten-halide lamp, refer to the
+manufacturer’s instrument manual to determine the
+optimum lamp voltage (usually 5-10 volts) and use that
+setting.  Adding or removing neutral density filters can
+then easily control brightness of the illumination without
+affecting color temperature.
+The size of the substage condenser aperture diaphragm
+opening should not only coincide with the desired
+numerical aperture, but also the quality of the resulting
+image should be considered.  In general, the diaphragm
+should be set to a position that allows 2/3 to 9/10 (60 to
+90 percent) of the entire light disc size (visible at the
+rear focal plane of the objective after removal of the
+eyepiece or with a Bertrand lens).  These values may vary
+with extremes in specimen contrast.
+The condenser aperture diaphragm should be set to an
+opening size that will provide a compromise of resolution
+and contrast that depends, to a large degree, on the
+absorption, diffraction, and refraction characteristics of
+the specimen.  This adjustment must be accomplished
+without overwhelming the image with artifacts that
+obscure detail and present erroneous enhancement of
+contrast.  The amount of image detail and contrast
+necessary to produce the best photomicrograph is also
+dependent upon refractive index, optical characteristics,
+and other specimen-dependent parameters.
+When the aperture diaphragm is erroneously closed
+too far, resulting diffraction artifacts cause visible fringes,
+banding, and/or pattern formation in photomicrographs.
+Other problems, such as refraction phenomena, can also
+produce apparent structures in the image that are not real
+(21).  Alternatively, opening the condenser aperture too
+wide causes unwanted glare and light scattering from the
+specimen and optical surfaces within the microscope,
+leading to a significant loss of contrast and washing out
+of image detail.  The correct setting will vary from
+specimen to specimen, and the experienced microscopist
+will soon learn to accurately adjust the condenser aperture
+diaphragm (and numerical aperture of the system) by
+observing the image without necessarily having to view
+the diaphragm in the rear focal plane of the objective.  In
+fact, many microscopists (including the authors) believe
+that critical adjustment of the numerical aperture of the
+microscope system to optimize image quality is the single
+most important step in photomicrography.
+The illumination system of the microscope, when
+adjusted for proper Köhler illumination, must satisfy
+several requirements.  The illuminated area of the
+specimen plane must no larger than the field of view for
+any given objective/eyepiece combination.  Also, the light
+must be of uniform intensity and the numerical aperture
+may vary from a maximum (equal to that of the objective)
+to a lesser value that will depend upon the optical
+characteristics of the specimen.  Table 1 contains a list
+of objective numerical apertures versus the field of view
+diameter (for an eyepiece of field number 22 with no tube
+lens present – see discussion on field number) for each
+objective, ranging from very low to very high
+magnifications.
+Many microscopes are equipped with specialized
+substage condensers that have a swing-out top lens, which
+can be removed from the optical path for use with lower
+power objectives (2x through 5x).  This action changes
+the performance of the remaining components in the light
+path, and some adjustment is necessary to achieve the best
+illumination conditions.  The field diaphragm can no
+longer be used for alignment and centering of the substage
+condenser and is now ineffective in limiting the area of
+the specimen under illumination.  Also, much of the
+unwanted glare once removed by the field diaphragm is
+reduced because the top lens of the condenser produces
+a light cone having a much lower numerical aperture,
+allowing light rays to pass through the specimen at much
+lower angles.  Most important, the optical conditions for
+Table 1   Viewfield Diameters (FN 22)
+(SWF 10x Eyepiece)
+         Objective Diameter
+      Magnification                (mm)
+1/2x 44.0
+1x 22.0
+2x 11.0
+4x 5.5
+10x 2.2
+20x 1.1
+40x 0.55
+50x 0.44
+60x 0.37
+100x 0.22
+150x 0.15
+250x 0.088
+a Source: Nikon
+
+===== PDF PAGE 9 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+9
+Köhler illumination no longer apply.
+For low power objectives (2x to 5x), alignment of the
+microscope optical components and the establishment of
+Köhler illumination conditions should always be
+undertaken at a higher (10x) magnification before
+removing the swing-out condenser lens for work at lower
+(5x and below) magnifications.  The height of the
+condenser should then not be changed.  Condenser
+performance is radically changed when the swing-out lens
+is removed (18, 21).  The image of the lamp filament is
+no longer formed in the aperture diaphragm, which ceases
+to control the numerical aperture of the condenser and
+the illumination system.  In fact, the aperture diaphragm
+should be opened completely to avoid vignetting, a gradual
+fading of light at the edges of the viewfield.
+Contrast adjustment in low magnification microscopy
+is then achieved by adjustment of the field diaphragm (18,
+19, 21).  When the field diaphragm is wide open (greater
+than 80 percent), specimen details are washed out and a
+significant amount of scattering and glare is present.
+Closing the field diaphragm to a position between 50 and
+80 percent will yield the best compromise on specimen
+contrast and depth of field.  This adjustment is now visible
+at the rear focal plane of the objective when the eyepiece
+is removed or a Bertrand lens is inserted into the eye tube.
+Objectives designed for low magnification are
+significantly simpler in design than their higher
+magnification counterparts.  This is due to the smaller
+angles of illuminating light cones produced by low
+magnification condensers, which require objectives of
+lower numerical aperture.
+Measurement graticules, which must be in sharp focus
+and simultaneously superimposed on the specimen image,
+can be inserted into any of several conjugate planes in the
+image-forming path.  The most common eyepiece (ocular)
+measuring and photomicrography graticules are placed in
+the intermediate image plane, which is positioned at the
+fixed diaphragm within the eyepiece.  It is theoretically
+possible to also place graticules in any image-forming
+conjugate plane or in the plane of the illuminated field
+diaphragm.  Stage micrometers are specialized graticules
+placed on microslides, which are used to calibrate
+eyepiece graticules and to make specimen measurements.
+Color and neutral density filters are often placed in
+the optical pathway to reduce light intensity or alter the
+color characteristics of the illumination.  There are several
+locations within the microscope stand where these filters
+are usually placed.  Some modern laboratory microscopes
+have a filter holder sandwiched between the lamp housing
+and collector lens, which serves as an ideal location for
+these filters.  Often, neutral density filters along with
+color correction filters and a frosted diffusion filter are
+placed together in this filter holder.  Other microscope
+designs provide a set of filters built internally into the
+body, which can be toggled into the light path by means of
+levers.  A third common location for filters is a holder
+mounted on the bottom of the substage condenser, below
+the aperture diaphragm, that will accept gelatin or glass
+filters.
+It is important not to place filters in or near any of the
+image-forming conjugate planes to avoid dirt or surface
+imperfections on the filters being imaged along with the
+specimen (22).  Some microscopes have an attachment
+for placing filters near the light port at the base (near the
+field diaphragm).  This placement is probably too close
+to the field diaphragm, and surface contamination may be
+either in sharp focus or appear as blurred artifacts
+superimposed onto the image.  It is also not wise to place
+filters directly on the microscope stage for the same
+reasons.
+Microscope Objectives, Eyepieces,
+Condensers, and Optical Aberrations
+Finite microscope objectives are designed to project
+a diffraction-limited image at a fixed plane (the
+intermediate  image plane) that is dictated by the
+microscope tube length and located at a pre-specified
+distance from the rear focal plane of the objective.
+Specimens are imaged at a very short distance beyond the
+front focal plane of the objective through a medium of
+defined refractive index, usually air, water, glycerin, or
+specialized immersion oils.  Microscope manufacturers
+offer a wide range of objective designs to meet the
+performance needs of specialized imaging methods (2,
+6, 9, 18-21, and see the section on Contrast Enhancing
+Techniques), to compensate for cover glass thickness
+variations, and to increase the effective working distance
+of the objective.
+All of the major microscope manufacturers have now
+changed their design to infinity-corrected objectives.
+Such objectives project emerging rays in parallel bundles
+from every azimuth to infinity.  They require a tube lens
+in the light path to bring the image into focus at the
+intermediate image plane.
+The least expensive (and most common) objectives
+are the achromatic objectives, which are corrected for
+axial chromatic aberration in two wavelengths (red and
+blue) that are brought into the same focus.  Further, they
+are corrected for spherical aberration in the color green,
+as described in Table 2.  The limited correction of
+achromatic objectives leads to problems with color
+microscopy and photomicrography. When focus is chosen
+in the red-blue region of the spectrum, images will have a
+green halo (often termed residual color ).  Achromatic
+
+===== PDF PAGE 10 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+10
+objectives yield their best results with light passed through
+a green filter (often an interference filter) and using black
+and white film when these objectives are employed for
+photomicrography.  The lack of correction for flatness
+of field (or field curvature) further hampers achromat
+objectives.  In the past few years, most manufacturers have
+begun providing flat field corrections for achromat
+objectives and have given these corrected objectives the
+name of plan achromats.
+The next higher level of correction and cost is found
+in objectives called fluorites or semi-apochromats
+illustrated by the center objective in Figure 8.  This figure
+depicts three major classes of objectives: The achromats
+with the least amount of correction, as discussed above;
+the fluorites (or semi-apochromats) that have additional
+spherical corrections; and, the apochromats that are the
+most highly corrected objectives available.  Fluorite
+objectives are produced from advanced glass formulations
+that contain materials such as fluorspar or newer synthetic
+substitutes (5).  These new formulations allow for greatly
+improved correction of optical aberration. Similar to the
+achromats, the fluorite objectives are also corrected
+chromatically for red and blue light. In addition, the
+fluorites are also corrected spherically for two colors.
+The superior correction of fluorite objectives compared
+to achromats enables these objectives to be made with a
+higher numerical aperture, resulting in brighter images.
+Fluorite objectives also have better resolving power than
+achromats and provide a higher degree of contrast, making
+them better suited than achromats for color
+photomicrography in white light.
+The highest level of correction (and expense) is found
+in apochromatic objectives, which are corrected
+chromatically for three colors (red, green, and blue),
+almost eliminating chromatic aberration, and are corrected
+spherically for two colors.  Apochromatic objectives are
+the best choice for color photomicrography in white light.
+Because of their high level of correction, apochromat
+objectives usually have, for a given magnification, higher
+numerical apertures than do achromats or fluorites.  Many
+of the newer high-end fluorite and apochromat objectives
+are corrected for four colors chromatically and four
+colors spherically.
+All three types of objectives suffer from pronounced
+field curvature and project images that are curved rather
+than flat. To overcome this inherent condition, lens
+designers have produced flat-field corrected objectives
+that yield flat images. Such lenses are called plan
+achromats, plan fluorites, or plan apochromats, and
+although this degree of correction is expensive, these
+objectives are now in routine use due to their value in
+photomicrography.
+Uncorrected field curvature is the most severe
+aberration in higher power fluorite and apochromat
+objectives, and it was tolerated as an unavoidable artifact
+for many years.  During routine use, the viewfield would
+have to be continuously refocused between the center and
+the edges to capture all specimen details.  The introduction
+of flat-field (plan) correction to objectives perfected their
+use for photomicrography and video microscopy, and
+today these corrections are standard in both general use
+and high-performance objectives.  Correction for field
+Table 2   Objective Lens Types and Corrections a
+        Corrections for Aberrations
+   Flatness
+Type    Spherical     Chromatic     Correction
+Achromat         * b   2 c         No
+Plan Achromat         * b   2 c         Yes
+Fluorite         3 d              < 3 d         No
+Plan Fluorite         3 d              < 3 d         Yes
+Plan Apochromat         4 e                > 4 e         Yes
+a Source: Nikon Instrument Group
+b Corrected for two wavelengths at two specific aperture angles.
+c Corrected for blue and red - broad range of the visible spectrum.
+d Corrected for blue, green and red - full range of the visible spectrum.
+e Corrected for dark blue, blue, green and red.
+Figure 8.  Levels of optical correction for aberration in commercial
+objectives. (a) Achromatic objectives, the lowest level of correction,
+contain two doublets and a single front lens; (b) Fluorites or semi-
+apochromatic objectives, a medium level of correction, contain
+three doublets, a meniscus lens, and a single front lens; and (c)
+Apochromatic objectives, the highest level of correction, contain a
+triplet, two doublets, a meniscus lens, and a single hemispherical
+front lens.
+
+===== PDF PAGE 11 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+11
+curvature adds a considerable number of lens elements
+to the objective, in many cases as many as four additional
+lenses.  This significant increase in the number of lens
+elements for plan correction also occurs in already
+overcrowded fluorite and apochromat objectives,
+frequently resulting in a tight fit of lens elements within
+the objective barrel (4, 5, 18).
+Before the transition to infinity-corrected optics, most
+objectives were specifically designed to be used with a
+set of oculars termed compensating eyepieces .  An
+example is the former use of compensating eyepieces with
+highly corrected high numerical aperture objectives to
+help eliminate lateral chromatic aberration.
+There is a wealth of information inscribed on the
+barrel of each objective, which can be broken down into
+several categories (illustrated in Figure 9). These include
+the linear magnification, numerical aperture value, optical
+corrections, microscope body tube length, the type of
+medium the objective is designed for, and other critical
+factors in deciding if the objective will perform as needed.
+Additional information is outlined below (17):
+· Optical Corrections: These are usually abbreviated
+as Achro (achromat), Apo (apochromat), and Fl, Fluar,
+Fluor, Neofluar, or Fluotar (fluorite) for better
+spherical and chromatic corrections, and as Plan, Pl, EF,
+Acroplan, Plan Apo  or Plano  for field curvature
+corrections.  Other common abbreviations are: ICS
+(infinity corrected system) and UIS (universal infinity
+system), N and NPL  (normal field of view plan),
+Ultrafluar  (fluorite objective with glass that is
+transparent down to 250 nanometers), and CF and CFI
+(chrome-free; chrome-free infinity).
+· Numerical Aperture:  This is a critical value that
+indicates the light acceptance angle, which in turn
+determines the light gathering power, the resolving power,
+and depth of field of the objective.  Some objectives
+specifically designed for transmitted light fluorescence
+and darkfield imaging are equipped with an internal iris
+diaphragm that allows for adjustment of the effective
+numerical aperture.  Designation abbreviations for these
+objectives include I, Iris, W/Iris .
+· Mechanical Tube Length: This is the length of the
+microscope body tube between the nosepiece opening,
+where the objective is mounted, and the top edge of the
+observation tubes where the oculars (eyepieces) are
+inserted.  Tube length is usually inscribed on the objective
+as the size in number of millimeters (160, 170, 210, etc.)
+for fixed lengths, or the infinity symbol (   ) for infinity-
+corrected tube lengths.
+· Cover Glass Thickness:  Most transmitted light
+objectives are designed to image specimens that are
+covered by a cover glass (or cover slip).  The thickness
+of these small glass plates is now standardized at 0.17
+mm for most applications, although there is some variation
+in thickness within a batch of cover slips.  For this reason,
+some of the high numerical aperture dry objectives have
+a correction collar adjustment of the internal lens
+elements to compensate for this variation (Figure 10).
+Abbreviations for the correction collar adjustment include
+Corr, w/Corr,  and CR, although the presence of a
+movable, knurled collar and graduated scale is also an
+Figure 9.  Specifications engraved on the barrel of a typical
+microscope objective.  These include the manufacturer, correction
+levels, magnification, numerical aperture, immersion requirements,
+tube length, working distance, and specialized optical properties.
+Figure 10.  Objective with three lens groups and correction collar
+for varying cover glass thicknesses.  (a) Lens group 2 rotated to
+the forward position within the objective.  This position is used for
+the thinnest cover slips. (b) Lens group 2 rotated to the rearward
+position within the objective.  This position is used for the thickest
+coverslips.
+∞∞∞∞∞
+
+===== PDF PAGE 12 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+12
+indicator of this feature.
+· Working Distance: This is the distance between the
+objective front lens and the top of the cover glass when
+the specimen is in focus.  In most instances, the working
+distance of an objective decreases as magnification
+increases.  Working distance values are not included on
+all objectives and their presence varies depending upon
+the manufacturer.  Common abbreviations are: L, LL, LD,
+and LWD (long working distance); ELWD (extra-long
+working distance); SLWD (super-long working distance),
+and ULWD (ultra-long working distance).
+· Objective Screw Threads:  The mounting threads
+on almost all objectives are sized to standards of the Royal
+Microscopical Society (RMS) for universal compatibility.
+This standard specifies mounting threads that are 20.32
+mm in diameter with a pitch of 0.706, which is currently
+used in the production of infinity-corrected objectives
+by manufacturers Olympus and Zeiss.  Leica and Nikon
+have broken from the standard with the introduction of
+new infinity-corrected objectives that have a wider
+mounting thread size, making Leica and Nikon objectives
+usable only on their own microscopes.  Abbreviations
+commonly used are: RMS (Royal Microscopical Society
+objective thread), M25 (metric 25-mm objective thread),
+and M32 (metric 32-mm objective thread).
+· Immersion Medium:  Most objectives are designed
+to image specimens with air as the medium between the
+objective and the cover glass. To attain higher working
+numerical apertures, many objectives are designed to
+image the specimen through another medium that reduces
+refractive index differences between glass and the imaging
+medium.  High-resolution plan apochromat objectives can
+achieve numerical apertures up to 1.40 when the
+immersion medium is special oil with a refractive index
+of 1.51.  Other common immersion media are water and
+glycerin.  Objectives designed for special immersion
+media usually have a color-coded ring inscribed around
+the circumference of the objective barrel as listed in Table
+3 and described below.
+· Color Codes: Many microscope manufacturers label
+their objectives with color codes to help in rapid
+identification of the magnification.  The dark blue color
+code on the objective illustrated in Figure 9 indicates the
+linear magnification is 60x.  This is very helpful when
+you have a nosepiece turret containing 5 or 6 objectives
+and you must quickly select a specific magnification.
+Some specialized objectives have an additional color code
+that indicates the type of immersion medium necessary
+to achieve the optimum numerical aperture.  Immersion
+lenses intended for use with oil have a black color ring,
+while those intended for use with glycerin have an orange
+ring.  Objectives designed to image living organisms in
+aqueous media are designated water immersion objectives
+with a white ring and highly specialized objectives for
+unusual immersion media often are engraved with a red
+ring.  Table 3 lists current magnification and imaging
+media color codes in use by most manufacturers.
+· Specialized Optical Properties:  Microscope
+objectives often have design parameters that optimize
+performance under certain conditions.  For example, there
+are special objectives designed for polarized illumination
+(signified by the abbreviations P, Po, Pol, or SF, and/or
+having all barrel engravings painted red), phase contrast
+(PH, and/or green barrel engravings), differential
+interference contrast (DIC), and many other abbreviations
+for additional applications.  The apochromat objective
+illustrated in Figure 9 is optimized for DIC
+photomicrography and this is indicated on the barrel.  The
+capital H beside the DIC marking indicates that the
+objective must be used with a specific DIC prism
+optimized for high-magnification applications.
+There are some applications that do not require
+objectives designed to be corrected for cover glass
+thickness.  These include objectives used to observe
+uncovered specimens in reflected light metallurgical
+specimens, integrated circuit inspection, micro
+machinery, biological smears, and other applications that
+require observation of uncovered objects.  Other common
+abbreviations found on microscope objective barrels,
+which are useful in identifying specific properties, are
+listed in Table 4 (17).
+Table 3   Color-Coded Rings on Microscope Objectives
+Immersion color code a Immersion type
+Black Oil immersion
+Orange Glycerol immersion
+White Water i mmersion
+Red Special
+Magnification color code b Magnification
+Black 1x, 1.25x
+Brown 2x, 2.5x
+Red 4x, 5x
+Yellow 10x
+Green 16x, 20x
+Turquoise blue 25x, 32x
+Light blue 40x, 50x
+Cobalt (dark) blue 60x, 63x
+White (cream) 100x
+a Narrow colored ring located near the specimen end of
+objective.
+b Narrow band located closer to the mounting thread than the
+immersion code.
+
+===== PDF PAGE 13 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+13
+Optical Aberrations
+Lens errors or aberrations in optical microscopy are
+caused by artifacts arising from the interaction of light
+with glass lenses (2-5, 19-24).  There are two primary
+causes of aberration: (i) geometrical or spherical
+aberrations are related to the spherical nature of the lens
+and approximations used to obtain the Gaussian lens
+equation; and (ii) chromatic aberrations that arise from
+variations in the refractive indices of the wide range of
+frequencies found in visible light.
+In general, the effects of optical aberrations are to
+induce faults in the features of an image being observed
+through a microscope.  These artifacts were first addressed
+in the eighteenth century when physicist John Dollond
+discovered that chromatic aberration would be reduced
+or corrected by using a combination of two different types
+of glass (flint and crown) in the fabrication of lenses (13).
+Later, during the nineteenth century, achromatic objectives
+with high numerical aperture were developed, although
+there were still geometrical problems with the lenses.
+Modern glass formulations coupled with advanced
+grinding and manufacturing techniques have all but
+eliminated most aberrations from today’s microscope
+objectives, although careful attention must still be paid
+to these effects, especially when conducting quantitative
+high-magnification video microscopy and
+photomicrography (23).
+Spherical Aberration:  These artifacts occur when
+light waves passing through the periphery of a lens are
+not brought into identical focus with those passing closer
+to the center.  Waves passing near the center of the lens
+are refracted only slightly, whereas waves passing near
+the periphery are refracted to a greater degree resulting
+in the production of different focal points along the optical
+axis.  This is one of the most serious resolution artifacts
+because the image of the specimen is spread out rather
+than being in sharp focus. Spherical aberrations are very
+important in terms of the resolution of the lens because
+they affect the coincident imaging of points along the
+optical axis and degrade the performance of the lens,
+which will seriously affect specimen sharpness and clarity.
+These lens defects can be reduced by limiting the outer
+edges of the lens from exposure to light using diaphragms
+and also by utilizing aspherical lens surfaces within the
+system.  The highest-quality modern microscope
+objectives address spherical aberrations in a number of
+ways including special lens-grinding techniques,
+additional lens elements of different curvatures, improved
+glass formulations, and better control of optical pathways.
+Chromatic Aberration:  This type of optical defect
+is a result of the fact that white light is composed of
+numerous wavelengths.  When white light passes through
+a convex lens, the component wavelengths are refracted
+according to their frequency.  Blue light is refracted to
+the greatest extent followed by green and red light, a
+phenomenon commonly referred to as dispersion.  The
+inability of the lens to bring all of the colors into a
+Table 4   Specialized Objective Designations
+Abbreviation Type
+Phase, PHACO, PC, Ph 1,2, 3, etc . Phase contrast, using phase condenser annulus 1, 2, 3, etc.
+DL, DM, PLL, PL, PM, PH, NL, NM, NH Phase contrast: dark low, dark medium, positive low, positive low, positive
+medium, positive high contrast (regions with higher refractive index appear
+darker); negative low, negative medium, negative high contrast (regions with
+higher refractive index appear lighter)
+P, Po, Pol, SF Strain-free, low birefringence, for polarized light
+U, UV , Universal UV transmitting (down to approx. 340 nm), for UV-excited epifluorescence
+M Metallographic (no coverslip)
+NC, NCG No coverslip
+EPI Surface illumination (specimen illuminated through objective lens), as contrasted to
+dia- or transillumination
+TL Transmitted light
+BBD, HD, B\D For use in bright or dark field (hell, dunkel)
+D Dark field
+H Designed primarily for heating stage
+U, UT Designed to be used with universal stage (magnification/NA applied for use
+with glass hemisphere; divine both values by 1.51 when hemisphere is not used)
+DI; MI; TI Michelson Interferometry; noncontact; multiple beam (Tolanski)
+a Many of the designation codes are manufacturer specific.
+
+===== PDF PAGE 14 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+14
+common focus results in a slightly different image size
+and focal point for each predominant wavelength group.
+This leads to color fringes surrounding the image.
+Lens corrections were first attempted in the latter part
+of the 18th century when Dollond, Lister and others
+devised ways to reduce longitudinal chromatic aberration
+(13).  By combining crown glass and flint glass (each type
+has a different dispersion of refractive index), they
+succeeded in bringing the blue rays and the red rays to a
+common focus, near but not identical with the green rays.
+This combination is termed a lens doublet where each lens
+has a different refractive index and dispersive properties.
+Lens doublets are also known as achromatic lenses or
+achromats for short, derived from the Greek terms a
+meaning without and chroma meaning color.  This simple
+form of correction allows the image points at 486
+nanometers in the blue region and 656 nanometers in the
+red region to now coincide.  This is the most widely used
+objective lens and is commonly found on laboratory
+microscopes.  Objectives that do not carry a special
+inscription stating otherwise are likely to be achromats.
+Achromats are satisfactory objectives for routine
+laboratory use, but because they are not corrected for all
+colors, a colorless specimen detail is likely to show, in
+white light, a pale green color at best focus (the so-called
+secondary spectrum).
+A proper combination of lens thickness, curvature,
+refractive index, and dispersion allows the doublet to
+reduce chromatic aberration by bringing two of the
+wavelength groups into a common focal plane.  If fluorspar
+is introduced into the glass formulation used to fabricate
+the lens, then the three colors red, green, and blue can be
+brought into a single focal point resulting in a negligible
+amount of chromatic aberration (23).  These lenses are
+known as apochromatic lenses and they are used to build
+very high-quality chromatic aberration-free microscope
+objectives.   Modern microscopes utilize this concept and
+today it is common to find optical lens triplets made with
+three lens elements cemented together, especially in
+higher-quality objectives.  For chromatic aberration
+correction, a typical 10x achromat microscope objective
+is built with two lens doublets (Figure 8(a)).  Apochromat
+objectives usually contain two lens doublets and a lens
+triplet (Figure 8(c)) for advanced correction of both
+chromatic and spherical aberrations.
+Despite longitudinal (or axial) chromatic aberration
+correction, apochromat objectives also exhibit another
+chromatic defect.  Even when all three main colors are
+brought to identical focal planes axially, the point images
+of details near the periphery of the field of view, are not
+the same size; e.g., the blue image of a detail is slightly
+larger than the green image or the red image in white light,
+thus causing color ringing of specimen details at the outer
+regions of the field of view (23).  This defect is known as
+lateral chromatic aberration or chromatic difference of
+magnification.  It is the compensating eyepiece, with
+chromatic difference of magnification just the opposite
+of that of the objective, which is utilized to correct for
+lateral chromatic aberration.  Because this defect is also
+found in higher magnification achromats, compensating
+eyepieces are frequently used for such objectives, too.
+Indeed, many manufacturers design their achromats with
+a standard lateral chromatic error and use compensating
+eyepieces for all their objectives.  Such eyepieces often
+carry the inscription K or C or Compens.  As a result,
+compensating eyepieces have build-in lateral chromatic
+error and are not, in themselves, perfectly corrected.
+Coverslip Correction: It is possible for the user to
+inadvertently introduce spherical aberration into a well-
+corrected system (2, 23).  For example, when using high
+magnification and high numerical aperture dry objectives
+(NA = 0.85-0.95), the correct thickness of the cover glass
+(suggested 0.17 mm) is critical; hence the inclusion of a
+correction collar on such objectives to enable adjustment
+for incorrect cover glass thickness.  Similarly, the
+insertion of accessories in the light path of finite tube
+length objectives may introduce aberrations, apparent
+when the specimen is refocused, unless such accessories
+have been properly designed with additional optics.  Figure
+10 illustrates how internal lenses operate in an objective
+designed for coverslip correction.
+Other Geometrical Aberrations:  These include a
+variety of effects including astigmatism, field curvature,
+and comatic aberrations, which are corrected with proper
+lens fabrication.
+Curvature of field in the image is an aberration that is
+familiar to most experienced microscopists.  This artifact
+is the natural result of using lenses that have curved
+surfaces.  When visible light is focused through a curved
+lens, the image plane produced by the lens will be curved.
+When the image is viewed in the eyepieces (oculars) of a
+microscope, it either appears sharp and crisp in the center
+or on the edges of the viewfield but not both.  Normally,
+this is not a serious problem when the microscopist is
+routinely scanning samples to observe their various
+features.  It is a simple matter to use the fine focus knob
+to correct small deficiencies in specimen focus.
+However, for photomicrography, field curvature can be a
+serious problem, especially when a portion of the
+photomicrograph is out of focus.
+Modern microscopes deal with field curvature by
+correcting this aberration using specially designed flat-
+field objectives.  These specially corrected objectives
+have been named plan or plano and are the most common
+type of objective in use today.  Plan objectives are also
+corrected for other optical artifacts such as spherical and
+
+===== PDF PAGE 15 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+15
+chromatic aberrations.  In the case of a plan objective that
+also has been mostly corrected for chromatic aberration,
+the objective is referred to as a plan achromat.  This is
+also the case for fluorite and apochromatic objectives,
+which have the modified names: plan fluorite and plan
+apochromat.
+Adding field curvature lens corrections to an objective
+that has already been corrected for optical aberrations can
+often add a significant number of lens elements to the
+objective.  For example, the typical achromat objective
+has two lens doublets and a hemispherical lens, making
+of total of five lens elements.  In contrast, a comparable
+plan achromat objective has three doublets and three single
+lenses for a total of nine lens elements, making it
+considerably more difficult to fabricate.  As we have seen,
+the number of lens elements increases as lenses are
+corrected for spherical errors as well as chromatic and
+field curvature aberrations.  Unfortunately, as the number
+of lens elements increases so does the cost of the
+objective.
+Sophisticated plan apochromatic objectives that are
+corrected for spherical, chromatic, and field curvature
+aberrations can contain as many as eighteen to twenty
+separate lens elements, making these objectives the most
+expensive and difficult to manufacture.  Plan apochromatic
+objectives can cost upward of $3,000 to $5,000 each for
+high-magnification units that also have a high numerical
+aperture.  For most photomicrography applications,
+however, it is not absolutely necessary to have the best
+correction, although this is heavily dependent upon the
+purpose, the specimen, and the desired magnification
+range.  When cost is important (when isn’t it?), it is often
+wise to select more modestly priced plan fluorite
+objectives that have a high degree of correction,
+especially the more modern versions.  These objectives
+provide crisp and sharp images with minimal field
+curvature, and will be sufficient for most
+photomicrography applications.
+Field curvature is very seldom totally eliminated, but
+it is often difficult to detect edge curvature with most
+plan-corrected objectives and it does not show up in
+photomicrographs (19, 23).  This artifact is more severe
+at low magnifications and can be a problem with stereo
+microscopes.  Manufacturers have struggled for years to
+eliminate field curvature in the large objectives found in
+stereo microscopes.  In the past ten years, companies like
+Leica, Nikon, Olympus, and Zeiss, have made great strides
+in the quality of optics used to build stereo microscopes
+and, while the artifacts and aberrations have not been
+totally eliminated, high-end models are now capable of
+producing superb photomicrographs.
+Comatic aberrations are similar to spherical
+aberrations, but they are mainly encountered with off-axis
+objects and are most severe when the microscope is out
+of alignment (23).  In this instance, the image of a point
+is asymmetrical, resulting in a comet-like (hence, the term
+coma) shape.  The comet shape may have its tail pointing
+toward the center of the field of view or away depending
+upon whether the comatic aberration has a positive or
+negative value.  Coma may occur near the axial area of
+the light path, and/or the more peripheral area.  These
+aberrations are usually corrected along with spherical
+aberrations by designing lens elements of various shapes
+to eliminate this error.  Objectives that are designed to
+yield excellent images for wide field of view eyepieces,
+have to be corrected for coma and astigmatism using a
+specially-designed multi-element optic in the tube lens
+to avoid these artifacts at the periphery of the field of
+view.
+Astigmatism aberrations are similar to comatic
+aberrations, however these artifacts depend more strongly
+on the obliquity of the light beam (23).  This defect is
+found at the outer portions of the field of view of
+uncorrected lenses.  The off-axis image of a specimen
+point appears as a line instead of a point.  What is more,
+depending on the angle of the off-axis rays entering the
+lens, the line image may be oriented in either of two
+different directions, tangentially or radially.  Astigmatism
+errors are usually corrected by design of the objectives
+to provide precise spacing of individual lens elements as
+well as appropriate lens shapes and indices of refraction.
+The correction of astigmatism is often accomplished in
+conjunction with the correction of field curvature
+aberrations.
+Eyepieces (Oculars)
+Eyepieces work in combination with microscope
+objectives to further magnify the intermediate image so
+that specimen details can be observed. Ocular is an
+alternative name for eyepieces that has been widely used
+in the literature, but to maintain consistency during this
+discussion we will refer to all oculars as eyepieces.  Best
+results in microscopy require that objectives be used in
+combination with eyepieces that are appropriate to the
+correction and type of objective.  Inscriptions on the side
+of the eyepiece describe its particular characteristics and
+function.
+The eyepiece illustrated in Figure 11 is inscribed with
+UW (not illustrated), which is an abbreviation for the ultra
+wide viewfield.  Often eyepieces will also have an H
+designation, depending upon the manufacturer, to indicate
+a high-eyepoint focal point that allows microscopists to
+wear glasses while viewing samples.  Other common
+inscriptions often found on eyepieces include WF for
+wide field; UWF for ultra wide field; SW and SWF for
+
+===== PDF PAGE 16 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+16
+super wide field; HE for high eyepoint; and CF for
+eyepieces intended for use with CF corrected objectives
+(2, 3, 5, 19, 23, 24).  As discussed above, compensating
+eyepieces are often inscribed with K, C, Comp , or
+Compens, as well as the magnification.  Eyepieces used
+with flat-field objectives are sometimes labeled Plan-
+Comp.  Magnification factors of common eyepieces
+range from 5x to 25x, and usually contain an inscription,
+such as A/24, which indicates the field number is 24, in
+reference to the diameter (in millimeters) of the fixed
+diaphragm in the eyepiece.  Many eyepieces also have a
+focus adjustment and a thumbscrew that allows their
+position to be fixed.  Manufactures now often produce
+eyepieces having rubber eye-cups that serve both to
+position the eyes the proper distance from the front lens,
+and to block room light from reflecting off the lens
+surface and interfering with the view.
+There are two major types of eyepieces that are
+grouped according to lens and diaphragm arrangement:
+the negative  eyepieces with an internal diaphragm
+between the lenses, and  positive  eyepieces that have a
+diaphragm below the lenses of the eyepiece.  Negative
+eyepieces have two lenses: the upper lens, which is closest
+to the observer’s eye, is called the eye-lens and the lower
+lens (beneath the diaphragm) is often termed the field lens.
+In their simplest form, both lenses are plano-convex, with
+convex sides facing the specimen. Approximately mid-
+way between these lenses there is a fixed circular opening
+or internal diaphragm which, by its size, defines the
+circular field of view that is observed in looking into the
+microscope. The simplest kind of negative eyepiece, or
+Huygenian eyepiece, is found on most routine
+microscopes fitted with achromatic objectives. Although
+the Huygenian eye and field lenses are not well corrected,
+their aberrations tend to cancel each other out. More
+highly corrected negative eyepieces have two or three lens
+elements cemented and combined together to make the
+eye lens.  If an unknown eyepiece carries only the
+magnification inscribed on the housing, it is most likely
+to be a Huygenian eyepiece, best suited for use with
+achromatic objectives of 5x-40x magnification.
+The other main type of eyepiece is the positive
+eyepiece with a diaphragm below its lenses, commonly
+known as the Ramsden eyepiece.  This eyepiece has an
+eye lens and field lens that are also plano-convex, but the
+field lens is mounted with the curved surface facing
+towards the eye lens.  The front focal plane of this
+eyepiece lies just below the field lens, at the level of the
+eyepiece fixed diaphragm, making this eyepiece readily
+adaptable for mounting graticules.  To provide better
+correction, the two lenses of the Ramsden eyepiece may
+be cemented together.
+Simple eyepieces such as the Huygenian and Ramsden
+and their achromatized counterparts will not correct for
+residual chromatic difference of magnification in the
+intermediate image, especially when used in combination
+with high magnification achromatic objectives as well as
+fluorite or apochromatic objectives.  To remedy this in
+finite microscopy systems, manufacturers produce
+compensating eyepieces that introduce an equal, but
+opposite, chromatic error in the lens elements.
+Compensating eyepieces may be either of the positive or
+negative type, and must be used at all magnifications with
+fluorite, apochromatic and all variations of plan objectives
+(they can also be used to advantage with achromatic
+objectives of 40x and higher).
+In recent years, modern microscope objectives have
+their correction for chromatic difference of magnification
+either built into the objectives themselves (Olympus and
+Nikon) or corrected in the tube lens (Leica and Zeiss),
+thus eliminating the need for compensation correction
+of the eyepieces.
+ Compensating eyepieces play a crucial role in helping
+to eliminate residual lateral chromatic aberrations
+inherent in the design of highly corrected objectives.
+Hence, it is preferable that the microscopist uses the
+compensating eyepieces designed by a particular
+manufacturer to accompany that manufacturer’s higher-
+corrected objectives.  Use of an incorrect eyepiece with
+an apochromatic objective designed for a finite (160 or
+Figure 11.  Cutaway diagram of a typical periplan eyepiece.  The
+fixed aperture diaphragm is positioned between lens group 1 and
+lens group 2, where the intermediate image is formed.  The eyepiece
+has a protective eyecup that makes viewing the specimen more
+comfortable for the microscopist.
+
+===== PDF PAGE 17 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+17
+170 millimeter) tube length microscope results in
+dramatically increased contrast with red fringes on the
+outer diameters and blue fringes on the inner diameters
+of specimen detail.  Additional problems arise from a
+limited flatness of the viewfield in simple eyepieces, even
+those corrected with eye-lens doublets.
+More advanced eyepiece designs resulted in the
+Periplan eyepiece (Figure 11), which contains seven lens
+elements that are cemented into a doublet, a triplet, and
+two individual lenses.  Design improvements in periplan
+eyepieces lead to better correction for residual lateral
+chromatic aberration, increased flatness of field, and a
+general overall better performance when used with higher
+power objectives.
+Modern microscopes feature vastly improved plan-
+corrected objectives in which the primary image has much
+less curvature of field than older objectives.  In addition,
+most microscopes now feature much wider body tubes
+that have accommodated greatly increased the size of
+intermediate images.  To address these new features,
+manufacturers now produce wide-eyefield eyepieces that
+increase the viewable area of the specimen by as much as
+40 percent.  Because the strategies of eyepiece-objective
+correction techniques vary from manufacturer to
+manufacturer, it is very important (as stated above) to use
+only eyepieces recommended by a specific manufacturer
+for use with their objectives.
+Our recommendation is to carefully choose the
+objective first, then purchase an eyepiece that is designed
+to work in conjunction with the objective.  When choosing
+eyepieces, it is relatively easy to differentiate between
+simple and more highly compensating eyepieces.  Simple
+eyepieces such as the Ramsden and Huygenian (and their
+more highly corrected counterparts) will appear to have a
+blue ring around the edge of the eyepiece diaphragm when
+viewed through the microscope or held up to a light
+source.  In contrast, more highly corrected compensating
+eyepieces with have a yellow-red-orange ring around the
+diaphragm under the same circumstances.  Modern non-
+compensating eyepieces are fully corrected and show no
+color.  Most of the modern microscopes have all
+corrections done in the objectives themselves or have a
+final correction in the tube lens.  Such microscopes do
+not need compensating eyepieces.
+The properties of several common commercially
+available eyepieces are listed according to type in Table
+5 (19, 23).  The three major types of eyepieces listed in
+Table 5 are finder, wide field, and super wide field.  The
+terminology used by various manufacturers can be very
+confusing and careful attention should be paid to their
+sales brochures and microscope manuals to ensure that
+the correct eyepieces are being used with a specific
+objective.  In Table 5, the abbreviations that designate wide
+field and super widefield eyepieces are coupled to their
+design for high eyepoint, and are WH and SWH ,
+respectively.  The magnifications are either 10x or 15x
+and the Field Numbers range from 14 to 26.5, depending
+upon the application.  The diopter adjustment is
+approximately the same for all eyepieces and many also
+contain either a photomask or micrometer graticule.
+Light rays emanating from the eyepiece intersect at
+the exit pupil or eyepoint (Ramsden disc) where the front
+of the microscopist’s eye should be placed in order to
+see the entire field of view (usually 8-10 mm above the
+eye lens).  By increasing the magnification of the eyepiece,
+the eyepoint is drawn closer to the upper surface of the
+eye lens, making it much more difficult for microscopists
+to use, especially if he or she wears eyeglasses.  Specially
+designed high eyepoint eyepieces have been manufactured
+that feature eyepoint viewing distances approaching 20-
+25 mm above the surface of the eye lens.  These improved
+eyepieces have larger diameter eye lenses that contain
+more optical elements and usually feature improved
+flatness of field.  Such eyepieces are often designated
+with the inscription “ H” somewhere on the eyepiece
+housing, either alone or in combination with other
+abbreviations, as discussed above.  We should mention
+that high-eyepoint eyepieces are especially useful for
+microscopists who wear eyeglasses to correct for near
+or far sightedness, but they do not correct for several other
+visual defects, such as astigmatism.  Today, high eyepoint
+eyepieces are very popular, even with people who do not
+wear eyeglasses, because the large eye clearance reduces
+fatigue and makes viewing images through the microscope
+much more comfortable.
+At one time, eyepieces were available in a wide range
+of magnifications extending from 6.3x to 30x and
+sometimes even higher for special applications. These
+eyepieces are very useful for observation and
+photomicrography with low-power objectives.
+Unfortunately, with higher power objectives, the problem
+of empty magnification (magnification without increased
+clarity) becomes important when using very high
+magnification eyepieces and these should be avoided.
+Today most manufacturers restrict their eyepiece
+offerings to those in the 10x to 20x ranges.  The diameter
+of the viewfield in an eyepiece is expressed as a field of
+view number or field number (FN), as discussed above.
+Information about the field number of an eyepiece can
+yield the real diameter of the object viewfield using the
+formula (23):
+Viewfield Diameter = FN / (M
+O x M T)   (2)
+Where FN is the field number in millimeters, MO is the
+magnification of the objective, and MT is the tube lens
+
+===== PDF PAGE 18 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+18
+magnification factor (if any).  Applying this formula to
+the super wide field eyepiece listed in Table 5, we arrive
+at the following for a 40x objective with a tube lens
+magnification of 1.25:
+Viewfield Diameter = 26.5 / 40 x 1.25 = 0.53 mm  (3)
+Table 1 lists the viewfield diameters over the common
+range of objectives that would occur using this eyepiece.
+Care should be taken in choosing eyepiece/objective
+combinations to ensure the optimal magnification of
+specimen detail without adding unnecessary artifacts.  For
+instance, to achieve a magnification of 250x, the
+microscopist could choose a 25x eyepiece coupled to a
+10x objective.  An alternative choice for the same
+magnification would be a 10x eyepiece with a 25x
+objective.  Because the 25x objective has a higher
+numerical aperture (approximately 0.65) than does the 10x
+objective (approximately 0.25), and considering that
+numerical aperture values define an objective’s resolving
+power, it is clear that the latter choice would be the best.
+If photomicrographs of the same viewfield were made
+with each objective/eyepiece combination described
+above, it would be obvious that the 10x eyepiece/25x
+objective duo would produce photomicrographs that
+excelled in specimen detail and clarity when compared
+to the alternative combination.
+Numerical aperture of the objective/condenser system
+defines the range of useful magnification  for an
+objective/eyepiece combination (19, 22-24).  There is a
+minimum magnification necessary for the detail present
+in an image to be resolved, and this value is usually rather
+arbitrarily set as 500 times the numerical aperture (500 x
+NA).  At the other end of the spectrum, the maximum
+useful magnification of an image is usually set at 1000
+times the numerical aperture (1000 x NA).
+Magnifications higher than this value will yield no further
+useful information or finer resolution of image detail,
+and will usually lead to image degradation.  Exceeding
+the limit of useful magnification causes the image to suffer
+from the phenomenon of empty magnification  (19),
+where increasing magnification through the eyepiece or
+intermediate tube lens only causes the image to become
+Table 5   Properties of Commercial Eyepieces
+Eyepiece Type        Finder Eyepieces Super Wide Field                  Wide Field Eyepieces
+     Eyepieces
+Descriptive PSWH      PWH        35 SWH           SWH            CROSSWH      WH       WH
+Abbreviation 10x      10x           10x          10x H 10x H       15x      10x H
+Field Number 26.5      22           26.5           26.5    22        14         22
+Diopter
+Adjustment              -8 ~ +2     -8 ~ +2        -8 ~ +2         -8 ~ +2 -8 ~ +2    -8 ~ +2     -8 ~ +2
+        31/4 x “41/4”  31/4 x “41/4”    35mm         diopter diopter                   diopter
+Remarks photo      photo          photo       correction             correction                 correction
+mask      mask          mask              crossline
+Diameter of
+Micrometer  —       —            —            —                  —        24         24
+Graticule
+Table 6   Range of Useful Magnification
+ (500-1000 x NA of Objective)
+Objective           Eyepieces
+   (NA) 10x 12.5x 15x 20x 25x
+    2.5x — — — x x
+   (0.08)
+    4x — — x x x
+   (0.12)
+    10x — x x x x
+   (0.35)
+    2 5 x xxxx—
+   (0.55)
+    40x x x x — —
+   (0.70)
+    60x x x x — —
+   (0.95)
+    100x x x — — —
+   (1.42)
+
+===== PDF PAGE 19 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+19
+more magnified with no corresponding increase in detail
+resolution.  Table 6 lists the common objective/eyepiece
+combinations that fall into the range of useful
+magnification.
+Eyepieces can be adapted for measurement purposes
+by adding a small circular disk-shaped glass graticule at
+the plane of the fixed aperture diaphragm of the eyepiece.
+Graticules usually have markings, such as a measuring rule
+or grid, etched onto the surface.  Because the graticule
+lies in the same conjugate plane as the fixed eyepiece
+diaphragm, it appears in sharp focus superimposed on the
+image of the specimen.  Eyepieces using graticules usually
+contain a focusing mechanism (helical screw or slider)
+that allows the image of the graticule to be brought into
+focus.  A stage micrometer is needed to calibrate the
+eyepiece scale for each objective.
+Condenser Systems
+The substage condenser gathers light from the
+microscope light source and concentrates it into a cone
+of light that illuminates the specimen with parallel beams
+of uniform intensity from all azimuths over the entire
+viewfield.  It is critical that the condenser light cone be
+properly adjusted to optimize the intensity and angle of
+light entering the objective front lens.  Each time an
+objective is changed, a corresponding adjustment must
+be performed on the substage condenser aperture iris
+diaphragm to provide the proper light cone for the
+numerical aperture of the new objective.
+A simple two-lens Abbe condenser is illustrated in
+Figure 12.  In this figure, light from the microscope
+illumination source passes through the aperture or
+condenser diaphragm, located at the base of the condenser,
+and is concentrated by internal lens elements, which then
+project light through the specimen in parallel bundles
+from every azimuth.  The size and numerical aperture of
+the light cone is determined by adjustment of the aperture
+diaphragm.  After passing through the specimen (on the
+microscope slide), the light diverges to an inverted cone
+with the proper angle (2q in Figure 12) to fill the front
+lens of the objective (2, 18-24).
+Aperture adjustment and proper focusing of the
+condenser are of critical importance in realizing the full
+potential of the objective. Specifically, appropriate use
+of the adjustable aperture iris diaphragm (incorporated
+into the condenser or just below it) is most important in
+securing correct illumination, contrast, and depth of field.
+The opening and closing of this iris diaphragm controls
+the angle of illuminating rays (and thus the aperture) which
+pass through the condenser, through the specimen and then
+into the objective. Condenser height is controlled by a
+rack and pinion gear system that allows the condenser
+focus to be adjusted for proper illumination of the
+specimen.  Correct positioning of the condenser with
+relation to the cone of illumination and focus on the
+specimen is critical to quantitative microscopy and
+optimum photomicrography.  Care must be taken to
+guarantee that the condenser aperture is opened to the
+correct position with respect to objective numerical
+aperture.  When the aperture is opened too much, stray
+light generated by refraction of oblique light rays from
+the specimen can cause glare and lower the overall
+contrast.  On the other hand, when the aperture is closed
+too far, the illumination cone is insufficient to provide
+adequate resolution and the image is distorted due to
+refraction and diffraction from the specimen.
+The simplest and least corrected (also the least
+expensive) condenser is the Abbe condenser that, in its
+simplest form, has two optical lens elements which
+produce an image of the illuminated field diaphragm that
+Figure 12.  Condenser/objective configuration for optical
+microscopy.  An Abbe two-lens condenser is illustrated showing
+ray traces through the optical train of the microscope.  The aperture
+diaphragm restricts light entering the condenser before it is refracted
+by the condenser lens system into the specimen.  Immersion oil is
+used in the contact beneath the underside of the slide and the
+condenser top lens, and also between the objective and cover slip.
+The objective angular aperture ( ) controls the amount of light
+entering the objective.
+θθθθθ
+
+===== PDF PAGE 20 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+20
+is not sharp and is surrounded by blue and red color at the
+edges.  As a result of little optical correction, the Abbe
+condenser is suited mainly for routine observation with
+objectives of modest numerical aperture and
+magnification.  The primary advantages of the Abbe
+condenser are the wide cone of illumination that the
+condenser is capable of producing as well as its ability to
+work with long working distance objectives.  The
+manufacturers supply most microscopes with an Abbe
+condenser as the default and these condensers are real
+workhorses for routine laboratory use.
+The next highest level of condenser correction is split
+between the aplanatic and achromatic condensers that are
+corrected exclusively for either spherical (aplanatic) or
+chromatic (achromatic) optical aberrations.
+Achromatic condensers typically contain four lens
+elements and have a numerical aperture of 0.95, the
+highest attainable without requiring immersion oil (5).
+This condenser is useful for both routine and critical
+laboratory analysis with dry objectives and also for black
+and white or color photomicrography.
+A critical factor in choosing substage condensers is
+the numerical aperture performance, which will be
+necessary to provide an illumination cone adequate for
+the objectives.  The condenser numerical aperture
+capability should be equal to or slightly less than that of
+the highest objective numerical aperture.  Therefore, if
+the largest magnification objective is an oil-immersion
+objective with a numerical aperture of 1.40, then the
+substage condenser should also have an equivalent
+numerical aperture to maintain the highest system
+resolution.  In this case, immersion oil would have to be
+applied between the condenser top lens in contact with
+the underside of the microscope slide to achieve the
+intended numerical aperture (1.40) and resolution.  Failure
+to use oil will restrict the highest numerical aperture of
+the system to 1.0, the highest obtainable with air as the
+imaging medium (2, 5, 17-24).
+Aplanatic condensers are well corrected for spherical
+aberration (green wavelengths) but not for chromatic
+aberration.  These condensers feature five lens elements
+and are capable of focusing light in a single plane.
+Aplanatic condensers are capable of producing excellent
+black and white photomicrographs when used with green
+light generated by either a laser source or by use of an
+interference filter with tungsten-halide illumination.
+The highest level of correction for optical aberration
+is incorporated in the aplanatic-achromatic condenser (2,
+5).  This condenser is well corrected for both chromatic
+and spherical aberrations and is the condenser of choice
+for use in critical color photomicrography with white
+light.  A typical aplanatic-achromatic condenser features
+eight internal lens elements cemented into two doublets
+and four single lenses.
+Engravings found on the condenser housing include
+its type (achromatic, aplanatic, etc.), the numerical
+aperture, and a graduated scale that indicates the
+approximate adjustment (size) of the aperture diaphragm.
+As we mentioned above, condensers with numerical
+apertures above 0.95 perform best when a drop of oil is
+applied to their upper lens in contact with the undersurface
+of the specimen slide.  This ensures that oblique light rays
+emanating from the condenser are not reflected from
+underneath the slide, but are directed into the specimen
+without deviation.  In practice, this can become tedious
+and is not commonly done in routine microscopy, but is
+essential when working at high resolutions and for
+accurate photomicrography using high-power (and
+numerical aperture) objectives.
+Another important consideration is the thickness of
+the microscope slide, which is as crucial to the condenser
+as coverslip thickness is to the objective.  Most
+commercial producers offer slides that range in thickness
+between 0.95 and 1.20 mm with the most common being
+very close to 1.0 mm.  A microscope slide of thickness
+1.20 mm is too thick to be used with most high numerical
+aperture condensers that tend to have a very short working
+distance.  While this does not greatly matter for routine
+specimen observation, the results can be devastating with
+precision photomicrography.  We recommend that
+microscope slides be chosen that have a thickness of 1.0
+± 0.05 mm, and that they be thoroughly cleaned prior to
+use.
+When the objective is changed, for example from a
+10x to 20x, the aperture diaphragm of the condenser must
+also be adjusted to provide a light cone that matches the
+numerical aperture of the new objective.  There is a small
+painted arrow or index mark located on this knurled knob
+or lever that indicates the relative size of the aperture when
+compared to the linear gradation on the condenser
+housing.  Many manufacturers will synchronize this
+gradation to correspond to the approximate numerical
+Table 7   Condenser Aberration Corrections
+Condenser            Aberrations
+    Type             Corrected
+          Spherical Chromatic
+Abbe —      —
+Aplanatic x      —
+Achromatic —       x
+Aplanatic- x       x
+achromatic
+
+===== PDF PAGE 21 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+21
+aperture of the condenser.  For example, if the
+microscopist has selected a 10x objective of numerical
+aperture 0.25, then the arrow would be placed next the
+value 0.18-0.20 (about 80 percent of the objective
+numerical aperture) on the scale inscribed on the
+condenser housing.
+Often, it is not practical to use a single condenser with
+an entire range of objectives (2x to 100x) due to the broad
+range of light cones that must be produced to match
+objective numerical apertures.  With low-power
+objectives in the range 2x to 5x, the illumination cone
+will have a diameter between 6-10 mm, while the high-
+power objectives (60x to 100x) need a highly focused
+light cone only about 0.2-0.4 mm in diameter.  With a
+fixed focal length, it is difficult to achieve this wide range
+of illumination cones with a single condenser (18).
+In practice, this problem can be solved in several ways.
+For low power objectives (below 10x), it may be
+necessary to unscrew the top lens of the condenser in order
+to fill the field of view with light.  Other condensers are
+produced with a flip-top upper lens to accomplish this
+more readily.  Some manufacturers now produce a
+condenser that flips over completely when used with low
+power objectives.  Other companies incorporate auxiliary
+correction lenses in the light path for securing proper
+illumination with objectives less than 10x, or produce
+special low-power and low-numerical aperture
+condensers.  When the condenser is used without its top
+lens, the aperture iris diaphragm is opened wide and the
+field diaphragm, now visible at the back of the objective,
+Table 8   Substage Condenser Applications
+Condenser Brightfield    Darkfield           Phase               DIC Polarizing
+   Type         Contrast
+Achromat /        •
+Aplanat [10x~100x]
+N.A. 1.3
+Achromat        •
+Swing-out [4x~100x]
+N.A. 0.90
+Low-Power        •
+N.A. 0.20 [1x~10x]
+Phase        •          •               •
+Contrast Abbe             [up to N.A. 0.65]       [10x~100x]
+N.A. 1.25
+Phase        •          •               •
+Contrast             [up to N.A. 0.70]        [4x~100x]
+Achromat
+N.A. 0.85
+DIC Universal        •          •               •       •
+Achromat /             [up to N.A. 0.70]       [10x~100x]        [10x, 20x, 40x, 100x]
+Aplanat
+Darkfield, dry          •
+N.A. 0.80~0.95    [4x~40x]
+Darkfield, oil         •
+N.A. 1.20~1.43   [4x~100x]
+Strain-Free
+Achromat        •       •
+Swing-out [4x~100x]
+N.A. 0.90
+
+===== PDF PAGE 22 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+22
+serves as if it were the aperture diaphragm.  Flip-top
+condensers are manufactured in a variety of configurations
+with numerical apertures ranging from 0.65 to 1.40.
+Those condensers having a numerical aperture value of
+0.95 or less are intended for use with dry objectives.  Flip-
+top condensers that have a numerical aperture greater than
+0.95 are intended for use with oil-immersion objectives
+and they must have a drop of oil placed between the
+underside of the microscope slide and the condenser top
+lens when examining critical samples.
+In addition to the common brightfield condensers
+discussed above, there are a wide variety of specialized
+models suited to many different applications. Substage
+condensers have a great deal of interchangeability among
+different applications.  For instance, the DIC universal
+achromat/aplanat condenser is useful for brightfield,
+darkfield, and phase contrast, in addition to the primary
+DIC application.  Other condensers have similar
+interchangeability.
+Depth of Field and Depth of Focus
+When considering resolution in optical microscopy,
+a majority of the emphasis is placed on point-to-point
+resolution in the plane perpendicular to the optical axis.
+Another important aspect to resolution is the axial
+resolving power  of an objective, which is measured
+parallel to the optical axis and is most often referred to
+as depth of field (2, 4, 5, 22).  Axial resolution, like
+horizontal resolution, is determined by the numerical
+aperture of the objective only, with the eyepiece merely
+magnifying the details resolved and projected in the
+intermediate image plane.
+Just as in classical photography, depth of field is
+determined by the distance from the nearest object plane
+in focus to that of the farthest plane also simultaneously
+in focus. In microscopy depth of field is very short and
+usually measured in terms of microns.   The term depth
+of focus , which refers to image space, is often used
+interchangeably with depth of field, which refers to object
+space.  This interchange of terms can lead to confusion,
+especially when the terms are both used specifically in
+terms of depth of field.
+The geometric image plane might be expected to
+represent an infinitely thin section of the specimen, but
+even in the absence of aberrations, each image point is
+spread into a diffraction figure that extends above and
+below this plane (2, 4, 17).  The Airy disk, discussed in the
+section on Image Formation , represents a section
+through the center of the image plane.  This increases the
+effective in-focus depth of the Z-axis Airy disk intensity
+profile that passes through slightly different specimen
+planes.
+Depth of focus varies with numerical aperture and
+magnification of the objective, and under some conditions,
+high numerical aperture systems (usually with higher
+magnification power) have deeper focus depths than do
+those systems of low numerical aperture, even though the
+depth of field is less (4).  This is particularly important in
+photomicrography because the film emulsion or digital
+camera sensor must be exposed at a plane that is in focus.
+Small errors made to focus at high magnification are not
+as critical as those made with very low magnification
+objectives.  Table 9 presents calculated variations in the
+depth of field and image depth in the intermediate image
+plane in a series of objectives with increasing numerical
+aperture and magnification.
+Reflected Light Microscopy
+Reflected light microscopy is often referred to as
+incident light, epi-illumination, or metallurgical
+microscopy, and is the method of choice for fluorescence
+and for imaging specimens that remain opaque even when
+ground to a thickness of 30 microns (25).  The range of
+specimens falling into this category is enormous and
+includes most metals, ores, ceramics, many polymers,
+semiconductors (unprocessed silicon, wafers, and
+integrated circuits), slag, coal, plastics, paint, paper, wood,
+leather, glass inclusions, and a wide variety of specialized
+Table 9   Depth of Field and Image Depth a
+      Magnification    Numerical Aperture      Depth of Field (M)     Image Depth (mm)
+4x 0.10 15.5 0.13
+10x 0.25 8.5 0.80
+20x 0.40 5.8 3.8
+40x 0.65 1.0 12.8
+60x 0.85 0.40 29.8
+100x 0.95 0.19 80.0
+a Source: Nikon
+
+===== PDF PAGE 23 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+23
+materials (25-28).  Because light is unable to pass through
+these specimens, it must be directed onto the surface and
+eventually returned to the microscope objective by either
+specular or diffused reflection.  As mentioned above, such
+illumination is most often referred to as episcopic
+illumination, epi-illumination, or vertical illumination
+(essentially originating from above), in contrast to
+diascopic (transmitted) illumination that passes through
+a specimen.  Today, many microscope manufacturers offer
+models that permit the user to alternate or simultaneously
+conduct investigations using vertical and transmitted
+illumination.  Reflected light microscopy is frequently
+the domain of industrial microscopy, especially in the
+rapidly growing semiconductor arena, and thus represents
+a most important segment of microscopical studies.
+A typical upright compound
+reflected light (illustrated in
+Figure 13) microscope also
+equipped for transmitted light has
+two eyepiece viewing tubes and
+often a trinocular tube head for
+mounting a conventional or digital/
+video camera system.  Standard
+equipment eyepieces are usually
+of 10x magnification, and most
+microscopes are equipped with a
+nosepiece capable of holding four
+to six objectives.  The stage is
+mechanically controlled with a
+specimen holder that can be
+translated in the X- and Y-
+directions and the entire stage unit
+is capable of precise up and down
+movement with a coarse and fine
+focusing mechanism.  Built-in
+light sources range from 20 and
+100 watt tungsten-halide bulbs to
+higher energy mercury vapor or
+xenon lamps that are used in
+fluorescence microscopy.  Light
+passes from the lamp house
+through a vertical illuminator
+interposed above the nosepiece
+but below the underside of the
+viewing tube head.  The speci-
+men’s top surface is upright
+(usually without a cover slip) on
+the stage facing the objective,
+which has been rotated into the microscope’s optical axis.
+The vertical illuminator is horizontally oriented at a 90-
+degree angle to the optical axis of the microscope and
+parallel to the table top, with the lamp housing attached
+to the back of the illuminator.  The coarse and fine
+adjustment knobs raise or lower the stage in large or small
+increments to bring the specimen into sharp focus.
+Another variation of the upright reflected light
+microscope is the inverted microscope—of the Le
+Chatelier design (25).  On the inverted stand, the specimen
+is placed on the stage with its surface of interest facing
+downward.  The primary advantage of this design is that
+samples can be easily examined when they are far too large
+to fit into the confines of an upright microscope.  Also,
+the only the side facing the objectives need be perfectly
+flat.  The objectives are mounted on a nosepiece under
+the stage with their front lenses facing upward towards
+the specimen and focusing is accomplished either by
+moving the nosepiece or the entire stage up and down.
+Inverted microscope stands incorporate the vertical
+illuminator into the body of the microscope.  Many types
+of objectives can be used with inverted reflected light
+microscopes, and all modes of reflected light illumination
+may be possible: brightfield, darkfield, polarized light,
+differential interference contrast, and fluorescence.  Many
+Figure 13.  Components of a modern microscope configured for both transmitted and
+reflected light.  This cutaway diagram reveals the ray traces and lens components of the
+microscope’s optical trains.  Also illustrated are the basic microscope components including
+two lamp houses, the microscope built-in vertical and base illuminators, condenser, objectives,
+eyepieces, filters, sliders, collector lenses, field, and aperture diaphragms.
+
+===== PDF PAGE 24 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+24
+of the inverted microscopes have built-in 35 millimeter
+and/or large format cameras or are modular to allow such
+accessories to be attached.  Some of the instruments
+include a magnification changer for zooming in on the
+image, contrast filters, and a variety of reticules.  Because
+an inverted microscope is a favorite instrument for
+metallographers, it is often referred to as a metallograph
+(25, 27).  Manufacturers are largely migrating to using
+infinity-corrected optics in reflected light microscopes,
+but there are still thousands of fixed tube length
+microscopes in use with objectives corrected for a tube
+length between 160 and 210 millimeters.
+In the vertical illuminator, light travels from the light
+source, usually a 12 volt 50 or 100 watt tungsten halogen
+lamp, passes through collector lenses, through the variable
+aperture iris diaphragm opening and through the opening
+of a variable and centerable pre-focused field iris
+diaphragm.  The light then strikes a partially silvered plane
+glass reflector (Figure 13), or strikes a fully silvered
+periphery of a mirror with elliptical opening for darkfield
+illumination.  The plane glass reflector is partially silvered
+on the glass side facing the light source and anti-reflection
+coated on the glass side facing the observation tube in
+brightfield reflected illumination.  Light is thus deflected
+downward into the objective.  The mirrors are tilted at an
+angle of 45 degrees to the path of the light travelling along
+the vertical illuminator.
+The light reaches the specimen, which may absorb
+some of the light and reflect some of the light, either in a
+specular or diffuse manner.  Light that is returned upward
+can be captured by the objective in accordance with the
+objective’s numerical aperture and then passes through
+the partially silvered mirror.  In the case of infinity-
+corrected objectives, the light emerges from the objective
+in parallel (from every azimuth) rays projecting an image
+of the specimen to infinity (25).  The  parallel rays enter
+the body tube lens, which forms the specimen image at
+the plane of the fixed diaphragm opening in the eyepiece
+(intermediate image plane).  It is important to note, that
+in these reflected light systems, the objective serves a
+dual function: on the way down as a matching well-
+corrected condenser properly aligned; on the way up as
+an image-forming objective in the customary role of an
+objective projecting the image-carrying rays toward the
+eyepiece.
+Optimal performance is achieved in reflected light
+illumination when the instrument is adjusted to produce
+Köhler illumination.  A function of Köhler illumination
+(aside from providing evenly dispersed illumination) is
+to ensure that the objective will be able to deliver excellent
+resolution and good contrast even if the source of light is
+a coil filament lamp.
+Some modern reflected light illuminators are
+described as universal illuminators because, with several
+additional accessories and little or no dismantling, the
+microscope can easily be switched from one mode of
+reflected light microscopy to another.  Often, reflectors
+can be removed from the light path altogether in order to
+perform transmitted light observation.  Such universal
+illuminators may include a partially reflecting plane glass
+surface (the half-mirror) for brightfield, and a fully
+silvered reflecting surface with an elliptical, centrally
+located clear opening for darkfield observation.  The best-
+designed vertical illuminators include condensing lenses
+to gather and control the light, an aperture iris diaphragm
+and a pre-focused, centerable iris diaphragm to permit the
+desirable Köhler illumination (2, 25).
+The vertical illuminator should also make provision
+for the insertion of filters for contrast and
+photomicrography, polarizers, analyzers, and compensator
+plates for polarized light and differential interference
+contrast illumination.  In vertical illuminators designed
+for with infinity-corrected objectives, the illuminator may
+also include a body tube lens.  Affixed to the back end of
+the vertical illuminator is a lamphouse, which usually
+contains a tungsten-halide lamp.  For fluorescence work,
+the lamphouse can be replaced with one containing a
+mercury burner.  The lamp may be powered by the
+electronics built into the microscope stand, or in
+fluorescence, by means of an external transformer or
+power supply.
+In reflected light microscopy, absorption and
+diffraction of the incident light rays by the specimen often
+lead to readily discernible variations in the image, from
+black through various shades of gray, or color if the
+specimen is colored.  Such specimens are known as
+amplitude specimens and may not require special contrast
+methods or treatment to make their details visible.  Other
+specimens show so little difference in intensity and/or
+color that their feature details are extremely difficult to
+discern and distinguish in brightfield reflected light
+microscopy.  Such specimens behave much like the phase
+specimens so familiar in transmitted light work.  Such
+objects require special treatment or contrast methods that
+will be described in the next section.
+Contrast Enhancing Techniques
+Some specimens are considered amplitude objects
+because they absorb light partially or completely, and can
+thus be readily observed using conventional brightfield
+microscopy.  Others that are naturally colored or
+artificially stained with chemical color dyes can also be
+seen.  These stains or natural colors absorb some part of
+the white light passing through and transmit or reflect other
+colors.  Often, stains are combined to yield contrasting
+
+===== PDF PAGE 25 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+25
+colors, e.g. blue haemotoxylin stain for cell nuclei
+combined with pink eosin for cytoplasm.  It is a common
+practice to utilize stains on specimens that do not readily
+absorb light, thus rendering such objects visible to the
+eye.
+Contrast produced by the absorption of light,
+brightness, or color has been the classical means of
+imaging specimens in brightfield microscopy.  The ability
+of a detail to stand out against the background or other
+adjacent details is a measure of specimen contrast.  In
+terms of a simple formula, contrast can be described as
+(18):
+           Percent Contrast = ((B
+I – SI) x 100)/B I            (4)
+Where BI is the intensity of the background and SI is the
+specimen intensity.  From this equation, it is evident that
+specimen contrast refers to the relationship between the
+highest and lowest intensity in the image.
+For many specimens in microscopy, especially
+unstained or living material, contrast is so poor that the
+object remains essentially invisible regardless of the
+ability of the objective to resolve or clearly separate
+details.  Often, for just such specimens, it is important
+not to alter them by killing or treatment with chemical
+dyes or fixatives.  This necessity has led microscopists
+to experiment with contrast-enhancing techniques for over
+a hundred years in an attempt to improve specimen
+visibility and to bring more detail to the image.  It is a
+common practice to reduce the condenser aperture
+diaphragm below the recommended size or to lower the
+substage condenser to increase specimen contrast.
+Unfortunately, while these maneuvers will indeed increase
+contrast, they also seriously reduce resolution and
+sharpness.
+An early and currently used method of increasing
+contrast of stained specimens utilizes color contrast
+filters, gelatin squares (from Kodak), or interference
+filters in the light path (18, 19).  For example, if a
+specimen is stained with a red stain, a green filter will
+darken the red areas thus increasing contrast.  On the other
+hand, a green filter will lighten any green stained area.
+Color filters are very valuable aids to specimen contrast,
+especially when black and white photomicrography is the
+goal.  Green filters are particularly valuable for use with
+achromats, which are spherically corrected for green
+light, and phase contrast objectives, which are designed
+for manipulation of wavelength assuming the use of green
+light, because phase specimens are usually transparent and
+lack inherent color.  Another simple technique for contrast
+improvement involves the selection of a mounting
+medium with a refractive index substantially different
+from that of the specimen.  For example, diatoms can be
+mounted in a variety of contrast-enhancing mediums such
+as air or the commercial medium Styrax.  The difference
+in refractive indices improves the contrast of these
+colorless objects and renders their outlines and markings
+more visible. The following sections describe many of
+the more complex techniques used by present-day
+microscopists to improve specimen contrast.
+Darkfield Microscopy
+Darkfield illumination requires blocking out of the
+central light rays that ordinarily pass through or around
+the specimen and allowing only oblique rays to illuminate
+the specimen.  This method is a simple and popular method
+for imaging unstained specimens, which appear as brightly
+illuminated objects on a dark background.  Oblique light
+rays emanating from a darkfield condenser strike the
+specimen from every azimuth and are diffracted, reflected,
+and refracted into the microscope objective (5, 18, 19,
+28).  This technique is illustrated in Figure 14.  If no
+specimen is present and the numerical aperture of the
+condenser is greater than that of the objective, the oblique
+rays cross and all such rays will miss entering the objective
+because of the obliquity.  The field of view will appear
+dark.
+Figure 14.  Schematic configuration for darkfield microscopy.
+The central opaque light stop is positioned beneath the condenser
+to eliminate zeroth order illumination of the specimen.  The
+condenser produces a hollow cone of illumination that strikes the
+specimen at oblique angles.  Some of the reflected, refracted, and
+diffracted light from the specimen enters the objective front lens.
+
+===== PDF PAGE 26 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+26
+In terms of Fourier
+optics, darkfield illumi-
+nation removes the zeroth
+order (unscattered light)
+from the diffraction pattern
+formed at the rear focal plane
+of the objective (5).
+Oblique rays, now diffracted
+by the specimen and yielding
+1st, 2nd, and higher
+diffracted orders at the rear
+focal plane of the objective,
+proceed onto the image
+plane where they interfere
+with one another to produce
+an image of the specimen.
+This results in an image
+formed exclusively from
+higher order diffraction
+intensities scattered by the
+specimen. Specimens that
+have smooth reflective
+surfaces produce images
+due, in part, to reflection of
+light into the objective (18, 19).  In situations where the
+refractive index is different from the surrounding medium
+or where refractive index gradients occur (as in the edge
+of a membrane), light is refracted by the specimen.  Both
+instances of reflection and refraction produce relatively
+small angular changes in the direction of light allowing
+some to enter the objective.  In contrast, some light
+striking the specimen is also diffracted, producing a 180-
+degree arc of light that passes through the entire numerical
+aperture range of the objective.  The resolving power of
+the objective is the same in darkfield illumination as found
+under brightfield conditions, but the optical character is
+the image is not as faithfully reproduced.
+There are several pieces of equipment that are utilized
+to produce darkfield illumination.  The simplest is a spider
+stop (Figure 14) placed just under the bottom lens (in the
+front focal plane) of the substage condenser (5, 18, 19,
+28).  Both the aperture and field diaphragms are opened
+wide to pass oblique rays.  The central opaque stop (you
+can make one by mounting a coin on a clear glass disk)
+blocks out the central rays.  This device works fairly well,
+even with the Abbe condenser, with the 10x objective up
+to 40x or higher objectives having a numerical aperture
+no higher than 0.65.  The diameter of the opaque stop
+should be approximately 16-18 millimeters for a 10x
+objective of numerical aperture 0.25 to approximately 20-
+24 millimeters for 20x and 40x objectives of numerical
+apertures approaching 0.65.
+For more precise work and blacker backgrounds,
+use a condenser designed
+especially for darkfield,
+i.e. to transmit only
+oblique rays (28, 29).
+There are several varieties
+including dry darkfield
+condensers with air
+between the top of the
+condenser and the
+underside of the slide.
+Immersion darkfield
+condensers are also
+available.  These require
+the use of a drop of
+immersion oil (some are
+designed to use water
+instead) establishing
+contact between the top of
+the condenser and the
+underside of the specimen
+slide.  The immersion
+darkfield condenser has
+internal mirrored surfaces
+and passes rays of great
+obliquity and free of chromatic aberration, producing the
+best results and blackest background.
+Darkfield objects are quite spectacular to see and
+objects of very low contrast in brightfield shine brilliantly
+in darkfield.  Such illumination is best for revealing
+outlines, edges, and boundaries.  A high magnification
+darkfield image of a diatom is illustrated in Figure 15.
+Rheinberg Illumination
+Rheinberg illumination, a form of optical staining, was
+initially demonstrated by the British microscopist Julius
+Rheinberg to the Royal Microscopical Society and the
+Quekett Club (England) nearly a hundred years ago (18,
+28).  This technique is a striking variation of low to
+medium power darkfield illumination using colored
+gelatin or glass filters to provide rich color to both the
+specimen and background.  The central opaque darkfield
+stop is replaced with a transparent, colored, circular stop
+inserted into a transparent ring of a contrasting color
+(illustrated in Figure 16).  These stops are placed under
+the bottom lens of the condenser.  The result is a specimen
+rendered in the color of the ring with a background having
+the color of the central spot.  An example of
+photomicrography using Rheinberg illumination is
+illustrated in Figure 17 with the spiracle and trachea of a
+silkworm larva.
+Figure 15.   Darkfield photomicrograph of the diatom
+Arachnoidiscus ehrenbergi taken at high magnification using oil
+immersion optics and a 100x objective.
+
+===== PDF PAGE 27 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+27
+Phase Contrast Microscopy
+Research by Frits Zernike during the early 1930s
+uncovered phase and amplitude differences between
+zeroth order and deviated light that can be altered to
+produce favorable conditions for interference and
+contrast enhancement (30, 31).  Unstained specimens that
+do not absorb light are called phase objects because they
+slightly alter the phase of the light diffracted by the
+specimen, usually by retarding such light approximately
+1/4 wavelength as compared to the undeviated direct light
+passing through or around the specimen unaffected.
+Unfortunately, our eyes as well as camera film are unable
+to detect these phase differences.  To reiterate, the human
+eye is sensitive only to the colors of the visible spectrum
+or to differing levels of light intensity (related to wave
+amplitude).
+In phase specimens, the direct zeroth order light passes
+through or around the specimen undeviated.  However, the
+light diffracted by the specimen is not reduced in
+amplitude as it is in a light-absorbing object, but is slowed
+by the specimen because of the specimen’s refractive
+index or thickness (or both).  This diffracted light, lagging
+behind by approximately 1/4 wavelength, arrives at the
+image plane out of step  (also termed out of phase ) with
+the undeviated light but, in interference, essentially
+undiminished in intensity.  The result is that the image at
+the eyepiece level is so lacking in contrast as to make the
+details almost invisible.
+Zernike succeeded in devising a method—now known
+as Phase Contrast microscopy—for making unstained,
+phase objects yield contrast images as if they were
+amplitude objects.  Amplitude objects show excellent
+contrast when the diffracted and direct light are out of
+step (display a phase difference) by 1/2 of a wavelength
+(18).  Zernike’s method was to speed up the direct light
+by 1/4 wavelength so that the difference in wavelength
+between the direct and deviated light for a phase specimen
+would now be 1/2 wavelength.  As a result, the direct and
+diffracted light arriving at the image level of the eyepiece
+would be able to produce destructive interference (see
+the section on image formation  for absorbing objects
+previously described).  Such a procedure results in the
+details of the image appearing darker against a lighter
+background.  This is called dark or positive phase contrast.
+A schematic illustration of the basic phase contrast
+microscope configuration is illustrated in Figure 18.
+Another possible course, much less often used, is to
+arrange to slow down the direct light by 1/4 wavelength
+so that the diffracted light and the direct light arrive at the
+eyepiece in step and can interfere constructively (2, 5,
+18).  This arrangement results in a bright image of the
+details of the specimen on a darker background, and is
+called negative or bright contrast.
+Phase contrast involves the separation of the direct
+zeroth order light from the diffracted light at the rear focal
+plane of the objective.  To do this, a ring annulus is placed
+in position directly under the lower lens of the condenser
+at the front focal plane of the condenser, conjugate to the
+objective rear focal plane.  As the hollow cone of light
+from the annulus passes through the specimen undeviated,
+it arrives at the rear focal plane of the objective in the
+shape of a ring of light.  The fainter light diffracted by the
+specimen is spread over the rear focal plane of the
+objective. If this combination were allowed, as is, to
+proceed to the image plane of the eyepiece, the diffracted
+light would be approximately 1/4 wavelength behind the
+direct light.  At the image plane, the phase of the diffracted
+light would be out of phase with the direct light, but the
+amplitude of their interference would be almost the same
+as that of the direct light (5, 18).  This would result in
+very little specimen contrast.
+To speed up the direct undeviated zeroth order light, a
+phase plate is installed with a ring shaped phase shifter
+attached to it at the rear focal plane of the objective.  The
+Figure 16.  Schematic microscope configuration for Rheinberg
+illumination.  Light passes through the central/annular filter pack
+prior to entering the condenser.  Zeroth order light from the central
+filter pervades the specimen and background and illuminates it
+with higher order light from the annular filter.  The filter colors in
+this diagram are a green central and red annular.
+
+===== PDF PAGE 28 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+28
+narrow area of the phase ring is optically thinner than the
+rest of the plate.  As a result, undeviated light passing
+through the phase ring travels a shorter distance in
+traversing the glass of the objective than does the
+diffracted light.  Now, when the direct undeviated light
+and the diffracted light proceed to the image plane, they
+are 1/2 wavelength out of phase with each other.  The
+diffracted and direct light can now interfere destructively
+so that the details of the specimen appear dark against a
+lighter background (just as they do for an absorbing or
+amplitude specimen).  This is a description of what takes
+place in positive or dark phase contrast.
+If the ring phase shifter area of the phase plate is made
+optically thicker than the rest of the plate, direct light is
+slowed by 1/4 wavelength.  In this case, the zeroth order
+light arrives at the image plane in step (or in phase) with
+the diffracted light, and constructive interference takes
+place.  The image appears bright on a darker background.
+This type of phase contrast is described as negative or
+bright contrast  (2, 5, 18, 19).
+Because undeviated light of the zeroth order is much
+brighter than the faint diffracted light, a thin absorptive
+transparent metallic layer is deposited on the phase ring
+to bring the direct and diffracted light into better balance
+of intensity to increase contrast.  Also, because speeding
+up or slowing down of the direct light is calculated on a
+1/4 wavelength of green light, the phase image will appear
+best when a green filter is placed in the light path (a green
+interference filter is preferable).  Such a green filter also
+helps achromatic objectives produce their best images,
+because achromats are spherically corrected for green
+light.
+The accessories needed for phase contrast work are a
+substage phase contrast condenser equipped with annuli
+and a set of phase contrast objectives, each of which has a
+phase plate installed.  The condenser usually has a
+brightfield position with an aperture diaphragm and a
+rotating turret of annuli (each phase objective of different
+magnification requires an annulus of increasing diameter
+as the magnification of the objective increases).  Each
+phase objective has a darkened ring on its back lens.  Such
+objectives can also be used for ordinary brightfield
+transmitted light work with only a slight reduction in
+image quality.  A photomicrograph of a hair cross sections
+from a fetal mouse taken using phase contrast illumination
+is illustrated in Figure 19.
+Figure 17.  Spiracle and trachea from silkworm larva photographed
+at low magnification under Rheinberg illumination using a blue
+central and yellow annulus filters and a 2x objective.
+Figure 18.  Schematic configuration for phase contrast microscopy.
+Light passing through the phase ring is first concentrated onto the
+specimen by the condenser.  Undeviated light enters the objective
+and is advancedd by the phase plate before interference at the
+rear focal plane of the objective.
+
+===== PDF PAGE 29 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+29
+Polarized Light
+Many transparent solids are optically isotropic,
+meaning that the index of refraction is equal in all
+directions throughout the crystalline lattice. Examples of
+isotropic solids are glass, table salt (sodium chloride),
+many polymers, and a wide variety of both organic and
+inorganic compounds (32, 33).
+Crystals are classified as being either isotropic or
+anisotropic depending upon their optical behavior and
+whether or not their crystallographic axes are equivalent.
+All isotropic crystals have equivalent axes that interact
+with light in a similar manner, regardless of the crystal
+orientation with respect to incident light waves.  Light
+entering an isotropic crystal is refracted at a constant
+angle and passes through the crystal at a single velocity
+without being polarized by interaction with the electronic
+components of the crystalline lattice.
+Anisotropic crystals, on the other hand, have
+crystallographically distinct axes and interact with light
+in a manner that is dependent upon the orientation of the
+crystalline lattice with respect to the incident light.  When
+light enters the optical axis of anisotropic crystals, it acts
+in a manner similar to interaction with isotropic crystals
+and passes through at a single velocity.  However, when
+light enters a non-equivalent axis, it is refracted into two
+rays each polarized with their vibration directions oriented
+at right angles to one another, and traveling at different
+velocities.  This phenomenon is termed double or bi-
+refraction and is seen to a greater or lesser degree in all
+anisotropic crystals (32-34).
+When anisotropic crystals refract light, the resulting
+rays are polarized and travel at different velocities.  One
+of the rays travels with the same velocity in every direction
+through the crystal and is termed the ordinary ray.  The
+other ray travels with a velocity that is dependent upon
+the propagation direction within the crystal.  This light
+ray is termed the extraordinary ray.  The retardation
+between the ordinary and extraordinary ray increases with
+increasing crystal thickness.  The two independent
+refractive indices of anisotropic crystals are quantified
+in terms of their birefringence, a measure of the
+difference in refractive index.  Thus, the birefringence
+(B) of a crystal is defined as:
+B = |n
+high – nlow|                               (5)
+Where nhigh  is the largest refractive index and nlow is the
+smallest.  This expression holds true for any part or
+fragment of an anisotropic crystal with the exception of
+light waves propagated along the optical axis of the crystal.
+As mentioned above, light that is doubly refracted through
+anisotropic crystals is polarized with the vibration
+directions of the polarized ordinary and extraordinary light
+waves being oriented perpendicular to each other.  We
+can now examine how anisotropic crystals behave under
+polarized illumination in a polarizing microscope.
+A polarizer place beneath the substage condenser is
+oriented such that polarized light exiting the polarizer is
+plane polarized in a vibration direction that is east-west
+with respect to the optic axis of the microscope stand.
+Polarized light enters the anisotropic crystal where it is
+refracted and divided into two separate components
+vibrating parallel to the crystallographic axes and
+perpendicular to each other.  The polarized light waves
+then pass through the specimen and objective before
+reaching a second polarizer (usually termed the analyzer)
+that is oriented to pass a polarized vibration direction
+perpendicular to that of the substage polarizer.  Therefore,
+the analyzer passes only those components of the light
+waves that are parallel to the polarization direction of the
+analyzer.  The retardation of one ray with respect to
+another is caused the difference in speed between the
+ordinary and extraordinary rays refracted by the
+anisotropic crystal (33, 34).  A schematic illustration of
+microscope configuration for crossed polarized
+illumination is presented in Figure 20.
+Now we will consider the phase relationship and
+velocity differences between the ordinary and
+extraordinary rays after they pass through a birefringent
+crystal.  These rays are oriented so that they are vibrating
+at right angles to each other.  Each ray will encounter a
+slightly different electrical environment (refractive index)
+Figure 19.  Photomicrograph of hair cross sections from a fetal
+mouse taken using phase contrast optics and a 20x objective.
+
+===== PDF PAGE 30 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+30
+as it enters the crystal and this will affect the velocity at
+which ray passes through the crystal (32, 33).  Because
+of the difference in refractive indices, one ray will pass
+through the crystal at a slower rate than the other ray.  In
+other words, the velocity of the slower ray will be retarded
+with respect to the faster ray.  This retardation can be
+quantified using the following equation:
+       Retardation (G) = thickness (t) x Birefringence (B)      (6)
+or
+   = t x |nhigh - nlow|  (7)
+Where     is the quantitative retardation of the material, t
+is the thickness of the birefringent crystal (or material)
+and B is birefringence as defined above (33).  Factors
+contributing to the value of retardation are the magnitude
+of the difference in refractive indices for the
+environments seen by the ordinary and extraordinary rays
+and also the sample thickness.  Obviously, the greater the
+difference in either refractive indices or thickness, the
+greater the degree of retardation.  Early observations made
+on the mineral calcite indicated that thicker calcite
+crystals caused greater differences in splitting of the
+images seen through the crystals.  This agrees with the
+equation above that states retardation will increase with
+crystal (or sample) thickness.
+When the ordinary and extraordinary rays emerge from
+the birefringent crystal, they are still vibrating at right
+angles with respect to one another.  However, the
+component vectors of these waves that pass through the
+analyzer are vibrating in the same plane.  Because one
+wave is retarded with respect to the other, interference
+(either constructive or destructive) occurs between the
+waves as they pass through the analyzer.  The net result is
+that some birefringent samples (in white light) acquire a
+spectrum of color when observed through crossed
+polarizers.
+Polarized light microscopy requires strain-free
+objectives and condensers to avoid depolarization effects
+on the transmitted light (32-34).  Most polarized
+Figure 20.  Schematic microscope configuration for observing
+birefringent specimens under crossed polarized illumination.  White
+light passing through the polarizer is plane polarized and
+concentrated onto the birefringent specimen by the condenser.
+Light rays emerging from the specimen interfere when they are
+recombined in the analyzer, subtracting some of the wavelengths
+of white light, thus producing a myriad of tones and colors.
+Figure 21.  Photomicrograph of high-density columnar-hexatic
+liquid crystalline calf thymus DNA at a concentration of
+approximately 450 milligrams/milliliter.   This concentration of DNA
+is approaching that found in sperm heads, virus capsids, and
+dinoflagellate chromosomes.  The image was recorded using a
+polarized light microscope and the 10x objective.
+ΓΓΓΓΓ
+ΓΓΓΓΓ
+
+===== PDF PAGE 31 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+31
+microscopes are equipped with a centerable stage that has
+free 360-degree rotation about the optical axis of the
+microscope.  A Bertrand lens is commonly inserted into
+the light path so that conoscopic images of birefringence
+patterns can be observed at the back of the objective.
+Manufacturers also offer a wide range of compensators
+and light retarders (full-wave and quarter-wave plates) for
+quantitative birefringence measurements and for adding
+color to polarized light photomicrographs.  Birefringent
+DNA liquid crystals photographed using crossed polarized
+illumination are illustrated in Figure 21.
+Hoffman Modulation Contrast
+The Hoffman Modulation Contrast system is designed
+to increase visibility and contrast in unstained and living
+material by detecting optical gradients (or slopes) and
+converting them into variations of light intensity.  This
+ingenious technique was invented by Dr. Robert Hoffman
+in 1975, and employs several accessories that have been
+adapted to the major commercial microscopes (16, 18).
+A schematic illustration of microscope configuration for
+Hoffman modulation contrast is presented in Figure 22.
+An optical amplitude spatial filter, termed a modulator
+by Hoffman, is inserted at the rear focal plane of an
+achromat or planachromat objective (although higher
+correction can also be used).  Light intensity passing
+through this system varies above and below an average
+value, which by definition, is then said to be modulated.
+Objectives useful for modulation contrast can cover the
+entire magnification range of 10x to 100x.  The modulator
+has three zones: a small, dark zone near the periphery of
+the rear focal plane which transmits only one percent of
+light; a narrow gray zone which transmits 15 percent; and
+the remaining clear or transparent zone, covering most
+of the area at the back of the objective, which transmits
+100 percent of the light (5, 16, 18).  Unlike the phase
+plate in phase contrast microscopy, the Hoffman
+modulator is designed not to alter the phase of light
+passing through any of the zones.  When viewed under
+modulation contrast optics, transparent objects that are
+essentially invisible in ordinary brightfield microscopy
+take on an apparent three-dimensional appearance dictated
+by phase gradients.  The modulator does not introduce
+changes in the phase relationship of light passing through
+the system, but influences the principal zeroth order
+maxima.  Higher order diffraction maxima are unaffected.
+Measurements using a Michelson interferometer confirm
+that the spatial coherency of light passed through a
+Hoffman-style modulator varies (if any) by a factor of
+less than l/20 (5).
+Below the stage, a condenser with rotating turret is
+utilized to hold the remaining components of the Hoffman
+Modulation Contrast system.  The turret condenser has a
+brightfield opening with an aperture iris diaphragm for
+regular brightfield microscopy and for alignment and
+establishing proper conditions of Köhler illumination for
+the microscope.  At each of the other turret openings,
+there is an off-center slit that is partially covered with a
+small rectangular polarizer.  The size of the slit/polarizer
+combination is different for each objective of different
+magnification; hence the need for a turret arrangement.
+When light passes through the off-axis slit, it is imaged
+at the rear focal plane of the objective (also termed the
+Fourier plane) where the modulator has been installed.
+Like the central annulus and phase ring in phase contrast
+microscopy, the front focal plane of the condenser
+Figure 22.  Schematic illustration of microscope configuration
+for Hoffman modulation contrast.  Light passing through the
+polarizer and slit is concentrated onto the specimen by the
+condenser.  After passing through the specimen light enters the
+objective and is filtered by the modulator plate in the rear focal
+plane of the objective.
+
+===== PDF PAGE 32 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+32
+containing the off-axis slit plate is optically conjugate to
+the modulator in objective rear focal plane.  Image
+intensity is proportional to the first derivative of the
+optical density in the specimen, and is controlled by the
+zeroth order of the phase gradient diffraction pattern.
+Below the condenser, a circular polarizer is placed on
+the light exit port of the microscope (note that both
+polarizers are below the specimen).  The rotation of this
+polarizer can control the effective width of the slit
+opening.  For example, a crossing of both polarizers at
+90 degrees to each other results in narrowing the slit so
+that its image falls within the gray area of the modulator
+(16, 18).  The part of the slit controlled by the polarizer
+registers on the bright area of the modulator.  As the
+polarizer is rotated, contrast can be varied for best effect.
+A very narrow slit produces images that are very high in
+contrast with a high degree of coherence.  Optical section
+imaging is also optimized when the slit is adjusted to its
+narrowest position.  When the circular polarizer is
+oriented with its vibration direction parallel to that of the
+polarizer in the slit, the effective slit width is at a
+maximum.  This reduces overall image contrast and
+coherence, but yields much better images of thicker
+objects where large differences in refractive index exist.
+In modern advanced modulation contrast systems, both
+the modulator and the slit are offset from the optical axis
+of the microscope (18).  This arrangement permits fuller
+use of the numerical aperture of the objective and results
+in good resolution of specimen detail.  Shapes and details
+are rendered in shadowed, pseudo three-dimensional
+appearance.  These appear brighter on one side, gray in
+the central portion, and darker on the other side, against a
+gray background.  The modulator converts optical phase
+gradients in details (steepness, slope, rate of change in
+refractive index, or thickness) into changes in the intensity
+of various areas of the image at the plane of the eyepiece
+diaphragm.  Resulting images have an apparent three-
+dimensional appearance with directional sensitivity to
+optical gradients.  The contrast (related to variations in
+intensity) of the dark and bright areas against the gray gives
+a shadowed pseudo-relief effect.  This is typical of
+modulation contrast imaging.  Rotation of the polarizer
+alters the contrast achieved and the orientation of the
+specimen on the stage (with respect to the polarizer and
+offset slit) may dramatically improve or degrade contrast.
+There are numerous advantages as well as limitations
+to modulation contrast.  Some of the advantages include
+fuller use of the numerical aperture of the objective
+yielding excellent resolution of details along with good
+specimen contrast and visibility.  Although many standard
+modulation contrast objectives are achromats or
+planachromats, it is also possible to use objectives with a
+higher degree of correction for optical aberration.  Many
+major microscope manufacturers now offer modulation
+contrast objectives in fluorite-correction grades, and
+apochromats can be obtained by special order.  Older
+objectives can often be retrofitted with a modulator made
+by Modulation Optics, Inc., the company founded by Dr.
+Robert Hoffman specifically to build aftermarket and
+custom systems.
+In addition to the advantages of using higher numerical
+apertures with modulation contrast, it is also possible to
+do optical sectioning  with this technique (16, 18).
+Sectioning allows the microscopist to focus on a single
+thin plane of the specimen without interference from
+confusing images arising in areas above or below the plane
+that is being focused on.  The depth of a specimen is
+measured in a direction parallel to the optical axis of the
+microscope.  Focusing the image establishes the correct
+specimen-to-image distance, allowing interference of the
+diffracted waves to occur at a pre-determined plane (the
+image plane) positioned at a fixed distance from the
+eyepiece.  This enables diffracting objects that occur at
+different depth levels in the specimen to be viewed
+separately, provided there is sufficient contrast.  The entire
+depth of a specimen can be optically sectioned by
+sequentially focusing on each succeeding plane.  In this
+system, depth of field is defined as the distance from one
+level to the next where imaging of distinct detail occurs,
+Figure 23.  Duck-billed dinosaur bone thin section photographed
+using a combination of Hoffman modulation contrast and polarized
+light illumination using a 20x objective.  Note the pseudo three-
+dimensional relief evident throughout the photomicrograph as a
+result of amplitude gradients (Hoffman modulation contrast).  The
+vivid colors are due to interference of white light at the analyzer
+(polarized light).
+
+===== PDF PAGE 33 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+33
+and is controlled by the numerical aperture of the objective
+(5, 16, 18).  Higher numerical aperture objectives exhibit
+very shallow depths of field and the opposite holds for
+objectives of lower numerical aperture.  The overall
+capability of an objective to isolate and focus on a specific
+optical section diminishes as the optical homogeneity of
+the specimen decreases.
+Birefringent objects (rock thin sections, crystals,
+bone, etc.), that can confuse images in DIC, can be
+examined because the specimen is not situated between
+the two polarizers (18).  Further, specimens can be
+contained in plastic or glass vessels without deterioration
+of the image due to polarization effects, because such
+vessels are also above both polarizers, not between them.
+This allows the Hoffman system to be far more useful
+than DIC in the examination and photomicrography of cell,
+tissue, and organ culture performed in plastic containers.
+Hoffman modulation contrast can be simultaneously
+combined with polarized light microscopy to achieve
+spectacular effects in photomicrography.  Figure 23
+illustrates a dinosaur bone thin section photographed with
+a combination of Hoffman modulation contrast and plane
+polarized illumination.  Note the pseudo three-dimensional
+relief apparent throughout the micrograph and the beautiful
+coloration provided by polarized light.
+Differential Interference Contrast
+In the mid 1950s a French optics theoretician named
+Georges Nomarski improved the method for detecting
+optical gradients in specimens and converting them into
+intensity differences (15).  Today there are several
+implementations of this design, which are collectively
+called differential interference contrast (DIC).  Living or
+stained specimens, which often yield poor images when
+viewed in brightfield illumination, are made clearly visible
+by optical rather than chemical means (2, 4, 5, 15, 18-
+22).
+In transmitted light DIC, light from the lamp is passed
+through a polarizer located beneath the substage
+condenser, in a manner similar to polarized light
+microscopy.  Next in the light path (but still beneath the
+condenser) is a modified Wollaston prism that splits the
+entering beam of polarized light into two beams traveling
+in slightly different direction (illustrated in Figure 24).
+The prism is composed of two halves cemented together
+(36).  Emerging light rays vibrate at 90 degrees relative
+to each other with a slight path difference.  A different
+prism is needed for each objective of different
+magnification.  A revolving turret on the condenser allows
+the microscopist to rotate the appropriate prism into the
+light path when changing magnifications.
+The plane polarized light, vibrating only in one
+direction perpendicular to the propagation direction of
+the light beam, enters the beam-splitting modified
+Wollaston prism and is split into two rays, vibrating
+perpendicular to each other (Figure 24).  These two rays
+travel close together but in slightly different directions.
+The rays intersect at the front focal plane of the condenser,
+where they pass traveling parallel and extremely close
+together with a slight path difference, but they are vibrating
+perpendicular to each other and are therefore unable to
+cause interference.  The distance between the rays, called
+the shear, is so minute that it is less than the resolving
+ability of the objective (5, 18, 36).
+The split beams enter and pass through the specimen
+where their wave paths are altered in accordance with the
+specimen’s varying thickness, slopes, and refractive
+Figure 24.  Schematic illustration of microscope configuration for
+differential interference contrast.  Light is polarized in a single
+vibration plane by the polarizer before entering the lower modified
+Wollaston prism that acts as a beam splitter.  Next, the light passes
+through the condenser and sample before the image is reconstructed
+by the objective.  Above the objective, a second Wollaston
+(Nomarski) prism acts as a beam-combiner and passes the light to
+the analyzer, where it interferes both constructively and destructively.
+
+===== PDF PAGE 34 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+34
+indices.  These variations cause alterations in the wave
+path of both beams passing through areas of the specimen
+details lying close together.   When the parallel beams
+enter the objective, they are focused above the rear focal
+plane where they enter a second modified Wollaston
+prism that combines the two beams.  This removes the
+shear and the original path difference between the beam
+pairs.  As a result of having traversed the specimen, the
+paths of the parallel beams are not of the same length
+(optical path difference) for differing areas of the
+specimen.
+In order for the beams to interfere, the vibrations of
+the beams of different path length must be brought into
+the same plane and axis.  This is accomplished by placing
+a second polarizer (analyzer) above the upper Wollaston
+beam-combining prism.  The light then proceeds toward
+the eyepiece where it can be observed as differences in
+intensity and color.  The design results in one side of a
+detail appearing bright (or possibly in color) while the
+other side appears darker (or another color).  This shadow
+effect bestows a pseudo three-dimensional appearance to
+the specimen (18).
+In some microscopes, the upper modified Wollaston
+prism is combined in a single fitting with the analyzer
+incorporated above it.  The upper prism may also be
+arranged so it can be moved horizontally.  This allows for
+varying optical path differences by moving the prism,
+providing the user a mechanism to alter the brightness
+and color of the background and specimen.  Because of
+the prism design and placements, the background will be
+homogeneous for whatever color has been selected.
+The color and/or light intensity effects shown in the
+image are related especially to the rate of change in
+refractive index, specimen thickness, or both.  Orientation
+of the specimen can have pronounced effect on the relief-
+like appearance and often, rotation of the specimen by
+180 degrees changes a hill into a valley or visa versa.  The
+three-dimensional appearance is not representing the true
+geometric nature of the specimen, but is an exaggeration
+based on optical thickness.  It is not suitable for accurate
+measurement of actual heights and depths.
+There are numerous advantages in DIC microscopy as
+compared particular to phase and Hoffman modulation
+contrast microscopy.  With DIC, it is also possible to make
+fuller use of the numerical aperture of the system and to
+provide optical staining (color).  DIC also allows the
+microscope to achieve excellent resolution.  Use of full
+objective aperture enables the microscopist to focus on
+a thin plane section of a thick specimen without confusing
+images from above or below the plane.  Annoying halos,
+often encountered in phase contrast, are absent in DIC
+images, and common achromat and fluorite objectives can
+be used for this work.  A downside is that plastic tissue
+culture vessels and other birefringent specimens yield
+confusing images in DIC.  Also, high-quality apochromatic
+objectives are now designed to be suitable for DIC.  Figure
+24 presents transmitted and reflected light DIC
+photomicrographs of the mouthparts of a blowfly
+Figure 25 (a)  Nomarski transmitted light differential interference contrast (DIC) photomicrograph of mouthparts from a blowfly.
+(b)  Reflected light differential interference contrast photomicrograph illustration defects on the surface of a ferro-silicon alloy.  Both
+images were captured using the 10x objective and a first-order retardation plate.
+(b)(a)
+
+===== PDF PAGE 35 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+35
+(transmitted DIC) and surface defects in a ferro-silicate
+alloy (reflected DIC).  Both photomicrographs were made
+using a retardation plate with a 10x objective.
+Fluorescence Microscopy
+Fluorescence microscopy is an excellent tool for
+studying material which can be made to fluoresce, either
+in its natural form (primary or autofluorescence) or when
+treated with chemicals capable of fluorescing (secondary
+fluorescence).  This form of optical microscopy is rapidly
+reaching maturity and is now one of the fastest growing
+areas of investigation using the microscope (6-8).
+The basic task of the fluorescence microscope is to
+permit excitation light to irradiate the specimen and then
+to separate the much weaker re-radiating fluorescent light
+from the brighter excitation light.  Thus, only the emission
+light reaches the eye or other detector.  The resulting
+fluorescing areas shine against a dark background with
+sufficient contrast to permit detection.  The darker the
+background of the non-fluorescing material, the more
+efficient the instrument.  For example, ultraviolet (UV)
+light of a specific wavelength or set of wavelengths is
+produced by passing light from a UV-emitting source
+through the exciter filter.  The filtered UV light
+illuminates the specimen, which emits fluorescent light
+of longer wavelengths while illuminated with ultraviolet
+light.  Visible light emitted from the specimen is then
+filtered through a barrier filter that does not allow reflected
+UV light to pass.  It should be noted that this is the only
+mode of microscopy in which the specimen, subsequent
+to excitation, gives off its own light (6).  The emitted light
+re-radiates spherically in all directions, regardless of the
+direction of the exciting light.  A schematic diagram of
+the configuration for fluorescence microscopy is
+presented in Figure 26.
+Fluorescence microscopy has advantages based upon
+attributes not as readily available in other optical
+microscopy techniques.  The use of fluorochromes has
+made it possible to identify cells and sub-microscopic
+cellular components and entities with a high degree of
+specificity amidst non-fluorescing material.  What is
+more, the fluorescence microscope can reveal the
+presence of fluorescing material with exquisite
+sensitivity.  An extremely small number of fluorescing
+molecules (as few as 50 molecules per cubic micron) can
+be detected (6-8).  In a given sample, through the use of
+multiple staining, different probes will reveal the presence
+of different target molecules.  Although the fluorescence
+microscope cannot provide spatial resolution below the
+diffraction limit of the respective objectives, the presence
+of fluorescing molecules below such limits is made
+visible.
+Techniques of fluorescence microscopy can be applied
+to organic material, formerly living material, or to living
+material (with the use of in vitro or in vivo fluorochromes).
+These techniques can also be applied to inorganic material
+(especially in the investigation of contaminants on
+semiconductor wafers).  There are also a burgeoning
+number of studies using fluorescent probes to monitor
+rapidly changing physiological ion concentrations
+(calcium, magnesium, etc.) and pH values in living cells
+(1, 7, 8).
+There are specimens that fluoresce when irradiated
+with shorter wavelength light (primary or
+autofluorescence).  Autofluorescence has been found
+useful in plant studies, coal petrography, sedimentary rock
+petrology, and in the semiconductor industry.  In the study
+of animal tissues or pathogens, autofluorescence is often
+either extremely faint or of such non-specificity as to
+make autofluorescence of minimal use.  Of far greater
+value for such specimens are the fluorochromes (also
+called fluorophores) which are excited by irradiating light
+and whose eventual yield of emitted light is of greater
+intensity.  Such fluorescence is called secondary
+fluorescence.
+Fluorochromes are stains, somewhat similar to the
+better-known tissue stains, which attach themselves to
+visible or sub-visible organic matter.  These
+fluorochromes, capable of absorbing and then re-radiating
+light, are often highly specific in their attachment
+targeting and have significant yield in absorption-emission
+ratios.  This makes them extremely valuable in biological
+Figure 26.  Schematic diagram of the configuration of reflected
+light fluorescence microscopy.  Light emitted from a mercury
+burner is concentrated by the collector lens before passing through
+the aperture and field diaphragms.  The exciter filter passes only
+the desired excitation wavelengths, which are reflected down
+through the objective to illuminate the specimen.  Longer
+wavelength fluorescence emitted by the specimen passes back
+through the objective and dichroic mirror before finally being filtered
+by the emission filter.
+
+===== PDF PAGE 36 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+36
+application.  The growth in the use of fluorescence
+microscopes is closely linked to the development of
+hundreds of fluorochromes with known intensity curves
+of excitation and emission and well-understood biological
+structure targets (6). When deciding which label to use
+for fluorescence microscopy, it should be kept in mind
+that the chosen fluorochrome should have a high
+likelihood of absorbing the exciting light and should
+remain attached to the target molecules.  The
+fluorochrome should also be capable of providing a
+satisfactory yield of emitted fluorescence light.
+Illustrated in Figure 27 is a photomicrograph of cat brain
+cells infected with Cryptococcus.  The image was made
+using a combination of fluorescence and DIC microscopy,
+taking advantage of the features from both contrast
+enhancing techniques.  Infected neurons are heavily
+stained with the DNA-specific fluorescent dye acridine
+orange, and the entire image is rendered in a pseudo three-
+dimensional effect by DIC.
+burdened with long exposures and a difficult process for
+developing emulsion plates.  The primary medium for
+photomicrography was film until the past decade when
+improvements in electronic camera and computer
+technology made digital imaging cheaper and easier to
+use than conventional photography.  This section will
+address photomicrography both on film and with
+electronic analog and digital imaging systems.
+The quality of a photomicrograph, either digital or
+recorded on film, is dependent upon the quality of the
+microscopy.  Film is a stern judge of how good the
+microscopy has been prior to capturing the image.  It is
+essential that the microscope be configured using Köhler
+illumination, and that the field and condenser diaphragms
+are adjusted correctly and the condenser height is
+optimized.  When properly adjusted, the microscope will
+yield images that have even illumination over the entire
+field of view and display the best compromise of contrast
+and resolution.
+Photographic Films
+Films for photography are coated with a light-sensitive
+emulsion of silver salts and/or dyes.  When light is allowed
+to expose the emulsion, active centers combine to form
+a latent image that must be developed by use of
+photographic chemicals (19, 37-39).  This requires
+exposure of the film in a darkened container to a series
+of solutions that must be controlled with respect to
+temperature, development time, and with the appropriate
+agitation or mixing of the solutions.  The developing
+process must then be halted by means of a stop solution.
+Next, the unexposed emulsion material, which consists
+of silver salts and dyes, is cleared and the film fixed, then
+washed and dried for use.  The development, stop, fixing,
+and clearing must be done under darkroom conditions or
+in light-tight developing tanks, and film must be handled
+in complete darkness.  The rigors of temperature, duration,
+and agitation are usually dependent upon the film being
+used.  For example, the Kodachrome K14 process is far
+more demanding than the E6 process used for Ektachrome
+and Fujichrome (19, 37).  The emulsion speed determines
+how much light must be used to expose the film in a given
+time period.  Films are rated according to their ASA or
+ISO number, which gives an indication of the relative film
+speed.  Larger ISO numbers indicate faster films with an
+ISO of 25 being one of the slowest films available and
+ISO 1600 one of the fastest.  Because the microscope is
+a relatively stable platform with good illumination
+properties, films in the 50-200 ISO range are commonly
+used for photomicrography.
+Film is divided into a number of categories depending
+upon whether it is intended for black/white or color
+Figure 27.  Fluorescence/DIC combination photomicrograph of
+cat brain tissue infected with Cryptococcus.  Infected neurons
+are heavily stained with the DNA-specific fluorescent dye acridine
+orange.  Note the pseudo three-dimensional effect that occurs
+when these two techniques are combined.  The micrograph was
+recorded using a 40x objective.
+Photomicrography and Digital
+Imaging
+The use of photography to capture images in a
+microscope dates back to the invention of the photographic
+process (37).  Early photomicrographs were remarkable
+for their quality, but the techniques were laborious and
+
+===== PDF PAGE 37 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+37
+photography.  Color films are subdivided into two types:
+color films that yield positive transparencies (colors like
+those of the image being observed) and color negatives
+(colors complementary to those in the microscope image,
+e.g., green for magenta).  The color films can be further
+subdivided into two groups: films designed to receive light
+of daylight quality and those designed to receive indoor
+or tungsten light.  As a rule, but with some exceptions,
+transparency or positive films (slides) have the suffix
+chrome, such as Kodachrome, Ektachrome, Fujichrome,
+Agfachrome, etc.  Color negative films usually end with
+the suffix color, such as Kodacolor, Ektacolor, Fujicolor,
+Agfacolor, etc. (37).  Each of these film types is offered
+in a variety of film speeds or ISO ratings.  Film packages
+usually display the ISO of the film and whether the film is
+intended for daylight or an indoor/tungsten balanced
+illumination.  Modern film magazines have a code (termed
+the DX number) that allows camera backs to automatically
+recognize the film speed.
+The color temperature of tungsten-halide lamps found
+in modern microscopes varies between 2900K and
+3200K, depending upon the voltage applied to the lamp
+filament.  Film manufacturers offer film balanced for this
+illumination, and usually indicate on the magazine that the
+film is intended for indoor or scientific use.  Fuji offers
+a very nice transparency film, Fujichrome 64T, that has a
+rather slow emulsion speed intended for tungsten
+illumination, but is designed to perform well with push
+film processing.  To push a film, it is first underexposed
+by one or several f-stops, then the development time in
+the first developer is increased to decrease film density.
+This technique often will increase the color saturation of
+the image (19, 37).
+Daylight-balanced film, by far the most common film
+available at retailers at a wide variety of ISOs, can also be
+used with the microscope, provided an appropriate filter
+is added to the light path.  Manufacturers usually add a
+daylight conversion light filter to their microscope
+packages as standard equipment and high-end research
+microscopes usually have this filter (called a daylight
+color temperature conversion filter) in a cassette housed
+in the base of the microscope.  Almost any color print or
+transparency film can be used for microscopy, provided
+the daylight-balanced filter is in place for those films
+designed for a 5500K color temperature or removed if
+the film is balanced for tungsten illumination (3200K).
+For many applications, securing the photomicrograph
+almost immediately is a necessity or a great advantage.
+Here the Polaroid films are unrivaled.  These films for
+photomicrography are available in three sizes: 35
+millimeter Polachrome (color transparency), and Polapan
+(black/white) in 3¼” x 4¼” film packs and 4” x 5”
+individual film packets (37, 39).  Larger formats are
+available in color (ID numbers 668/669 or 58/59) or
+black/white (ID numbers 667, 52, 665, 55, etc.).
+The Polaroid large format films produce a paper
+negative and a paper positive print.  After the positive print
+has been made, the paper negative is peeled away and
+discarded.  This can be accomplished within a matter of a
+few minutes.  The color films, with the exception of the
+film pack 64T and the large format 64T, are balanced for
+daylight (5500 Kelvin) color temperature.  All
+microscope manufacturers supply adapters for their
+photomicrographic cameras that accept large format
+Polaroid film sizes.
+Polaroid black/white films 665 P/N and 55 P/N require
+special mention.  These films produce a paper positive
+print and a polymer-based negative.  If the negative is
+bathed in an 18% sodium sulfite solution for a few
+minutes, washed, and hung up to dry, it will produce a
+permanent negative of high quality and high resolution
+suitable for use in printing (37, 39).
+The Polaroid 35mm films deserve more popular use.
+They are loaded into the usual 35mm camera back and
+exposed in the typical manner according to their rated
+ISO and color temperature requirements.  When the film
+is purchased, the container includes the film cassette and
+a small box of developer.  The film is processed in a
+tabletop processor that measures approximately 4" x 5" x
+9" in size.  All processing is carried out in daylight after
+the processor has been loaded and closed.  The finished
+strip of positive color or positive black/white
+transparencies is removed and ready for examination and
+for cutting apart for mounting in frame holders for
+projection.  The actual processing takes only five minutes
+and produces micrographs of quite accurate color and
+good resolution.
+Recently, Polaroid has marketed a relatively
+inexpensive photomicrographic camera call the
+MicroCam.  This camera is lightweight and can be inserted
+into one of the eyetubes or phototube of the microscope.
+It contains an exposure meter, an eyepiece and an
+automatically controlled shutter.  The camera accepts 339
+color film packs or 331 black/white film packs.  These
+films, approximately 3" x 3" in size, are self-developing
+and do not require peeling apart.  Although the films have
+only about half the resolution of the more common large
+format Polaroid films, the resulting print is easily
+obtained and may be quite adequate for many applications.
+Digital Photomicrography
+Over the past decade, the quality of digital cameras
+has greatly improved and today, the market has exploded
+with at least 40 manufacturers offering a wide variety of
+models to suit every application.  The cameras operate by
+
+===== PDF PAGE 38 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+38
+capturing the image projected directly onto a computer
+chip without the use of film.  In recent years, the number
+of pixels of information capable of being captured and
+stored by the best digital cameras is approaching, but still
+short of, the resolution available with traditional film (37).
+Digital images offer many opportunities for computer-
+controlled image manipulation and enhancement as well
+as the advantage of permanence of digital storage.  The
+highest quality digital cameras can cost many thousands
+of dollars.
+Selection of an electronic camera must be preceded
+by careful consideration of its proposed use.  This
+includes examination of fixed specimens or live
+specimens, need for grayscale or true color images,
+sensitivity to low light levels as in fluorescence,
+resolution, speed of image acquisition, use in qualitative
+or quantitative investigations, and the video feed rate into
+a computer or VCR (1, 2, 9, 37).
+The two general types of electronic cameras available
+for microscopy are the tube cameras (Vidicon family) or
+CCD (charge coupled device) cameras.  Either type can
+be intensified for increased sensitivity to low light.  The
+SIT (silicon intensified tube) or ISIT is useful for further
+intensification of tube cameras, while the ICCD is an
+intensified CCD camera.  CCD cameras can also be cooled
+to increase sensitivity by giving a better signal to noise
+ratio.  These kinds of cameras can be designed to respond
+to light levels undetectable by the human eye (2, 37).
+The criteria for selection of an electronic camera for
+microscopy include sensitivity of the camera, quantum
+efficiency, signal to noise ratio, spectral response,
+dynamic range capability, speed of image acquisition and
+readout, linearity or response, speed of response in
+relation to changes in light intensity, geometric accuracy,
+and ready adaptability to the microscope.  A very important
+criterion for the newer digital CCD cameras is resolution.
+Current chips range from as few as 64 x 64 pixels up to
+2048 x 2048 and above for very specialized applications,
+but larger arrays are continuously being introduced and,
+at some not-to-distant time, digital image resolution will
+rival that of film.
+The purchaser must also decide whether or not the
+camera will operate at video rate (therefore being easily
+compatible with such accessories as video recorders or
+video printers).  Tube cameras and CCD cameras are
+available for video rate operation.  CCD cameras can also
+deliver slow acquisition or high-speed acquisition of
+images.  Scientific, rather than commercial grade, CCD
+cameras are the variety most suitable for research.
+CCD cameras are usually of small size.  They have
+low distortion, no lag, and good linearity of response.
+These cameras are also more rugged and less susceptible
+to mishandling than tube cameras.  Each pixel of the CCD
+camera serves as a well for charge storage of the incoming
+photons for subsequent readout.  The depth of these wells
+relates to the quality of the response.  Binning of adjacent
+pixels by joining them together into super pixels can be
+employed to speed readout in a slow-scan CCD camera
+(2, 37).
+An emerging technology that shows promise as the
+possible future of digital imaging is the active pixel sensor
+(APS) complementary metal oxide semiconductor
+(CMOS) camera on a chip .  Mass production of CMOS
+devices is very economical and many facilities that are
+currently engaged in fabrication of microprocessors,
+memory, and support chips can be easily converted to
+produce CMOS optical sensors.  Although CCD chips
+were responsible for the rapid development of video
+camcorders, the technology has remained trapped as a
+specialized process that requires custom tooling outside
+the mainstream of integrated circuit fabrication.  Also,
+the CCD devices require a substantial amount of support
+circuitry and it is not unusual to find five to six circuit
+boards in a typical video camcorder.
+In the center of the APS CMOS integrated circuit is a
+large array of optical sensors that are individual
+photodiode elements covered with dyed filters and
+arranged in a periodic matrix.   A photomicrograph of the
+entire die of a CMOS chip is illustrated in Figure 28.  High
+magnification views of a single “pixel” element (Figure
+28) reveal a group of four photodiodes containing filters
+based on the primary colors red, green, and blue.  Each
+photodiode is masked by either a red, green, or blue filter
+in low-end chips, but higher resolution APS CMOS
+devices often use a teal (blue-green) filter in place of one
+of the green filters.  Together, the four elements
+illustrated in Figure 28 comprise the light-sensitive
+portion of the pixel.  Two green filter masks are used
+because visible light has an average wavelength of 550
+nanometers, which lies in the green color region.  Each
+pixel element is controlled by a set of three transistors
+and an amplifier that work together to collect and organize
+distribution of optical information.  The array is
+interconnected much like memory addresses and data
+busses on a DRAM chip so that the charge generated by
+photons striking each individual pixel can be accessed
+randomly to provide selective sampling of the CMOS
+sensor.
+The individual amplifiers associated with each pixel
+help reduce noise and distortion levels, but they also
+induce an artifact known as fixed pattern noise that arises
+from small differences in the behavior of individual pixel
+amplifiers.  This is manifested by reproducible patterns
+of speckle behavior in the image generated by CMOS
+active pixel sensor devices.  A great deal of research effort
+has been invested in solving this problem, and the residual
+
+===== PDF PAGE 39 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+39
+level of noise has been dramatically reduced in CMOS
+sensors.  Another feature of CMOS active pixel sensors
+is the lack of column streaking due to pixel bloom when
+shift registers overflow.  This problem is serious with the
+CCDs found in most video camcorders.  Another
+phenomenon, known as smear, which is caused by charge
+transfer in CCD chips under illumination, is also absent
+in CMOS active pixel sensor devices.
+Assisting the CMOS device is a coprocessor that is
+matched to the APS CMOS to optimize the handling of
+image data.  Incorporated into the co-processor is a
+proprietary digital video processor engine that is capable
+of performing automatic exposure and gain control, white
+balance, color matrixing, gamma correction, and aperture
+control.  The CMOS sensor and co-processor perform
+the key functions of image capture, digital video image
+processing, video compression, and interfacing to the
+main computer microprocessor.
+The primary concerns with CMOS technology are the
+rather low quality, noisy images that are obtained with
+respect to similar CCD devices.  These are due primarily
+to process variations that produce a slightly different
+response in each pixel, which appears in the image as snow.
+Another problem is that the total amount of chip area that
+is sensitive to light is less in CMOS devices, thus making
+them less sensitive to light.  These problems will be
+overcome as process technology advances and it is very
+possible that CMOS devices will eclipse the CCD as the
+technology of choice in the very near future.
+Figure 28.  CMOS active pixel sensor used in new camera on a
+chip technology that is rapidly emerging.  The photomicrograph
+captures the entire integrated circuit surface showing the photodiode
+array and support circuitry.  The insets illustrate progressively higher
+magnification of a set of pixel elements and a single pixel element
+composed of four dyed photodiodes.
+If you have prized transparencies and negatives
+collected over a long period of time, many of the better
+camera stores can take these and put them onto a Kodak
+Photo CD, which is the same size as an audio CD.  The
+Photo CD can hold up to 100 images that are stored at
+several levels of resolution.  Digital images recorded onto
+the Photo CD can be displayed on a good monitor by
+means of a Photo CD player.  If you have a computer and
+a program such as Adobe Photoshop, Corel Photo Paint,
+or Picture Publisher and a CD drive, you can open the
+images on your computer screen, manipulate and/or
+enhance the images and then print the images using a
+digital printer—all without a darkroom!  Kodak, Fuji,
+Olympus, Tektronix, and Sony market dye sublimation
+printers that can produce prints virtually indistinguishable
+from those printed with the usual color enlarger in a
+darkroom.
+35mm negative and positive transparency scanners and
+flatbed scanners, available from such manufacturers as
+Nikon, Olympus, Polaroid, Kodak, Agfa, Microtek,
+Hewlett-Packard, etc., can directly scan transparencies
+or negatives or prints into your computer for storage or
+manipulation.  Images can be stored on the hard drive of
+the computer or stored on floppy disks in JPEG or TIFF
+files.  Because floppy disks have storage limited to 1.44
+megabytes, many micrographers are now storing images
+on Zip disks or magneto-optical drive disks; these can
+hold many images to sizes of 10 megabytes or more.
+Another popular storage medium, quickly gaining
+widespread popularity, is the recordable CD-ROM.
+Magneto-optical disks or CD-ROMs can be given to
+commercial printers and then printed with stunning color
+accuracy and resolution.
+A photomicrograph is also a photograph.  As such, it
+should not only reveal information about the specimen, it
+should also do so with attention to the aesthetics of the
+overall image.  Always try to compose photomicrographs
+with a sense of the balance of the color elements across
+the image frame.  Use diagonals for greater visual impact,
+and scan the frame for unwanted debris or other artifacts.
+Select a magnification that will readily reveal the details
+sought.  Remember to keep detailed records to avoid
+repeating mistakes and to help with review of images that
+are several years old.  Excellent photomicrographs are
+within the capability of most microscopists, so pay
+attention to the details and the overall picture will
+assemble itself.
+
+===== PDF PAGE 40 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+40
+Acknowledgements
+The authors would like to thank the Molecular
+Expressions (http://microscopy.fsu.edu) web design and
+graphics team for the illustrations in the paper.  We would
+also like to thank George Steares, of Olympus America,
+Inc., for providing advice and microscopy equipment used
+in illustration of this manuscript.  Assistance from Chris
+Brandmaier, of Nikon USA, Inc., in providing equipment
+for reflected light differential interference contrast
+microscopy is also appreciated.  Funding for this research
+was provided, in part, by the National High Magnetic Field
+Laboratory (NHMFL), the State of Florida, and the
+National Science Foundation through cooperative grant
+No. DMR9016241.  We would also like to thank James
+Ferner, Samuel Spiegel, and Jack Crow for support of the
+Optical Microscopy program at the NHMFL.
+Bibliography
+1. B. Herman and J. J. Lemasters (eds.), Optical Microscopy:
+Emerging Methods and Applications .  Academic Press, New York,
+1993, 441 pp.
+2. S. Inoué and K. R. Spring, Video Microscopy: The Fundamentals .
+2e, Plenum Press, New York, 1997, 737 pp.
+3. S. Bradbury and B. Bracegirdle, Introduction to Light Microscopy .
+BIOS Scientific Publishers Ltd., Oxford, UK, 1998, 123 pp.
+4. E. M. Slayter and H. S. Slayter, Light and Electron Microscopy.
+Cambridge University Press, Cambridge, UK, 1992, 312 pp.
+5. M. Pluta, Advanced Light Microscopy (3 vols.).  Elsevier, New
+York, 1989; vol. 1, 464 pp.; vol. 2, 494 pp.; vol. 3, 702 pp.
+6. M. Abramowitz, Fluorescence Microscopy: The Essentials .
+Olympus America, Inc., New York, 1993, 43 pp.
+7. B. Herman, Fluorescence Microscopy.  2e, BIOS Scientific
+Publishers Ltd., Oxford, UK, 1998, 170 pp.
+8. F. W. D. Rost, Fluorescence Microscopy (2 volumes).  Cambridge
+University Press, New York, 1992; vol. 1, 256 pp.; vol.2, 456 pp.
+9. G. Sluder and D. E. Wolf (eds.), Methods in Cell Biology, V ol. 56:
+Video Microscopy.  Academic Press, New York, 1998, 327 pp.
+10.  C. J. R. Sheppard and D. M. Shotton, Confocal Laser Scanning
+Microscopy.  BIOS Scientific Publishers Ltd., Oxford, UK, 1997, 106
+pp.
+11.  S. W. Paddock (ed.), Methods in Molecular Biology, Vol. 122:
+Confocal Microscopy, Methods and Protocols .  Humana Press,
+Totowa, N. J., 1999, 446 pp.
+12.  J. B. Pawley (ed.), Handbook of Biological Confocal
+Microscopy.  2e, Plenum Press, New York, 1995, 632 pp.
+13.  S. Bradbury, The Evolution of the Microscope .  Pergamon Press,
+New York, 1967, 357 pp.
+14.  Anticipating the Future .  Zeiss Group Microscopes Business
+Unit, Jena, Germany, 1996, 34 pp.
+15.  G. Nomarski, J. Phys. Radium 16: 9S-11S (1955).
+16.  R. Hoffman, J. Microscopy 110: 205-222 (1977).
+17.   S. Inoué and R. Oldenbourg, in Handbook of Optics, Vol. II.  2e,
+M. Bass, ed., McGraw-Hill, New York, 1995, pp. 17.1-17.52.
+18.   M. Abramowitz, Contrast Methods in Microscopy: Transmitted
+Light.  Olympus America, Inc., Melville, New York, 1987, 31 pp.
+19.   J. G. Delly, Photography Through The Microscope.  9e, Eastman
+Kodak Co., Rochester, New York, 1988, 104 pp.
+20.   H. G. Kapitza, Microscopy From The V ery Beginning.  Carl Zeiss,
+Oberkochen, Germany, 1994, 40 pp.
+21.   H. W. Zieler, The Optical Performance of the Light Microscope
+(2 vols.).  Microscope Publications, Ltd., Chicago, 1972; vol. 1, 102
+pp.; vol. 2, 110 pp.
+22.   J. James and H. J. Tanke, Biomedical Light Microscopy .  Kluwer
+Academic Publishers, Boston, 1991, 192 pp.
+23.   M. Abramowitz, Optics: A Primer.  Olympus America, Inc.,
+Melville, New York, 1984, 22 pp.
+24.   M. Abramowitz, Microscope: Basics and Beyond . Olympus
+America, Inc., Melville, New York, 1987, 26 pp.
+25.   M. Abramowitz, Reflected Light Microscopy: An Overview .
+Olympus America, Inc., Melville, New York, 1990, 23 pp.
+26.   R. McLaughlin, Special Methods in Light Microscopy .
+Microscope Publications, Ltd., Chicago, 1977, 337 pp.
+27.   A. Tomer, Structure of Metals Through Optical Microscopy .
+ASM International, Boulder, CO, 1990, 265 pp.
+28.   G . H. Needham, The Practical Use of the Microscope.  Charles C.
+Thomas, Springfield, IL, 1958, 493 pp.
+29.   C. P . Shillaber, Photomicrography in Theory and Practice .  John
+Wiley & Sons, Inc., New York, 1944, 773 pp.
+30.   F. Zernike, Physica 9: 686-693 (1942).
+31.   F. Zernike, Physica 9: 974-986 (1942).
+32.   E. A. Wood, Crystals and Light: An Introduction to Optical
+Crystallography.  2e, Dover Publications, Inc., New York, 1977, 156
+pp.
+33.   R. E. Stoiber and S. A. Morse, Crystal Identification with the
+Polarizing Microscope.  Chapman & Hall, New York, 1994, 336 pp.
+34.   P. C. Robinson and S. Bradbury, Qualitative Polarized-Light
+Microscopy.  Oxford Science Publications, New York, 1992, 121 pp.
+35.   A. F. Hallimond, The Polarizing Microscope.  3e, Vickers
+Instruments, York, UK, 1970, 302 pp.
+36.   S. Bradbury and P . J. Evennett, Contrast Techniques in Light
+Microscopy. BIOS Scientific Publishers Ltd., Oxford, UK, 1996, 118
+pp.
+37.   M. Abramowitz, Photomicrography: A Practical Guide. Olympus
+America, Inc., Melville, New York, 1998, 73 pp.
+38.   R. P. Loveland, Photomicrography: A Comprehensive Treatise (2
+vols.).  John Wiley & Sons, New York, 1970; vol. 1, 526 pp.; vol. 2,
+509 pp.
+39.   Photomicrography: Instant Photography Through the
+Microscope.  Polaroid Corporation, Cambridge, MA, 1995, 72 pp.
+
+===== PDF PAGE 41 =====
+
+OPTICAL MICROSCOPY Davidson and Abramowitz
+41
+Optical Microscopy
+Davidson and Abramowitz

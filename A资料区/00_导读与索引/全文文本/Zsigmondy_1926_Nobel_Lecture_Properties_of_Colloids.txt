@@ -1,0 +1,447 @@
+
+
+===== PDF PAGE 1 =====
+
+R I C H A R D  A .  Z S I G M O N D Y
+Properties of colloids
+Nobel Lecture, December  11, 1926
+Even in prehistoric times the peoples must have become familiar with the
+properties of colloidal solutions and with their changes. The curdling of
+milk and the clotting of blood were certainly known to our oldest ancestors.
+Colloids have appeared, though sometimes only temporarily, also in
+chemical operations as carried out by the alchemists, the iatro-chemists and
+the classical chemists.
+Even in the Middle Ages the properties of "aurum potabile" were ob-
+served, and of works of the older chemists of the classical period mention
+may be made of only one investigation by the Swedish scientist Carl Wil-
+helm Scheele who was at the time the greatest of them all and who described
+in his work Om Brunsten eller magnesia nigra not only the discovery of three
+elements and their compounds, but also a colloidal solution of manganese
+dioxide in hydrochloric acid with the following words:
+"När Salt-syran stått öfver Brunsten uti kölden, bekom hon en dunkel röd-
+brun färg (par. 6, a). Emedan Brunstenen, utan at förbinda sig med phlogis-
+ton, icke gifver någon färg-lös solution, så följer, att Salt-syran kan lösa
+honom utan detta principium: Men en sådan solution har antingen en blå
+eller röd färg (par. 14, No.4). Färgen är här mera brun än röd; orsaken är, at i
+denna röda solution de aldra finaste delar af Brunsten simma, hvilka icke så
+lätt sjunka; ty utom dessa fina partiklar, är denna solution röd, och rödt blan-
+dadt med svart, gör brunt. Brunsten har här fästat sig så löst vid Acidum salis,
+at vatten kan praecipitera honom, och detta praecipitat förhåller sig som ordi-
+nair Brunsten. Då nu blandningen af Brunsten och Spiritus salis sattes i di-
+gestion, upkom fräsning ock lukt af Aqua regis (par. 6, b)."
+For the benefit of the reader who might not understand the Swedish text
+I give here the translated extract from the German translation of the Pro-
+ceedings of the Royal Swedish Academy of Sciences from Neueste Entdeck-
+kungen in der Chemie (Latest discoveries in chemistry), by D.L. Crell, Vol. 1,
+page 127, Weygandsche Buchhandl., Leipzig, 1781:
+
+===== PDF PAGE 2 =====
+
+46    1 9 2 5  R . A . Z S I G M O N D Y
+"The hydrochloric acid receives from the manganese dioxide in the cold a
+dark red-brown colour ( par. 6, a). It consequently dissolves it without addition
+of phlogiston (par. 14, No. 4). The brownness is derived from the very fine
+particles of manganese dioxide which float about and without which the so-
+lution appears red. The manganese dioxide adheres so loosely to the acid that
+it can be precipitated by water, and this precipitate behaves like ordinary
+manganese dioxide. When the mixture of manganese dioxide and hydro-
+chloric acid is digested, there appears an effervescence and a smell of aqua
+regia (par. 6, b)."
+Scheele, therefore, has described here an unstable colloidal solution of man-
+ganese dioxide in hydrochloric acid which, when diluted with water, allows
+the manganese dioxide to be precipitated.
+This reported case of the occurrence of a colloid does not stand alone.
+Even in the year 1665 gold purple had been described by Andreas Cassius
+and his son. This purple proved to be a tested dye for glass melts, naturally
+without its colloidal nature being recognized.
+It is known that the great Swedish scientist Berzelius, the most eminent
+chemist at the time, made a detailed study of the purple of Cassius. He had,
+however, paid attention also to other colloids; for instance, he observed the
+occurrence of the hydrosols of certain sulphides, e.g. arsenic sulphide. He
+first described the straw-yellow liquid which is obtained by passing hydrogen
+sulphide into arsenious acid, as a solution of arsenic sulphide owing to its
+homogeneous appearance; later, however, he added the remark that this liq-
+uid should probably be regarded as a suspension of arsenic sulphide because
+it settled out. Here already the difficulty of classifying such preparations ap-
+pears. It does not, therefore, seem to be particularly remarkable that a detailed
+concern with such little defined systems appeared to be unrewarding and was
+neglected at the time, in view of the wealth of knowledge in the organic field.
+Biological and technical problems, however, led again and again back to
+the question as to the nature of colloids.
+For instance, Nägeli carried out more than 50 years ago a masterly in-
+vestigation into the nature of starch. Also the zoologist Bütschli and the
+physicist Quincke as well as the chemist Selmi were concerned in detail with
+phenomena which we know today to be partly characteristic of colloids.
+The first fundamental explanation we owe to the observations of Graham
+who gave a masterly interpretation of them and who created a division of
+solutions into crystalloids and colloids on a broad experimental basis.
+
+===== PDF PAGE 3 =====
+
+   P R O P E R T I E S  O F  C O L L O I D S 47
+He was also responsible for the expressions hydrosol (an aqueous colloidal
+solution) and hydrogel (the jelly derived from it).
+As regards myself, dealing with several technical problems provided the
+incentive to concern myself with colloids.
+I was dealing with gold orpiment glass and with certain ceramic dyes
+which were based in principle on extremely fine gold divisions. It seemed
+to me particularly remarkable that the effect of very closely allied chemical
+compounds could be fundamentally different in regard to the preparation
+and appearance of these dyes. This observation seemed to me all the stranger
+as compounds with completely opposite properties frequently produce simi-
+lar effects on the dyes of extremely finely divided (i.e. colloidal) gold.
+These results could not be brought into harmony with the previous ex-
+perience of chemistry. Consequently, I sought to discover the reason for
+these phenomena in a way other than the purely chemical one. The first
+special object of such investigations was the purple of Cassius . It is known
+that Berzelius had regarded it as a chemical compound. The reasons which
+he gave for this were extremely convincing so that I at first believed that
+I should not ignore them. On the other hand, however, I also knew that
+earlier and later workers on the purple of Cassius had regarded it also for
+weighty reasons as a mixture of finely divided gold and stannic acid. My
+object now was to decide with full certainty which of these two views was
+correct. For this purpose an attempt to synthesize the purple of Cassius from
+very finely divided metallic gold and colloidal stannic acid was to be made.
+Success or failure of this experiment had to provide the decision in view of
+the chemical inertness of gold, provided it was possible to prepare it in a
+sufficiently fine division free from gold compounds and colloidal impurities.
+Only when I had succeeded in reaching this aim, did I hear of the investiga-
+tions of Faraday who had prepared extremely fine divisions of gold by the
+reduction of gold salts. If I had known of Faraday’s results, it would have
+saved me much unnecessary work.
+I had taken another path which led me eventually to the preparation
+of practically equal-sized red gold hydrosols (colloidal gold solutions) by
+the reduction of gold chloride with formaldehyde in a weakly alkaline
+solution.
+After Faraday’s publication was available to me, I followed him and used
+phosphorus as the reducing agent.
+However, as I was able to use the experience which I had gained with the
+formaldehyde gold,  I arrived, when using phosphorus, at extremely fine gold
+
+===== PDF PAGE 4 =====
+
+48    1 9 2 5  R . A .  Z S I G M O N D Y
+divisions of almost molecular size, such as were used later by The Svedberg
+in his diffusion experiments.
+But the safest method, at the time, of preparing pure highly red gold hy-
+drosols remained first of all the formaldehyde method. This gave me ade-
+quate amounts of sufficiently pure highly red colloidal gold. It was used for
+trying to synthesize the purple of Cassius, and when this attempt succeeded,
+it provided proof for the view which regards purple of Cassius as a mixture
+of finely divided gold with colloidal stannic acid. As on the other hand, the
+purple behaved exactly like a chemical compound as Berzelius had already
+pointed out, I arrived at an experience which is important for evaluating
+colloidal precipitates and which has to be applied right down to the present
+day for evaluating colloidal systems unless one wants to be a victim of er-
+rors, and which can be expressed briefly as follows:
+A colloidal mixture may sometimes behave like a chemical compound and has
+frequently simulated one.
+Several of the red gold divisions prepared with formaldehyde as well as
+those reduced with phosphorus appeared perfectly clear in ordinary daylight
+(like good red wine). They did not settle out their gold, and I was there-
+fore able to call them rightly solutions. In Graham’s dialysis, however, they
+behaved like colloidal solutions. The gold particles did not pass through the
+parchment membrane. This showed my gold divisions their proper place,
+namely, that they belonged to the colloidal solutions.
+My first publication on gold solutions was followed by quite disagreeable
+discussions. Other scientists who repeated my experiments without taking
+the necessary care, obtained strongly turbid and sometimes precipitating liq-
+uids, and generalizing their own experiences, called also the gold liquids
+obtained by me suspensions. This view was supported by the low osmotic
+energy emission, the absence of a measurable freezing-point reduction, etc.
+as well as by the fact that even clear gold solutions showed a Faraday-Tyn-
+dall light cone and appeared in this sense non-homogeneous.
+Had I conceded that my gold solutions were simply to be regarded as sus-
+pensions, it would not only have given a completely wrong picture of their
+character, but if I had classified my gold divisions under such well known
+systems as suspensions, there would have been no reason for me to concern
+myself with the following questions which have become extremely impor-
+tant for colloid chemistry:
+I. What particle size have colloidal particles? Are they molecules or aggre-
+gates of molecules ? How many atoms approximately does a single gold par-
+ticle contain?
+
+===== PDF PAGE 5 =====
+
+P R O P E R T I E S  O F  C O L L O I D S 49
+2. Why is the emission of osmotic energy so low with gold solutions? Do
+colloidal solutions perhaps really exert no osmotic pressure, as was frequently
+believed at the time?
+3. Is the Faraday-Tyndall light cone, which by the way is observed in all
+colloidal solutions, an essential characteristic of them, or is this light cone
+rather incidental?
+Question 1 regarding the particle size was decided in 1902 and later by
+ultramicroscopy.
+The correct answer to Question 2 is given by the masterly work of The
+Svedberg and Perrin.
+Question 3 I hoped to be able to decide already in 1900 by viewing the
+light cone under the microscope.
+Just as liquids of equal gold content can appear differently under ordinary
+viewing, so the intensity of the Faraday-Tyndall light cone can vary in solu-
+tions which appear externally clear when viewed with the naked eye.
+In apparently similar solutions of clear appearance the light cone some-
+times occurs very intensely, and almost disappears in other cases, e.g. in
+several gold solutions reduced with phosphorus.
+In a preliminary experiment it was found that the light cone could easily
+prove the presence of one-hundredth part of the substance which Bunsen
+and Kirchhoff had proved by spectrum analysis.
+Fig. I. The first arrangement for making ultramicroscopic particles visible.
+
+===== PDF PAGE 6 =====
+
+50 1925 R.A. ZSIGMONDY
+Viewing of the light cone under the microscope (Fig.1) gave the fol-
+lowing:
+(1) In strongly turbid liquids thousands of individual particles of different
+colour were recognizable.
+(2) Clear gold solutions     with a medium strong Tyndall cone, however, show-
+ed under the microscope a light cone which disappeared when the solutions
+were diluted without being able to make individual particles visible.
+(3) Very fine gold divisions obtained with phosphorus showed several gold-
+coated dust particles, but the liquid between them appeared optically empty.
+The addition of common salt showed, however, that the clear liquid con-
+tained elementary gold. The salt coagulated the colloidal gold solution, the
+gold was precipitated in the form of coarser aggregates, and thousands of
+yellow-brown gold particles filled the liquid.
+Much was explained by this, but for some questions simple viewing of
+the light cone under the microscope was not sufficient. My endeavour was
+to develop the microscopic viewing of the light cone to its highest perfection.
+Jointly with H. Sied entopf in Jena, therefore, the method was developed
+further. An instrument of high capacity was made with which gold particles
+Fig. 2. Immersion ultramicroscope.
+L = Light source;  F = Telescope objective which gives a picture of the light source on
+the precision slit PrSp. The condenser B forms an image of the precision slit in the col-
+loidal solution, which is in a small dish.
+
+===== PDF PAGE 7 =====
+
+   PROPERTIES OF COLLOIDS
+Fig. 3. Ultramicroscopic picture when using the bilateral slit PrSp. The picture of the 
+slit is at C, the narrowest constriction.
+with a diameter of down to 10 mμ  could still be made visible in sunlight: 
+the slit-ultramicroscope.
+With this instrument it was then possible to carry out size determinations 
+of the gold particles by counting the particles in a certain volume of colloidal 
+gold solution the gold content of which was known.
+Similarly the number of gold particles in gold orpiment glass was deter-
+m
+ined.
+A preliminary check of the accuracy of the size determination was ob-
+tained by comparing the brightness of the ultramicroscopic pictures.
+In passing the following may be mentioned: The knowledge that very 
+small particles can be made visible by very bright illumination on a dark 
+background (i.e. in a dark field) led to substantial improvements of the so-
+called dark-field condensers which in connection with microscopes were
+ 
+later often called ultramicroscopes.
+Several inventors were concerned with the improvement of such conden-
+sers: Siedentogf built the paraboloid and the cardioid condenser; Reichert 
+t
+he mirror condenser; Ignatowski and Jentzsch other condensers, for instance, 
+the concentric ball condenser. I myself improved the method of intense illu-
+
+===== PDF PAGE 8 =====
+
+52    1 9 2 5  R . A . Z S I G M O N D Y
+mination from one side by designing the immersion ultramicroscope which
+is manufactured by the optical workshops of the firm of R. Winkel in Göt-
+tingen (cf. Figs. 2 and 3).
+Observations by H. Ambronn on dichroism, and work carried out by
+me in Jena jointly with H. Ambronn, and also the behaviour of orpiment
+glass made it appear probable even in 1904 that the small submicroscopic
+gold particles were crystalline.
+The application of Tammann’s theory of crystallization to the formation
+of the gold hydrosols appeared, therefore, promising. It led not only to an
+explanation of hitherto unexplained phenomena in the preparation of orpi-
+ment glass, but also to the discovery of the nucleus method. This gives gold
+solutions of definite particle size.
+Later much use was made of the nucleus method, both in the preparation
+of gold solutions for physical investigations and for determining the pore
+size of fine filters.
+I mention in particular the well-known investigations of The Svedberg
+and Arne Westgren.
+Electrical Charge and Coagulation - The gold particles of colloidal solutions
+have a negative electrical charge, just as those of many other irreversible col-
+loids. The electrical charge is very important with these colloids as it is the
+main cause of their stability. If this charge is taken away from the particles,
+say by adding salts, particle aggregation immediately occurs and the system
+coagulates. Externally this is noticeable with colloidal gold by the change
+in colour from red to blue. In the ultramicroscope not only a colour change
+Fig. 4. Gelatine gel photographed by Bachmann. The black areas are optically empty
+liquid in which single submicrons are moving. The bright areas are jelly flakelets which
+diffract light.
+
+===== PDF PAGE 9 =====
+
+  P R O P E R T I E S  O F  C O L L O I D S 53
+of the individual particles is noticed, but also an important change in the
+number of the particles.
+The coagulation can be interrupted at any moment by the addition of
+protective colloids. It is, therefore, possible to determine the number of ultra-
+microns present after each definite period of time after adding the coagu-
+lating agent, and consequently the speed of the coagulation. With ordinary
+gold hydrosols the particle aggregation occurs extremely rapidly. Dilution
+with water, however, retards the aggregation of the particles owing to the
+increase in the mean distance between the particles. In spite of the dilution
+coagulation generally takes place very rapidly, provided that a sufficient
+amount of precipitating salts is added, so that it originally appeared as if the
+submicroscopic particles attracted one another over rather large distances.
+This induced me to ask the theoretical physicist M. von Smoluchowski
+to derive an experimentally verifiable formula by which the presence of
+spheres of attraction could be deduced from the speed of coagulation; von
+Smoluchowski willingly agreed to my suggestion and gave, in addition, a
+complete theory of coagulation on a mathematical basis.
+My own experiments as well as those of Westgren and Reitstötter led to
+the surprising result that the spheres of attraction of the gold particles slightly
+exceed twice the particle radius, in other words, that these particles must
+almost be touching one another before they unite irreversibly.
+Further investigations in this field have been made with other systems,
+among others by Richard Lorenz, by Kruyt (Utrecht) and G. Wiegner
+(Zurich) with their pupils.
+With these expositions we approach an interesting field which is called
+changes of state of colloidal solutions. The majority of these changes is due
+to unification or separation of the particles. The former of these processes can
+proceed in different ways; only two of them may be emphasized here - the
+unification of particles by aggregation and by crystallization.
+Gel Structures - The changes of state are particularly striking in the for-
+mation of a jelly. They are accessible to direct observation in the ultramicro-
+scope, and W. Bachmann has made in the Institute placed under my direc-
+tion a detailed examination of various jellies both during and after their
+formation. He worked with various dark-field condensers, for instance with
+Siedentopf’s cardioid condenser (Figs. 4, 5 and 6).
+The most important result of these investigations can be summarized in
+that in general jelly structures can be of very different nature. They appear
+
+===== PDF PAGE 10 =====
+
+54    I 9 2 5  R . A . Z S I G M O N D Y
+Fig. 5. Picture of 20% sodium oleate jelly; solidified slowly (at approx. 10
+o
+). Apochro-
+mat 3, ocular 1, magnification 140. Cardioid condenser (Siedentopf).
+Fig. 6. Picture of 5% sodium palmitate jelly. Concentric condenser (Jentzsch).
+Fig. 7. Filament structure in the vitreous body of the eye from a drawing by Dr. Heesch.
+(From Kolloidchem. Beih. Ambronn-Festschr., 1926).
+
+===== PDF PAGE 11 =====
+
+   P R O P E R T I E S  O F  C O L L O I D S 55
+sometimes as predominantly grainy structures (as in the case of gelatine) or
+also as networks of very fine filaments or long-drawn crystals as, for example,
+in gels of soaps.
+Of particular interest in this connection is the ultramicroscopic structure
+in the vitreous body of the eye which was discovered by Thiessen and Baur-
+mann with the aid of the immersion ultramicroscope. It consists of a maze
+of fine filaments of proteins, filaments which are submicroscopic in two di-
+mensions but microscopic in one. This maze of filaments imparts to the
+vitreous body its elasticity, and the change of the filaments which occurs
+with time and is visible in the ultramicroscope produces a melting away of
+the jelly. More recent investigations of the vitreous body have been made
+by C. Heesch, Göttingen. (Fig. 7).
+The gel structures are frequently so fine that their observation is no longer
+accessible to ultramicroscopy. Such systems occur, e.g. in the dry gel of
+silicic acid.
+This appears to be homogeneously transparent, but is permeated with an
+immense number of amicroscopic voids which may be filled with all kinds
+of liquids.
+Van Bemmelen was the first to determine in careful investigations the
+reduction in vapour pressure which the water in such systems undergoes.
+Further investigations in my Institute (in particular an excellent work by
+J. S. Anderson) led to the valuable result that the vapour-pressure reduction
+in the gel of silicic acid is essentially due to the development of concave me-
+nisci in the ultramicroscopic pores of the gel when the liquid dries out.
+By using a formula from capillarity theory it now became possible to
+determine the diameter of the voids in a given gel from several series of ex-
+periments independently of one another with good agreement. This diameter
+is variable, very small and can be measured in millionths of a millimetre.
+Since then the gel of silicic acid is also used technically for the condensation
+of liquid vapours, similarly to absorption charcoal.
+Transport of Electricity by Colloidal Particles - More than twenty years ago the
+statement was sometimes made that the conductivity of colloidal solutions
+was due only to impurities from crystalloid-dissolved electrolytes. This seem-
+ed to me a priori improbable because electrically charged colloidal particles
+which move in an electric current, would have to participate in the transport
+of electricity in the same way as ordinary ions; there only remained the ques-
+tion what share the colloidal particles have in the transport of electricity. It
+
+===== PDF PAGE 12 =====
+
+56    1 9 2 5  R . A . Z S I G M O N D Y
+was, therefore, first of all necessary to separate the colloidal solutions from
+the admixed electrolytes. This was done by ultrafiltration, a method which
+had already been used by Duclaux. The further pursuit of this object by my
+pupil G. Varga (he examined colloidal stannic acid) then led not only to an
+answer to this question, but also to a preliminary evaluation of the compo-
+sition of the particles in the hydrosol of stannic acid.
+Other investigations by R. Wintgen and his pupils then confirmed Varga’s
+findings and gave, in addition, information on the electrical equivalent and
+the composition of the particles in the colloidal solutions of iron oxide and
+chromium oxide so that we are now completely informed about the actual
+character of certain colloidal particles. Over and above this, the method
+used in these investigations promises, when applied to other colloids, to give
+further information on the composition and nature and magnitude of the
+charge of micelles. This expression which was first clearly defined by J. Du-
+claux denotes the colloidal particle with the charging ions adhering to its sur-
+face and the ions dissociated from it which compensate the charge of the par-
+ticle externally. The concept "micelle" has proved to be extremely fruitful in
+evaluating the composition and the electrical behaviour of colloidal particles.
+Structure of the Particles - An important question concerns the form and shape
+of colloidal particles and the nature of their space filling. The ultramicrons
+are in many cases not iso-dimensional, i.e. not spheres, cubes, or octahedrons,
+as is usually assumed as a first approximation for the purposes of mathematical
+treatment. Frequently they are extended in length (filaments, lamellae or
+platelets), analogous to the description in the discussion of gel structures.
+Sometimes it is possible to observe rodlets directly in the ultramicroscope.
+In hydrosols of vanadium pentoxide and benzopurpurin such formations
+have frequently been observed.
+Experiments on the peptization of stannic acid and purple of Cassius had
+early shown that the peptization, i.e. the transition from hydrogel to hydro-
+sol under the influence of electrolytes, is always connected with an electrical
+charging of the particles to which the mentioned change of state is due.
+The electrically charged particles are distributed evenly in the surrounding
+liquid, thus forming a hydrosol. Depending on the amount of peptizing
+electrolyte finer or coarser divisions are obtained, as can be proved by ultra-
+microscopy and ultrafiltration (Dissertation by Heinz).
+The study of these systems has led to the result that the particles of such
+hydrosols or colloidal solutions obtained by peptization are as a rule not to
+
+===== PDF PAGE 13 =====
+
+   P R O P E R T I E S  O F  C O L L O I D S 57
+be regarded as being solidly filled. In other words: these solutions contain
+secondary particles which can be imagined as being composed of many smal-
+ler, solidly filled primary particles. The words primary and secondary particles
+were first used by Werner Mecklenburg.
+The picture which we obtain when we consider also the colloidal solu-
+tions in addition to the gases and the crystalloidal solutions, is roughly as
+follows:
+In the gaseous state and in crystalloidal solution the substances are always
+subdivided down to their molecules, they move freely and independently
+of one another, and they obey the gas laws.
+The fact that the molecular weight of chemical compounds could be cal-
+culated from the vapour pressure and osmotic measurements, is due to the
+fact that the molecules of a given chemical compound are all equal to one
+another.
+The peculiarities of electrolyte solutions found their explanation in the dis-
+sociation theory of Svante Arrhenius.
+The particles of colloidal solutions are larger than the molecules, and must
+frequently be regarded as aggregates of molecules; they may be of different
+size even when we are dealing with solutions of the same substance. How-
+ever, the same laws apply to them which the molecular theory set up for
+molecules. Owing to the difference in their mass, however, it is not possible
+to determine exactly the molecular weight of the dissolved substance from
+osmotic measurements, but on the other hand, the particles often have the
+advantage of being directly visible. In this way we gain an insight into their
+absolute size in another way.
+The foregoing remarks were able to deal, if they were to fit the occasion,
+only very briefly with the state of the knowledge of colloids which has been
+reached in connection with my own investigations. We possess today exten-
+sive knowledge of the size and structure of colloidal particles and proved
+methods for their investigation. I was able to express myself here all the
+more briefly as I have given a detailed description with literature references
+in my Lehrbuch der Kolloidchemie (5th ed., Leipzig, 1925 and 1927).
+Although we should not be satisfied with what has been achieved, the
+hope does not seem to us too bold that we shall be able to build safely on
+the basis that has been won the further knowledge of colloids as a continua-
+tion of the proved molecular theory and its impressive extension through
+the ionic theory of Svante Arrhenius.

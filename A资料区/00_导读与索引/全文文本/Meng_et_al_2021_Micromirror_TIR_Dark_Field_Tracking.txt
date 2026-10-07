@@ -1,0 +1,738 @@
+
+
+===== PDF PAGE 1 =====
+
+Micromirror Total Internal Re ﬂection Microscopy for High-
+Performance Single Particle Tracking at Interfaces
+Xuanhui Meng, § Adar Sonn-Segev, § Anne Schumacher, Daniel Cole, Gavin Young, Stephen Thorpe,
+Robert W. Style, Eric R. Dufresne, and Philipp Kukura *
+Cite This: ACS Photonics 2021, 8, 3111 −3118 Read Online
+ACCESS Metrics & More Article Recommendations *sı Supporting Information
+ABSTRACT: Single particle tracking has found broad applications
+in the life and physical sciences, enabling the observation and
+characterization of nano- and microscopic motion. Fluorescence-
+based approaches are ideally suited for high-background environ-
+ments, such as tracking lipids or proteins in or on cells, due to
+superior background rejection. Scattering-based detection is
+preferable when localization precision and imaging speed are
+paramount due to the in principle in ﬁnite photon budget. Here, we
+show that micromirror-based total internal re ﬂection dark ﬁeld
+microscopy enables background suppression previously only
+reported for interferometric scattering microscopy, resulting in
+nanometer localization precision at 6 μs exposure time for 20 nm
+gold nanoparticles with a 25 × 25 μm
+2 ﬁeld of view. We
+demonstrate the capabilities of our implementation by character-
+izing sub-nanometer deterministic ﬂows of 20 nm gold nanoparticles at liquid −liquid interfaces. Our results approach the optimal
+combination of background suppression, localization precision, and temporal resolution achievable with pure scattering-based
+imaging and tracking of nanoparticles at interfaces.
+KEYWORDS: total internal re ﬂection, dark ﬁeld microscopy, single particle tracking, light scattering, nanoparticles at ﬂuid interfaces,
+colloidal ﬂow at ﬂuid interfaces
+■ INTRODUCTION
+The ability to follow the motion of nanoscopic objects
+fundamentally relies on their detection and the precision with
+which we can determine the position of the object of interest
+for a given integration time. 1 This localization precision is
+important for de ﬁning the smallest measurable real motion, as
+opposed to positional ﬂuctuations arising from ﬁtting a signal
+with ﬁnite noise, 2 while the integration time determines the
+type of motion that can be observed, in an extreme reaching
+the ballistic limit.
+3,4 While ﬂuorescence-based approaches have
+many advantages in the context of speci ﬁcity and background
+suppression, they face limitations at the extremes of local-
+ization precision and temporal resolution when using small
+labels. For single emitters, the fundamental photophysics limits
+photon emission rates to about 1 MHz if trajectories of
+appreciable length are to be recorded ( ≫ ms). Coupled with
+limited detection e ﬃ ciencies of even the best microscopes,
+detecting even 1 photon/ μs is therefore a formidable task,
+although these limitations have been recently mitigated by the
+introduction of MINFLUX.
+5 Larger objects or multiemitter
+systems can be used, 6 although for labels on the order of 40
+nm or more one begins to resolve label motion in addition to
+the motion of the labeled object, thus requiring temporal
+averaging back to the ms regime in order to maintain the
+desired localization precision.
+7 An additional limitation for
+ﬂuorescence imaging arises from photobleaching, which limits
+the observation time. Photostability decreases with increasing
+illumination power, making trajectories shorter the faster and
+more precise the measurement that is required.
+One solution to these limitations involves the use of
+nanoscopic scatterers, which possess greater photostability
+compared to ﬂuorescent labels. Metallic nanoparticles are
+ideally suited as scattering labels in the visible regime because
+they exhibit a plasmon resonance, where their polarizability
+and thus scattering cross sections are signi ﬁcantly enhanced.
+8
+With such labels and improvements to microscope design,
+nanometer-precise tracking on the microsecond time scale has
+become routine, reaching 1.3 nm localization precision at 55 μs
+temporal resolution with 40 nm gold nanoparticles
+Received: August 20, 2021
+Published: October 8, 2021
+Articlepubs.acs.org/journal/apchd5
+© 2021 The Authors. Published by
+American Chemical Society
+3111
+https://doi.org/10.1021/acsphotonics.1c01268
+ACS Photonics 2021, 8, 3111 −3118
+Downloaded via UNIV OF OXFORD on December 20, 2022 at 12:53:04 (UTC).
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+===== PDF PAGE 2 =====
+
+(AuNPs).7,9 Background suppression using dark- ﬁeld imaging
+can in principle be improved to detect even single molecule
+ﬂuorescence,10 although the more traditional objective-type
+approaches have struggled with su ﬃ cient background
+suppression to enable high localization precision with 20 nm
+labels.
+11 Interferometric scattering microscopy (iSCAT)
+enables observation of even smaller labels, for example
+reaching 2 nm localization precision with 2 μs temporal
+resolution with 20 nm diameter AuNPs.
+12
+Despite the unique capabilities of iSCAT, 13,14 objective-type
+dark-ﬁeld imaging has some potential advantages in the context
+of single particle tracking: 1. Sample illumination is limited to
+the ﬁrst few hundred nanometers near the glass −water
+interface, reducing both the power load on the bulk sample
+and background features from scatterers above the interface. 2.
+High-speed tracking (<ms) with iSCAT requires a stationary
+illumination beam, which usually limits the ﬁeld of view to
+about a < 10 μm fwhm if interference fringes caused by
+focusing the illumination beam into the objective are to be
+avoided.
+15 3. Objective-type total internal re ﬂection illumina-
+tion enables trivial combination with total internal re ﬂection
+ﬂuorescence imaging as the illumination beam is already
+provided. 4. The linear scaling of the detected signal for iSCAT
+with the volume of the scatterer compared to a squared
+dependence for dark- ﬁeld detection also implies that a sample-
+speciﬁc background that is smaller than the signal of interest
+plays a more signi ﬁcant role in iSCAT than in dark- ﬁeld
+imaging.
+16 Conversely, iSCAT is intrinsically more suited to
+simultaneously imaging a larger range of particle sizes for a
+given dynamic range in detection.
+The last point is illustrated by considering an iSCAT ( Figure
+1a) image of 20 nm AuNPs on microscope cover glass
+immersed in water ( Figure 1 b). Individual AuNPs appear as
+dark spots on top of a speckle-like background, with a signal-
+to-background ratio of ∼10 ( Figure 1 c), irrespective of the
+experimental implementation.
+12,17,18 The speckle-like back-
+ground likely stems from surface imperfections of microscope
+cover glass, as illustrated when using atomically ﬂat mica
+surfaces
+19 or refractive index matching. 20 While this back-
+ground can be subtracted computationally, 21 it limits the
+visibility of small particl es and can cause artifacts in
+localization. A dark- ﬁeld image of the same sample could
+thus, at least in principle, exhibit a 100:1 signal-to-background
+ratio because of the di ﬀerence in signal scaling, assuming that
+the spurious background from the illumination can be
+suppressed to the level of the coverglass-induced scattering.
+■ RESULTS
+Background light in dark- ﬁeld microscopy can be generally
+attributed to two sources: spurious re ﬂections from optics and
+scattering from or near the illuminated surface itself ( Figure
+S1b). The achievable signal-to-background ratio in iSCAT
+(Figure 1 b) indicates that the latter can be suppressed
+signiﬁcantly below the signal that can be obtained from a 20
+Figure 1. Comparison of interferometric scattering (iSCAT) and micromirror based total internal re ﬂection scattering microscopy. (a) Schematic
+illustration of an AOD-based iSCAT microscope. (b) Typical iSCAT image of 20 nm AuNPs immobilized on a cover glass surface immersed in
+water. Scale bar: 1 μm. (c) Linecut across the particle in (b). (d) Objective-type TIR using two micromirrors. (e) Respective image of 20 nm
+AuNPs immobilized on cover glass. Scale bar: 2 μm. (f) Linecut of a single particle in (e), including a zoom of the imaging background. AOD:
+Acousto-optic de ﬂectors. MM: Micromirror.
+ACS Photonics pubs.acs.org/journal/apchd5 Article
+https://doi.org/10.1021/acsphotonics.1c01268
+ACS Photonics 2021, 8, 3111 −3118
+3112
+
+
+===== PDF PAGE 3 =====
+
+nm AuNP. Given the extreme levels of background rejection
+achieved previously by a beam stop placed closely to the
+entrance pupil,
+10 we reasoned that using two small mirrors to
+couple illumination light in and out of the objective in an
+objective-type TIR arrangement ( Figure 1 d and Figure S1a )
+should be able to achieve similar levels of background
+suppression upon optimization of the mirror sizes and position,
+even though recent implementations were limited to
+observation of 40 nm diameter AuNP, as standard for dark ﬁeld
+microscopy.
+22,23 In this experimental arrangement, the main
+source of background light must thus originate from re ﬂections
+caused by the lenses contained within the high numerical
+aperture objective, which could be captured e ﬃ ciently by
+mirrors placed near the entrance pupil for both the incident
+and re ﬂected beam.
+A dark-ﬁeld image of 20 nm diameter AuNPs on a standard
+glass coverslip immersed in water acquired with a setup using a
+3 mm diameter mirrors setup exhibited much lower back-
+ground compared to the nanoparticle signal ( Figure 1 e) than
+in the corresponding iSCAT image ( Figure 1 b). The signal to
+background ratio now approaches 100:1 as expected when
+viewed both for individual particles ( Figure 1f) and across the
+ﬁeld of view ( Figure 1f inset). The limiting background is likely
+caused by coverslip surface roughness as for iSCAT, since it
+translates when the sample is translated laterally. The key
+trade-oﬀ is between mirror size and position to reduce stray
+light while minimizing loss of scattered light caused by partial
+blockage of the objective back aperture. To quantify this
+relationship, we calculated the scattering pattern of a
+nanoparticle at the glass/water interface at the exit pupil of
+the objective for s-polarized illumination ( Figure 2a).
+24−26 The
+high emission density at high numerical apertures can be
+attributed to the refractive index mismatch between glass and
+water, and illustrates the advantage of using two small mirrors
+for coupling illumination light compared to a perforated mirror
+as described previously
+11 in terms of collection e ﬃ ciency. For
+instance, a mirror with a central aperture of 4 mm diameter
+combined with an objective with an 8.5 mm diameter entrance
+pupil would transmit only 15% of collected light.
+We then investigated the transmission of a dual mirror
+approach as a function of both mirror size and position. For
+the 60× oil immersion objective we use here, a 3 mm diameter
+mirror enables >65% transmission of scattered light
+irrespective of the mirror position ( Figure 2 b). We placed
+our micromirrors within 5 mm of the entrance pupil along the
+optical axis, which was the closest practical distance achievable,
+and at a center-to-center separation of 8.3 mm centered on the
+entrance pupil. For this arrangement, we expect 94% of
+scattered light collected by the objective to reach the tube lens
+and ultimately the camera, enabling highly e ﬃ cient collection.
+We found excellent agreement between shot noise limited and
+experimentally determined performance ( Figure 2c), evaluated
+by quantifying interparticle distances ( Figure 2e−g). Detecting
+∼900 photons at 250 μs exposure time agrees well with the
+estimated detection e ﬃ ciency of our setup (40%), the incident
+power density, and the scattering cross section of 20 nm
+Figure 2. Performance of the micromirror microscope. (a) Simulated back focal plane emission pattern of a single emitter at a glass ( n = 1.52) −
+water ( n = 1.33) interface. The objective pupil (NA = 1.42, Back aperture = 8.52 mm) and micromirrors are indicated by white solid lines. The
+aperture of a 4 mm diameter perforated mirror is shown by white dashed lines. (b) Transmission as a function of mirror size and separation for the
+objective and mirrors shown in (a). (c) Theoretical shot-noise limited behavior (line) and experimental localization precision measured by varyin g
+the camera exposure time at 2.7 kW/cm 2 illumination intensity. Inset: Scatter plots of a 20 nm AuNP immobilized directly on microscope cover
+glass imaged at 6 μs exposure time. Scale bar: 1.5 nm. (d) Measured photoelectron ﬂux per second vs particle size, and comparison to the expected
+D6 scaling. Data were acquired starting with 40 nm particles, increasing exposure time by a factor of 5.6 and 64 for 30 and 20 nm particles,
+respectively, and then calculating the total number of detected photoelectrons/s. (e) A representative image of immobilized 20 nm AgNPs used for
+calculating the localization precision. Image acquired at 100 kHz with 8 μs exposure time. The distance of each particle pair is measured for each
+image in the movie, and the localization precision is calculated from the distance ﬂuctuations. Scale bar: 4 μm. (f) Zoom on one particle pair from
+(e). Scale bar: 1 μm. (g), Fluctuations of the distance between particle pairs, shifted by each pair mean distance to overlay all pairs. Traces of all
+frames of the movie (left) and their corresponding histogram (right). These traces and histograms refer to the analysis of the image and movie
+presented in (e) and (f). Dark lines correspond to the particle pair shown in (f). Light lines correspond to the other pairs in the image in (e).
+ACS Photonics pubs.acs.org/journal/apchd5 Article
+https://doi.org/10.1021/acsphotonics.1c01268
+ACS Photonics 2021, 8, 3111 −3118
+3113
+
+
+===== PDF PAGE 4 =====
+
+diameter AuNPs in water ( ∼3n m 2).27 The ﬁtted distribution
+of center of mass ( Figure 2c) of an immobilized 20 nm AuNP
+on a microscope cover glass acquired with a 6 μs exposure time
+falls approximately within a 4 nm circle in diameter, which
+demonstrates a low level of localization error. We further
+veriﬁed the single particle nature of our data by con ﬁrming the
+D6 scaling of the scattering intensity for nominally 20, 30, and
+40 nm diameter AuNPs ( Figure 2 d). To quantify the
+maximum achievable combination of localization precision
+and temporal resolution with our setup, we acquired a series of
+images of 20 nm silver nanoparticles (AgNPs) immobilized on
+glass with 8 μs exposure time ( Figure 2e,f) at a 100 kHz frame
+rate, and evaluated the interparticle distance for an incident
+power density of 30 kW/cm 2. We chose the interparticle
+distance as a reliable measure of localization precision to avoid
+mistaking sample vibrations for localization error. The
+interparticle distance ﬂuctuations resulted in a Gaussian
+distribution with a fwhm of 2.9 nm (SD 1.23 nm) ( Figure
+2g), yielding a single particle localization precision of 0.9 nm
+under these imaging conditions.
+To evaluate the performance of our microscope in a
+challenging single-particle tracking context, we chose nano-
+particles at ﬂuid interfaces, which are an attractive experimental
+system for studying fundamental questions in condensed
+matter physics such as the structure and dynamics of con ﬁned
+ﬂuids and phase behavior of 2D systems. In addition,
+nanoparticles at interfaces have various technological applica-
+tions including emulsi ﬁcation, assembly of nanocomposites
+with tunable properties and construction of nanostructured
+membranes for ﬁltration.28−31 The phenomenon of solid
+particles adsorbing to soft deformable interfaces, thereby
+providing them with resistance against coalescence, is well-
+known,32,33 and occurs as a result of the reduction in free
+energy with respect to the bare interface, as in the case of
+molecular surfactants. The gain in free energy scales with
+particle size, 34 and thus the stability of nano- and microsized
+particles at the interface increases compared to molecular
+surfactants. Microparticles are adsorbed irreversibly to
+interfaces with desorption energies of ∼108kBT (the thermal
+energy). Nanoparticles experience much lower desorption
+energies of 5 −100 kBT depending on the size and surface
+chemistry of the particles. 34,35 The weaker stability of
+nanoparticles at the interfaces results in a much richer
+observable energy surface, 36 with short-lived metastable states.
+Imaging at low frame rates of 50 Hz, with exposure times on
+the millisecond time scale, enables the observation of time-
+averaged behavior. Imaging at much faster frame rates (10 −
+100 kHz) without compromising the precision opens the
+possibility to resolve and quantify the more complex potential
+energy landscapes of these systems.
+We thus dispersed AuNPs and AgNPs at the interface
+between water and a high refractive index ( n = 1.523) oil
+(Figure 3 a). The high density and refractive index of the oil
+compared with the microscope cover glass allowed for total
+Figure 3. High speed diﬀusion of metallic nanoparticles at oil −water interfaces. (a) Schematic illustration of the experimental system: nanoparticles
+(NPs) are dispersed at an oil −water interface. (b) Representative image of 20 nm AgNPs di ﬀusing at the interface. Scale bar: 4 μm. (c) Trajectories
+of 20 nm AgNPs acquired at 100 kHz during the illumination period (in total 60 frames), and zoom of 4 trajectories. Scale bar: 4 μm. (d) Step-sizes
+along the x-axis, Δx for the 4 zoomed trajectories in (c). The Δx traces are shifted vertically for clarity. The bottom trace corresponds to an
+immobilized particle on glass (s). (e) Ensemble and time-averaged mean square displacement (MSD) of 20 nm AgNPs at an oil −water interface vs
+lag-time τ (data taken at 100 kHz). The black line represents a linear ﬁt, MSD = 4 Dsτ, to the data. Inset: Illustration of particle di ﬀusion.
+ACS Photonics pubs.acs.org/journal/apchd5 Article
+https://doi.org/10.1021/acsphotonics.1c01268
+ACS Photonics 2021, 8, 3111 −3118
+3114
+
+
+===== PDF PAGE 5 =====
+
+internal re ﬂection to occur at the liquid −liquid interface. To
+enable imaging at high frame rates with nanometer precision
+while ensuring minimal sample heating, we illuminated in a
+stroboscopic fashion with a 3.5 −5% duty ratio. Each cycle
+included a dark period of several milliseconds, and an
+illuminated period of approximately 1 ms, during which one
+movie of nanoparticle dynamics at the interface was recorded.
+Each movie included 10 −60 frames, and ∼4000 consecutive
+short movies were recorded and saved in one ﬁle. In this way,
+we could generate high contrast dark ﬁeld images even at very
+short exposure times ( Figure 3 b), enabling single particle
+tracking of tens of particles with simultaneous ∼1 nm spatial
+precision and 10 μs temporal resolution. The particles
+exhibited di ﬀerences in their detected intensities ( Figure 3 b
+and Figure S3) due to size variations and the D
+6 dependence of
+the scattering intensity. Individual trajectories of 20 nm
+diameter AgNPs showed di ﬀusive motion, in contrast to
+immobilized AgNPs ( Figure 3 c, d), where we can eliminate
+any in ﬂuence from vibrations ( Figure S4 ). The nanoparticle
+motion appeared di ﬀusive, evidenced by the linear increase of
+the mean-squared displacement (MSD) with the lag time, τ,a s
+expected for conventional single particle di ﬀusion (Figure 3e).
+In addition, we found no signatures of structuring of the
+particles at the oil −water interface, evident from the pair
+correlation function ( Figure S5 ).
+To further characterize the nature of the nanoparticle
+motion at the interface with short lag times, we quanti ﬁed the
+spatial dependence of single particle displacements ( Figure
+4a). Although the particle trajectories and MSD appear
+diﬀusive, the vector ﬁeld at short lag times ( τ =1 0 μs)
+revealed an outward ﬂow pattern with drift displacements
+smaller than 0.5 nm, corresponding to a drift velocity of 50
+μm/s ( Figure 4 b). While conventional Brownian motion
+would result in Gaussian distributions centered on zero, these
+velocity distributions show two well-resolved peaks at nonzero
+speeds. Interestingly, this behavior persists for di ﬀerent particle
+concentrations, with faster speeds at higher particle concen-
+trations ( Figure S6 ).
+Deterministic ﬂows at ﬂuid−ﬂuid interfaces
+37 can be driven
+by nonuniform surface tensions. This e ﬀe c ti st e r m e d
+Marangoni ﬂow and typically arises from temperature or
+surfactant concentration gradients. Here, the absorption of the
+laser illumination by AgNPs drives local heating. In the
+Supporting Information, we show that a temperature di ﬀerence
+as small as 1 mK degrees over the 10 μm ﬁeld-of-view is
+suﬃ cient to drive the observed ﬂow. This hypothesis is
+supported by the observation that the ﬂow speed increases at
+higher particle concentrations ( Figure S6 ).
+To further demonstrate that this behavior is an interfacial
+eﬀect rather than a bulk one, we analyzed the correlated
+motion of pairs of particles, which allows us to observe the
+ﬂuid-mediated interactions between particles. For that
+purpose, we quanti ﬁed the ensemble-averaged longitudinal
+(∥) displacement correlations of particle pairs as a function of
+interparticle distance r and lag time τ
+38
+xx x t x t r R t (, ) (, )( () )ij i j12 ττ δ⟨ΔΔ⟩ ≡ ⟨ Δ Δ − ⟩
+where Δxi
+∥(t, τ) is the displacement of particle i between time t
+and t + τ, projected parallel to the line connecting the pair, and
+Rij(t) is the pair separation at time t (see also inset of Figure
+4c). The angular brackets represent averages over all times t
+and particle pairs i ≠ j. In systems where the momentum can
+Figure 4. Small-scale e ﬀects of nanoparticle di ﬀusion at the oil −water interface. (a −d) Short time intervals: (a) Displacement ﬁeld of 20 nm
+AgNPs at 100 kHz. Scale bar 50 μm/s. (b) Probability density of the average velocities from (a) along x (black) and y (red). (c and d) Two-point
+displacement correlation at oil −water interfaces for 20 nm AgNPs, imaged at 100 kHz. (c) Longitudinal displacement correlation as a function of
+the logarithm particle separation, ln( r), for 10 di ﬀerent lag times, τ =1 0 −100 μs. (d) Replotting the displacement correlation for each r as a
+function of τ. Plots are normalized to the ﬁrst data point (i.e., value at the minimum lag time, τmin) for clarity. (e −h) Long-time intervals: (e)
+Displacement ﬁeld of 20 nm AgNPs at 50 Hz. Scale bar 1 μm/s. (f) Probability density of the average velocities from (e) along x (black) and y
+(red). (g) Longitudinal displacement correlation as a function of r, for di ﬀerent lag times between τ = 0.04−0.4 s. (h) Replotting the displacement
+correlation for each r as a function of τ. Plots are normalized as for (d).
+ACS Photonics pubs.acs.org/journal/apchd5 Article
+https://doi.org/10.1021/acsphotonics.1c01268
+ACS Photonics 2021, 8, 3111 −3118
+3115
+
+
+===== PDF PAGE 6 =====
+
+travel in three dimensions, these correlations should decay as
+∼1/r. For di ﬀusive motion these correlations are expected to
+increase linearly with τ, similar to the MSD. Intriguingly, at
+short time intervals, the longitudinal displacement correlations
+scale as ∼ln(1/r), characteristic of interface-dominated
+behavior
+39−41 (Figure 4 c), where momentum travels only in
+two dimensions. Replotting the displacement correlation for
+each r as a function of τ shows superdi ﬀusive scaling, in the
+vicinity of the ballistic limit, which scales with ∼τ
+2 (Figure 4d).
+This re ﬂects the dominance of deterministic outward motion
+(Figure 4 a). The plots in Figure 4 d are normalized by their
+initial value (i.e., value at the minimum lag time, τmin)t o
+simplify presentation. Similar behavior was observed for 20 and
+30 nm AuNPs ( Figure S7 ).
+Operating with stroboscopic illumination allowed us to
+study the particle motion at both short (10 −100 μs) and long
+(40−400 ms) lag times, simultaneously. In the long lag-time
+movies, the laser illuminated the sample for less than 5% of the
+total lag time, allowing the system to equilibrate and any local
+heating to dissipate to the bulk. Therefore, at long lag times we
+observed no apparent ﬂows ( Figure 4 e), with drift velocities
+less than 1 μm/s, distributed around zero ( Figure 4 f). This
+indicates that the system had su ﬃ cient time to equilibrate
+during the dark period. In accordance, the displacement
+correlation curves exhibit normal di ﬀusive behavior with an r
+−1
+decay ( Figure 4 g) and linear time dependence ( Figure 4 h).
+These results indicate that the viscous response at the interface
+is mediated by the two bulk ﬂuids (oil and water) rather than
+the interface, as anticipated (see Supporting Information for a
+full derivation of the expected viscous response).
+We further analyzed the displacement correlations at short
+lag times ( Figure 4 c) to separate the deterministic behavior,
+which scales as ∼τ
+2, from the di ﬀusive (viscous) behavior,
+which scales as ∼τ (Figure S8, Supporting Information for
+analysis details). Extraction of the correlated di ﬀusive
+coeﬃ cients provides a means to estimate the e ﬀective viscosity
+at the interface, related to the ﬂows at and close to the
+interface. For large nanoparticle separations, the leading term
+of this e ﬀective viscosity should be only in ﬂuenced by the
+properties of the two bulk ﬂuids (and not the interface), with
+each ﬂuid contributing equally, i.e., insensitive to the exact
+lateral position of the particle within the interface. Therefore,
+the e ﬀective viscosity is expected to be the average viscosities
+of the two bulk ﬂuids (see Supporting Information for the full
+derivation). This viscosity is di ﬀerent from the local viscosity
+extracted from self-di ﬀusion of particles, which is sensitive to
+the exact position of the particles at the interface (i.e., their
+immersion depth or three-phase contract angle). The e ﬀective
+viscosity values were approximately the average between the oil
+and water viscosities (0.044 and 0.00095 Pa ·s, respectively),
+corresponding to 0.0241 ± 0.003 (20 nm AgNPs), 0.0227 ±
+0.0034 (20 nm AuNPs), and 0.0244 ± 0.004 (30 nm AuNPs)
+Pa·s. These values agree with the theoretical prediction based
+on Green ’s functions at ﬂuid−ﬂuid interfaces (see Supporting
+Information and Figure S9 ).
+■ DISCUSSION
+Our results demonstrate that micromirror-based TIR micros-
+copy, when optimized in terms of mirror size and position, can
+suppress background light toward the minimum set by the
+sample interface while maintaining very high light collection
+eﬃ ciency. In the context of using light scattering for single
+particle tracking applications at interfaces in the absence of
+signiﬁcant additional scattering, such as provided by cells for
+example, our approach yields a number of key advantages over
+the state-of-the art. In comparison to reported implementa-
+tions of TIR scattering microscopy,
+9,11 we demonstrate high
+SNR detection of 20 nm AuNPs only limited by the scattering
+background cause by surface roughness, enabling SNRs on the
+order of 50 ( Figure 1 f). The ability to perform such high
+background suppression is important, because large particles
+can induce localization noise as they move about their
+molecular linker, which ultimately leads to lower temporal
+resolution.
+7 Background suppression toward the minimum set
+by the sample at least in principle allows extreme detection
+sensitivity, as demonstrated in mass photometry for example.
+42
+In comparison to interferometric methods, such as iSCAT, our
+approach similarly provides distinct advantages. Owing to TIR,
+the incident power does not pass through the sample, which
+reduces both out of focus scattering and overall sample
+heating. Finally, the D
+6 scaling of signal intensity results in a
+larger SNR for small scattering labels over the background
+enabling higher localization precision and smaller localization
+error induced by the underlying roughness.
+43 Taken together,
+these capabilities allow for some of the highest combination of
+localization precision, temporal resolution, and incident power
+density for nanoscopic scattering imaging.
+To demonstrate the capabilities of our microscope, we
+selected a system of nanoparticles at an oil −water interface.
+We were able to record the motion of AuNPs and AgNPs on
+the 10 −100 μs time scale (high frame rates of 10 −100 kHz),
+and a large ﬁeld of view of tens of μm
+2, thus capturing the
+trajectories of tens of nanoparticles simultaneously. Moreover,
+our stroboscopic illumination approach allowed us to also
+simultaneously record particle motion at longer time intervals
+of tens of ms. At short time intervals the averaged MSD
+suggests particles exhibit di ﬀusive behavior. However, further
+analysis of the particles ’ motion revealed spatial correlations
+and a deterministic motion which emerged on top of the
+diﬀusive one. We linked the latter behavior to thermal
+Marangoni ﬂows, which decay within a few milliseconds
+once the illumination is turned o ﬀ and therefore are not
+present at long time intervals. In addition, we could separate
+the di ﬀusive and deterministic contributions of the displace-
+ment correlation behavior. The di ﬀusive contribution to the
+correlations at large particle separations is in excellent
+agreement with theoretical predictions, described in the
+Supporting Information . According to these calculations, the
+eﬀective viscosity of this mode should be equal to the average
+viscosity of the two phases. The e ﬀective viscosity of this mode
+was found to be 0.0237 ± 0.0035 Pa ·s, while the average
+viscosity of the two phases is 0.0225 Pa ·s.
+Taken together, these results demonstrate that micromirror
+darkﬁeld microscopy can achieve background suppression
+toward the limits previously reported with iSCAT and can be
+used for ultrahigh performance particle imaging and tracking.
+For low background tracking applications, such as those on
+microscope cover glass including supported lipid bilayers or
+molecular motors, where scattering labels producing signals
+comparable to 20 nm AuNPs can be used, our approach may
+prove to be the preferred choice due to its combination of
+detection eﬃ ciency, background suppression, ﬁeld of view, and
+achievable imaging speed.
+ACS Photonics pubs.acs.org/journal/apchd5 Article
+https://doi.org/10.1021/acsphotonics.1c01268
+ACS Photonics 2021, 8, 3111 −3118
+3116
+
+
+===== PDF PAGE 7 =====
+
+■ ASSOCIATED CONTENT
+*sı Supporting Information
+The Supporting Information is available free of charge at
+https://pubs.acs.org/doi/10.1021/acsphotonics.1c01268.
+Materials, microscope alignment, focus control, calcu-
+lation of scattered light transmission, localization
+precision (LP) calculation, data acquisition and setup
+adaptation, microscope coverslip cleaning procedure,
+preparation of oil −water interfaces, vibration analysis of
+the experimental setup, estimate of temperature gradient
+required to drive the observed ﬂow, separation of
+deterministic and diﬀusive contributions to displacement
+correlation, pair correlation function g(r), derivation of
+viscous response at ﬂuid interfaces for large particle
+separations, supplementary Figures S1 −S9, references
+(PDF)
+■ AUTHOR INFORMATION
+Corresponding Author
+Philipp Kukura − Physical and Theoretical Chemistry
+Laboratory, Department of Chemistry, University of Oxford,
+Oxford OX1 3TA, U.K.;
+orcid.org/0000-0003-0136-
+7704; Email: philipp.kukura@chem.ox.ac.uk
+Authors
+Xuanhui Meng − Physical and Theoretical Chemistry
+Laboratory, Department of Chemistry, University of Oxford,
+Oxford OX1 3TA, U.K.
+Adar Sonn-Segev − Physical and Theoretical Chemistry
+Laboratory, Department of Chemistry, University of Oxford,
+Oxford OX1 3TA, U.K.
+Anne Schumacher − Physical and Theoretical Chemistry
+Laboratory, Department of Chemistry, University of Oxford,
+Oxford OX1 3TA, U.K.
+Daniel Cole − Physical and Theoretical Chemistry
+Laboratory, Department of Chemistry, University of Oxford,
+Oxford OX1 3TA, U.K.; Present Address: Refeyn Ltd., 1
+Electric Avenue, Ferry Hinksey Road, Oxford OX2 0BY,
+U.K
+Gavin Young − Physical and Theoretical Chemistry
+Laboratory, Department of Chemistry, University of Oxford,
+Oxford OX1 3TA, U.K.; Present Address: Refeyn Ltd., 1
+Electric Avenue, Ferry Hinksey Road, Oxford OX2 0BY,
+U.K
+Stephen Thorpe − Physical and Theoretical Chemistry
+Laboratory, Department of Chemistry, University of Oxford,
+Oxford OX1 3TA, U.K.;
+orcid.org/0000-0002-1601-
+7582
+Robert W. Style − ETH Zu ̈rich, 8092 Zu ̈rich, Switzerland;
+orcid.org/0000-0001-5305-7658
+Eric R. Dufresne − ETH Zu ̈rich, 8092 Zu ̈rich, Switzerland;
+orcid.org/0000-0002-3091-5039
+Complete contact information is available at:
+https://pubs.acs.org/10.1021/acsphotonics.1c01268
+Author Contributions
+§X.M. and A.S.-S. contributed equally.
+Notes
+The authors declare no competing ﬁnancial interest.
+■ ACKNOWLEDGMENTS
+P.K. is supported by an ERC Consolidator grant (PHOTO-
+MASS 819593) and an EPSRC Leadership Fellowship (EP/
+T03419X/1), S.T. by the Emerson Collective, X.M. by the
+China Scholarship Council - University of Oxford scholarship,
+and A.S.-S. by a MCSA individual fellowship (INTFACDYN).
+■ REFERENCES
+(1) Shen, H.; Tauzin, L. J.; Baiyasi, R.; Wang, W.; Moringo, N.;
+Shuang, B.; Landes, C. F. Single Particle Tracking: From Theory to
+Biophysical Applications. Chem. Rev. 2017, 117, 7331 −7376.
+(2) Martin, D. S.; Forstner, M. B.; Käs, J. A. Apparent Subdiffusion
+Inherent to Single Particle Tracking. Biophys. J. 2002, 83, 2109−2117.
+(3) Li, T.; Kheifets, S.; Medellin, D.; Raizen, M. G. Measurement of
+the Instantaneous Velocity of a Brownian Particle. Science
+(Washington, DC, U. S.) 2010, 328, 1673 −1675.
+(4) Huang, R.; Chavez, I.; Taute, K. M.; Lukic ́, B.; Jeney, S.; Raizen,
+M. G.; Florin, E.-L. Direct Observation of the Full Transition from
+Ballistic to Diffusive Brownian Motion in a Liquid. Nat. Phys. 2011, 7,
+576−580.
+(5) Balzarotti, F.; Eilers, Y.; Gwosch, K. C.; Gynnå, A. H.; Westphal,
+V.; Stefani, F. D.; Elf, J.; Hell, S. W. Nanometer Resolution Imaging
+and Tracking of Fluorescent Molecules with Minimal Photon Fluxes.
+Science (Washington, DC, U. S.) 2017, 355, 606 −612.
+(6) Juette, M. F.; Bewersdorf, J. Three-Dimensional Tracking of
+Single Fluorescent Particles with Submillisecond Temporal Reso-
+lution. Nano Lett. 2010, 10, 4657 −4663.
+(7) Isojima, H.; Iino, R.; Niitani, Y.; Noji, H.; Tomishige, M. Direct
+Observation of Intermediate States during the Stepping Motion of
+Kinesin-1. Nat. Chem. Biol. 2016, 12, 290 −297.
+(8) Maier, S. A. Plasmonics: Fundamentals and Applications ; Springer
+Science & Business Media: 2007.
+(9) Ueno, H.; Nishikawa, S.; Iino, R.; Tabata, K. V.; Sakakihara, S.;
+Yanagida, T.; Noji, H. Simple Dark-Field Microscopy with Nano-
+meter Spatial Precision and Microsecond Temporal Resolution.
+Biophys. J. 2010, 98, 2014 −2023.
+(10) Weigel, A.; Sebesta, A.; Kukura, P. Dark Field Micro-
+spectroscopy with Single Molecule Fluorescence Sensitivity. ACS
+Photonics 2014, 1, 848 −856.
+(11) Ando, J.; Nakamura, A.; Visootsat, A.; Yamamoto, M.; Song, C.;
+Murata, K.; Iino, R. Single-Nanoparticle Tracking with Angstrom
+Localization Precision and Microsecond Time Resolution. Biophys. J.
+2018, 115, 2413 −2427.
+(12) Lin, Y. H.; Chang, W. L.; Hsieh, C. L. Shot-Noise Limited
+Localization of Single 20 Nm Gold Particles with Nanometer Spatial
+Precision within Microseconds. Opt. Express 2014, 22, 9159 −9170.
+(13) Young, G.; Kukura, P. Interferometric Scattering Microscopy.
+Annu. Rev. Phys. Chem. 2019, 70, 301 −322.
+(14) Taylor, R. W.; Sandoghdar, V. Interferometric Scattering
+Microscopy: Seeing Single Nanoparticles and Molecules via Rayleigh
+Scattering. Nano Lett. 2019, 19, 4827 −4835.
+(15) Taylor, R. W.; Mahmoodabadi, R. G.; Rauschenberger, V.;
+Giessl, A.; Schambony, A.; Sandoghdar, V. Interferometric Scattering
+Microscopy Reveals Microsecond Nanoscopic Protein Motion on a
+Live Cell Membrane. Nat. Photonics 2019, 13, 480 −487.
+(16) Squires, A. H.; Lavania, A. A.; Dahlberg, P. D.; Moerner, W. E.
+Interferometric Scattering Enables Fluorescence-Free Electrokinetic
+Trapping of Single Nanoparticles in Free Solution. Nano Lett. 2019,
+19, 4112 −4117.
+(17) Jacobsen, V.; Stoller, P.; Brunner, C.; Vogel, V.; Sandoghdar, V.
+Interferometric Optical Detection and Tracking of Very Small Gold
+Nanoparticles at a Water-Glass Interface. Opt. Express 2006, 14, 405.
+(18) Ortega Arroyo, J.; Cole, D.; Kukura, P. Interferometric
+Scattering Microscopy and Its Combination with Single-Molecule
+Fluorescence Imaging. Nat. Protoc. 2016, 11, 617 −633.
+(19) Kukura, P.; Celebrano, M.; Renn, A.; Sandoghdar, V. Imaging a
+Single Quantum Dot When It Is Dark. Nano Lett. 2009, 9, 926−929.
+ACS Photonics pubs.acs.org/journal/apchd5 Article
+https://doi.org/10.1021/acsphotonics.1c01268
+ACS Photonics 2021, 8, 3111 −3118
+3117
+
+
+===== PDF PAGE 8 =====
+
+(20) Kukura, P.; Celebrano, M.; Renn, A.; Sandoghdar, V. Single-
+Molecule Sensitivity in Optical Absorption at Room Temperature. J.
+Phys. Chem. Lett. 2010, 1, 3323 −3327.
+(21) Kukura, P.; Ewers, H.; Mu ̈ller, C.; Renn, A.; Helenius, A.;
+Sandoghdar, V. High-Speed Nanoscopic Tracking of the Position and
+Orientation of a Single Virus. Nat. Methods 2009, 6, 923 −927.
+(22) Mashanov, G. I.; Tacon, D.; Knight, A. E.; Peckham, M.;
+Molloy, J. E. Visualizing Single Molecules inside Living Cells Using
+Total Internal Reflection Fluorescence Microscopy. Methods 2003,
+29, 142 −152.
+(23) Mickolajczyk, K. J.; Hancock, W. O. High-Resolution Single-
+Molecule Kinesin Assays at kHz Frame Rates. In Methods in Molecular
+Biology; Humana Press Inc.: 2018; Vol. 1805, pp 123 −138.
+(24) Lieb, M. A.; Zavislan, J. M.; Novotny, L. Single-Molecule
+Orientations Determined by Direct Emission Pattern Imaging. J. Opt.
+Soc. Am. B 2004, 21, 1210 −1215.
+(25) Brokmann, X.; Coolen, L.; Hermier, J. P.; Dahan, M. Emission
+Properties of Single CdSe/ZnS Quantum Dots Close to a Dielectric
+Interface. Chem. Phys. 2005, 318,9 1 −98.
+(26) Lee, K. G.; Chen, X. W.; Eghlidi, H.; Kukura, P.; Lettow, R.;
+Renn, A.; Sandoghdar, V.; Götzinger, S. A Planar Dielectric Antenna
+for Directional Single-Photon Emission and near-Unity Collection
+Efficiency. Nat. Photonics 2011, 5, 166 −169.
+(27) Van Dijk, M. A.; Tchebotareva, A. L.; Orrit, M.; Lippitz, M.;
+Berciaud, S.; Lasne, D.; Cognet, L.; Lounis, B. Absorption and
+Scattering Microscopy of Single Metal Nanoparticles. Phys. Chem.
+Chem. Phys. 2006, 8, 3486 −3495.
+(28) Binks, B. P. Particles as Surfactants Similarities and
+Differences. Curr. Opin. Colloid Interface Sci. 2002, 7,2 1 −41.
+(29) Dickinson, E. Food Emulsions and Foams: Stabilization by
+Particles. Curr. Opin. Colloid Interface Sci. 2010, 15,4 0 −49.
+(30) Tao, A.; Sinsermsuksakul, P.; Yang, P. Tunable Plasmonic
+Lattices of Silver Nanocrystals. Nat. Nanotechnol. 2007, 2, 435 −440.
+(31) Lin, Y.; Skaff, H.; Böker, A.; Dinsmore, A. D.; Emrick, T.;
+Russell, T. P. Ultrathin Cross-Linked Nanoparticle Membranes. J. Am.
+Chem. Soc. 2003, 125, 12690 −12691.
+(32) Pickering, S. U. CXCVI. Emulsions. J. Chem. Soc., Trans.
+1907, 91, 2001 −2021.
+(33) Ramsden, W.; Gotch, F. Separation of Solids in the Surface-
+Layers of Solutions and ‘Suspensions’ (Observations on Surface-
+Membranes, Bubbles, Emulsions, and Mechanical Coagulation). 
+Preliminary Account. Proc. R. Soc. London 1904, 72, 156 −164.
+(34) Pieranski, P. Two-Dimensional Interfacial Colloidal Crystals.
+Phys. Rev. Lett. 1980, 45, 569 −572.
+(35) Bresme, F.; Oettel, M. Nanoparticles at Fluid Interfaces. J.
+Phys.: Condens. Matter 2007, 19, 413101.
+(36) Wang, D.; Hu, R.; Skaug, M. J.; Schwartz, D. K. Temporally
+Anticorrelated Motion of Nanoparticles at a Liquid Interface. J. Phys.
+Chem. Lett. 2015, 6,5 4 −59.
+(37) Scriven, L. E.; Sternling, C. V. The Marangoni Effects. Nature
+1960, 187, 186 −188.
+(38) Crocker, J. C.; Valentine, M. T.; Weeks, E. R.; Gisler, T.;
+Kaplan, P. D.; Yodh, A. G.; Weitz, D. A. Two-Point Microrheology of
+Inhomogeneous Soft Materials. Phys. Rev. Lett. 2000, 85, 888 −891.
+(39) Prasad, V.; Weeks, E. R. Two-Dimensional to Three-
+Dimensional Transition in Soap Films Demonstrated by Micro-
+rheology. Phys. Rev. Lett. 2009, 102, 178302.
+(40) Di Leonardo, R.; Keen, S.; Ianni, F.; Leach, J.; Padgett, M. J.;
+Ruocco, G. Hydrodynamic Interactions in Two Dimensions. Phys.
+Rev. E 2008, 78, 31406.
+(41) Diamant, H. Hydrodynamic Interaction in Confined Geo-
+metries. J. Phys. Soc. Jpn. 2009, 78, 41002.
+(42) Young, G.; Hundt, N.; Cole, D.; Fineberg, A.; Andrecka, J.;
+Tyler, A.; Olerinyova, A.; Ansari, A.; Marklund, E. G.; Collier, M. P.;
+Chandler, S. A.; Tkachenko, O.; Allen, J.; Crispin, M.; Billington, N.;
+Takagi, Y.; Sellers, J. R.; Eichmann, C.; Selenko, P.; Frey, L.; Riek, R.;
+Galpin, M. R.; Struwe, W. B.; Benesch, J. L. P.; Kukura, P.
+Quantitative Mass Imaging of Single Biological Macromolecules.
+Science (Washington, DC, U. S.) 2018, 360, 423 −427.
+(43) He, Y.; Lin, S.; Marc Louis Robert, H.; Li, H.; Zhang, P.;
+Piliarik, M.; Chen, X. W. Multiscale Modeling and Analysis for High-
+Fidelity Interferometric Scattering Microscopy. J. Phys. D: Appl. Phys.
+2021, 54, 274002.
+ACS Photonics pubs.acs.org/journal/apchd5 Article
+https://doi.org/10.1021/acsphotonics.1c01268
+ACS Photonics 2021, 8, 3111 −3118
+3118
